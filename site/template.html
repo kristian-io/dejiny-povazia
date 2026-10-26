@@ -313,7 +313,7 @@ span.wl:focus:not(:focus-visible) { outline: none; }
 .about-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem 1.4rem; margin-top: 0.8rem; }
 .about-grid h3 { margin: 0 0 0.15rem; font: 600 0.72rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
 .about-grid p { margin: 0; line-height: 1.45; }
-.made { font-size: 0.85rem; color: var(--muted); }
+.made { font-size: 0.85rem; color: var(--muted); display: grid; gap: 0.3rem; }
 .made a { color: var(--ink); font-weight: 600; text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent); text-underline-offset: 0.2em; }
 .peek { position: relative; aspect-ratio: 4 / 3; max-height: 82vh; width: 100%; border-radius: 10px; overflow: hidden; background: var(--line);
   box-shadow: 0 18px 50px rgb(0 0 0 / 0.16); }
@@ -1030,7 +1030,11 @@ function renderIntro() {
     <ul class="stats">${counts.map((n, i) => `<li><b>${n}</b><span>${esc(s.stats[i])}</span></li>`).join("")}</ul>
     <details class="about"${wasOpen ? " open" : ""}><summary>${esc(s.about)}</summary>
       <div class="about-grid">${s.blocks.map(([h, p]) => `<div><h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join("")}</div></details>
-    <div class="made">${s.made} · <a href="${REPO}" target="_blank" rel="noopener">${esc(s.source)}</a> · <a href="${REPO}/blob/main/CREDITS.md" target="_blank" rel="noopener">${esc(s.credits)}</a>${FEEDBACK ? ` · <button type="button" class="fb-inline" id="fb-inline">${esc(FB[lang].link)}</button>` : ""}</div>`;
+    <div class="made">
+      <div>${s.made}</div>
+      <div><a href="${REPO}" target="_blank" rel="noopener">${esc(s.source)}</a> · <a href="${REPO}/blob/main/CREDITS.md" target="_blank" rel="noopener">${esc(s.credits)}</a></div>
+      ${FEEDBACK ? `<div><button type="button" class="fb-inline" id="fb-inline">${esc(FB[lang].link)}</button></div>` : ""}
+    </div>`;
   s.peek.forEach((c, i) => { document.getElementById(`peek-${i + 1}`).textContent = c; });
   document.getElementById("about-link").textContent = s.aboutLink;
   document.getElementById("explore").onclick = explore;
