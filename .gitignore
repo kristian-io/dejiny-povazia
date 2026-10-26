@@ -1,0 +1,24 @@
+# secrets
+.env
+
+# personal / generated
+ai_ledger.json
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# build output (python site/build.py)
+site/index.html
+site/page.html
+
+# internal working notes (kept locally, not published)
+PLAN.md
+PUBLISHING.md
+TODO.md
+research/19-voices.md
+research/20-then-and-now.md
+research/21-vah.md
+research/_TEMPLATE.md
+maps/samples/

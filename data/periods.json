@@ -1,0 +1,611 @@
+[
+ {
+  "id": "p01-palaeolithic",
+  "order": 1,
+  "start": -50000,
+  "end": -5500,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Paleolit",
+   "en": "Palaeolithic"
+  },
+  "title": {
+   "sk": "Lovci doby kamennej",
+   "en": "Stone Age hunters"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Žiadny štát",
+    "en": "No state"
+   },
+   "county": null,
+   "local": {
+    "sk": "Skupiny lovcov a zberačov",
+    "en": "Hunter-gatherer groups"
+   }
+  },
+  "summary": {
+   "sk": "Nížinu pretínali divoké ramená Váhu, Dudváhu a Malého Dunaja. Ľudia sa tu pohybovali za zverou po vyvýšených suchých miestach nad mokraďami.",
+   "en": "The lowland was crossed by the wild branches of the Váh, Dudváh and Little Danube. People followed game along raised dry ground above the marshes."
+  }
+ },
+ {
+  "id": "p02-neolithic",
+  "order": 2,
+  "start": -5500,
+  "end": -4000,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Neolit",
+   "en": "Neolithic"
+  },
+  "title": {
+   "sk": "Prví roľníci",
+   "en": "The first farmers"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Žiadny štát",
+    "en": "No state"
+   },
+   "county": null,
+   "local": {
+    "sk": "Roľnícke osady (kultúra s lineárnou keramikou)",
+    "en": "Farming villages (Linear Pottery culture)"
+   }
+  },
+  "summary": {
+   "sk": "Z juhu prišli prví roľníci a chovatelia dobytka. Stavali dlhé domy na terasách nad nivami riek.",
+   "en": "The first farmers and herders arrived from the south. They built longhouses on terraces above the river floodplains."
+  }
+ },
+ {
+  "id": "p03-bronze-age",
+  "order": 3,
+  "start": -4000,
+  "end": -800,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Doba bronzová",
+   "en": "Bronze Age"
+  },
+  "title": {
+   "sk": "Meď a bronz",
+   "en": "Copper and bronze"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Žiadny štát",
+    "en": "No state"
+   },
+   "county": null,
+   "local": {
+    "sk": "Kmeňové spoločenstvá",
+    "en": "Tribal communities"
+   }
+  },
+  "summary": {
+   "sk": "Ľudia začali spracúvať kovy. Z tohto obdobia sa zachovali najmä pohrebiská.",
+   "en": "People began working metal. Mostly burial grounds survive from this time."
+  }
+ },
+ {
+  "id": "p04-celts",
+  "order": 4,
+  "start": -800,
+  "end": 0,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Kelti",
+   "en": "Celts"
+  },
+  "title": {
+   "sk": "Doba železná a Kelti",
+   "en": "Iron Age and the Celts"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Keltské kmene",
+    "en": "Celtic tribes"
+   },
+   "county": null,
+   "local": null
+  },
+  "summary": {
+   "sk": "V posledných storočiach pred naším letopočtom ovládli oblasť Kelti, zruční kováči a obchodníci.",
+   "en": "In the last centuries BC the area was held by the Celts, skilled smiths and traders."
+  }
+ },
+ {
+  "id": "p05-romans-quadi",
+  "order": 5,
+  "start": 0,
+  "end": 400,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Rimania a Kvádi",
+   "en": "Romans & Quadi"
+  },
+  "title": {
+   "sk": "Za hranicou Rímskej ríše",
+   "en": "Beyond the Roman frontier"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Germánski Kvádi (Rím za Dunajom)",
+    "en": "Germanic Quadi (Rome across the Danube)"
+   },
+   "county": {
+    "sk": "Barbaricum severne od limes",
+    "en": "Barbaricum north of the Limes"
+   },
+   "local": null
+  },
+  "summary": {
+   "sk": "Hranica Rímskej ríše viedla po Dunaji. Na našom brehu žili germánski Kvádi, ktorí s Rimanmi obchodovali aj bojovali.",
+   "en": "The Roman frontier ran along the Danube. On our side lived the Germanic Quadi, who traded and fought with Rome."
+  }
+ },
+ {
+  "id": "p06-migration",
+  "order": 6,
+  "start": 400,
+  "end": 800,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Avari a Slovania",
+   "en": "Avars & Slavs"
+  },
+  "title": {
+   "sk": "Sťahovanie národov",
+   "en": "The Migration Period"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Huni, neskôr Avarský kaganát",
+    "en": "Huns, later the Avar Khaganate"
+   },
+   "county": null,
+   "local": {
+    "sk": "Slovanské a avarské spoločenstvá",
+    "en": "Slavic and Avar communities"
+   }
+  },
+  "summary": {
+   "sk": "Po páde Ríma sa tu striedali Huni a ďalšie národy. Od 6. storočia vládli Avari a usadili sa tu Slovania.",
+   "en": "After Rome fell, the Huns and others passed through. From the 6th century the Avars ruled and Slavs settled here."
+  }
+ },
+ {
+  "id": "p07-great-moravia",
+  "order": 7,
+  "start": 800,
+  "end": 900,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Veľká Morava",
+   "en": "Great Moravia"
+  },
+  "title": {
+   "sk": "Nitrianske kniežatstvo a Veľká Morava",
+   "en": "Principality of Nitra and Great Moravia"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Nitrianske kniežatstvo, od 833 Veľká Morava",
+    "en": "Principality of Nitra, from 833 Great Moravia"
+   },
+   "county": {
+    "sk": "Nitriansko",
+    "en": "Nitra region"
+   },
+   "local": null
+  },
+  "summary": {
+   "sk": "Oblasť patrila k Nitrianskemu kniežatstvu, ktoré sa v roku 833 stalo súčasťou Veľkej Moravy.",
+   "en": "The area belonged to the Principality of Nitra, which became part of Great Moravia in 833."
+  }
+ },
+ {
+  "id": "p08-early-hungary",
+  "order": 8,
+  "start": 900,
+  "end": 1241,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Uhorské kráľovstvo",
+   "en": "Kingdom of Hungary"
+  },
+  "title": {
+   "sk": "Príchod Maďarov a prvé zmienky",
+   "en": "The Magyars and the first records"
+  },
+  "names": {
+   "sala": "Sala",
+   "galanta": "Galantha",
+   "matuskovo": "Toscun"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Uhorské kráľovstvo (od 1000)",
+    "en": "Kingdom of Hungary (from 1000)"
+   },
+   "county": {
+    "sk": "Nitrianska (Šaľa) a Bratislavská (Galanta, Matúškovo) župa",
+    "en": "Nitra County (Šaľa) and Pozsony County (Galanta, Matúškovo)"
+   },
+   "local": {
+    "sk": "Panonhalmské opátstvo, hradní ľudia",
+    "en": "Pannonhalma Abbey, castle folk"
+   }
+  },
+  "summary": {
+   "sk": "Okolo roku 900 prišli Maďari a vzniklo Uhorské kráľovstvo. Váh sa stal hranicou medzi Nitrianskou a Bratislavskou župou. Všetky tri obce sa objavujú v prvých listinách.",
+   "en": "Around 900 the Magyars arrived and the Kingdom of Hungary was founded. The Váh became the border between Nitra and Pozsony counties. All three places appear in the first charters."
+  }
+ },
+ {
+  "id": "p09-high-middle-ages",
+  "order": 9,
+  "start": 1241,
+  "end": 1526,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Stredovek",
+   "en": "Middle Ages"
+  },
+  "title": {
+   "sk": "Po vpáde Tatárov",
+   "en": "After the Mongol invasion"
+  },
+  "names": {
+   "sala": "Sala",
+   "galanta": "Galantha",
+   "matuskovo": "Thoxun",
+   "sladkovicovo": "Diószeg"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Uhorské kráľovstvo",
+    "en": "Kingdom of Hungary"
+   },
+   "county": {
+    "sk": "Nitrianska / Bratislavská župa",
+    "en": "Nitra / Pozsony County"
+   },
+   "local": {
+    "sk": "Premonštráti zo Zniev (Šaľa), Esterháziovci (Galanta)",
+    "en": "Premonstratensians of Znievo (Šaľa), Esterházy family (Galanta)"
+   }
+  },
+  "summary": {
+   "sk": "Tatári v rokoch 1241–42 zničili Šaľu. Potom ju na tri storočia vlastnili premonštráti. V Galante sa usadil rod Esterháziovcov.",
+   "en": "The Mongols destroyed Šaľa in 1241–42. Afterwards it was owned by the Premonstratensians for three centuries. The Esterházy family settled in Galanta."
+  }
+ },
+ {
+  "id": "p10-ottoman-frontier",
+  "order": 10,
+  "start": 1526,
+  "end": 1699,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "Turecké vojny",
+   "en": "Ottoman wars"
+  },
+  "title": {
+   "sk": "Na hranici s Osmanskou ríšou",
+   "en": "On the Ottoman frontier"
+  },
+  "names": {
+   "sala": "Sellye",
+   "galanta": "Galánta",
+   "matuskovo": "Taksony",
+   "sladkovicovo": "Diószeg"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Habsburské Uhorsko; Šaľa 1663–1685 pod Osmanmi",
+    "en": "Habsburg Hungary; Šaľa under the Ottomans 1663–1685"
+   },
+   "county": {
+    "sk": "Nitrianska / Bratislavská župa; Novozámocký ejálet",
+    "en": "Nitra / Pozsony County; Uyvar eyalet"
+   },
+   "local": {
+    "sk": "Jágerský biskup, od 1586 jezuiti (Šaľa); Esterháziovci (Galanta)",
+    "en": "Bishop of Eger, Jesuits from 1586 (Šaľa); Esterházy (Galanta)"
+   }
+  },
+  "summary": {
+   "sk": "Po bitke pri Moháči sa Uhorsko stalo súčasťou habsburskej monarchie a tadiaľto viedla hranica s Osmanmi. Po páde Nových Zámkov v roku 1663 bola Šaľa vyše dvadsať rokov turecká.",
+   "en": "After the battle of Mohács, Hungary became part of the Habsburg monarchy and the Ottoman frontier ran through here. After Nové Zámky fell in 1663, Šaľa was Ottoman for over twenty years."
+  }
+ },
+ {
+  "id": "p11-18th-century",
+  "order": 11,
+  "start": 1699,
+  "end": 1800,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "18. storočie",
+   "en": "18th century"
+  },
+  "title": {
+   "sk": "Rákóczi a obnova krajiny",
+   "en": "Rákóczi and recovery"
+  },
+  "names": {
+   "sala": "Sellye",
+   "galanta": "Galánta",
+   "matuskovo": "Taksony",
+   "sladkovicovo": "Diószeg"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Habsburská monarchia (Uhorské kráľovstvo)",
+    "en": "Habsburg Monarchy (Kingdom of Hungary)"
+   },
+   "county": {
+    "sk": "Nitrianska / Bratislavská župa",
+    "en": "Nitra / Pozsony County"
+   },
+   "local": {
+    "sk": "Jezuiti do 1773, potom komora (Šaľa); Esterháziovci (Galanta)",
+    "en": "Jesuits until 1773, then the Chamber (Šaľa); Esterházy (Galanta)"
+   }
+  },
+  "summary": {
+   "sk": "Povstanie Františka II. Rákócziho krajinu znovu spustošilo. Potom prišlo storočie obnovy, nových kostolov a kaštieľov.",
+   "en": "The uprising of Francis II Rákóczi devastated the land again. A century of recovery, new churches and manor houses followed."
+  }
+ },
+ {
+  "id": "p12-19th-century",
+  "order": 12,
+  "start": 1800,
+  "end": 1867,
+  "map": "drawn",
+  "researched": true,
+  "label": {
+   "sk": "1800 – 1867",
+   "en": "1800 – 1867"
+  },
+  "title": {
+   "sk": "Revolúcia a železnica",
+   "en": "Revolution and the railway"
+  },
+  "names": {
+   "sala": "Sellye",
+   "galanta": "Galánta",
+   "matuskovo": "Taksonyfalva",
+   "sladkovicovo": "Magyardiószeg"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Rakúske cisárstvo (Uhorské kráľovstvo)",
+    "en": "Austrian Empire (Kingdom of Hungary)"
+   },
+   "county": {
+    "sk": "Nitrianska / Bratislavská župa",
+    "en": "Nitra / Pozsony County"
+   },
+   "local": {
+    "sk": "Esterháziovci, Čeklísske panstvo (Matúškovo)",
+    "en": "Esterházy, Čeklís estate (Matúškovo)"
+   }
+  },
+  "summary": {
+   "sk": "Revolúcia 1848–49 priniesla boje priamo pri Šali a koniec poddanstva. V roku 1850 prišla železnica Viedeň – Pešť.",
+   "en": "The 1848–49 revolution brought battles right next to Šaľa and the end of serfdom. In 1850 the Vienna–Pest railway arrived."
+  }
+ },
+ {
+  "id": "p13-austria-hungary",
+  "order": 13,
+  "start": 1867,
+  "end": 1918,
+  "map": "survey3",
+  "researched": true,
+  "census": 1910,
+  "label": {
+   "sk": "Rakúsko-Uhorsko",
+   "en": "Austria-Hungary"
+  },
+  "title": {
+   "sk": "Rakúsko-Uhorsko",
+   "en": "Austria-Hungary"
+  },
+  "names": {
+   "sala": "Vágsellye",
+   "galanta": "Galánta",
+   "matuskovo": "Taksony",
+   "sladkovicovo": "Magyardiószeg"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Rakúsko-Uhorsko (František Jozef I.)",
+    "en": "Austria-Hungary (Franz Joseph I)"
+   },
+   "county": {
+    "sk": "Bratislavská župa, okres Galanta / Nitrianska župa, okres Šaľa (sídlo Trnovec)",
+    "en": "Pozsony County, Galánta district / Nyitra County, Vágsellye district (seat Tornóc)"
+   },
+   "local": {
+    "sk": "Esterháziovci (Galanta)",
+    "en": "Esterházy (Galanta)"
+   }
+  },
+  "summary": {
+   "sk": "Železnica, banky, mosty a noviny zmenili trhové mestečká na moderné mestá. Galanta mala svetoznámu ješivu a hebrejskú tlačiareň. Mapa je 3. vojenské mapovanie (1872–1887).",
+   "en": "Railways, banks, bridges and newspapers turned the market towns into modern towns. Galanta had a famous yeshiva and Hebrew press. The map is the 3rd military survey (1872–1887)."
+  }
+ },
+ {
+  "id": "p14-first-republic",
+  "order": 14,
+  "start": 1918,
+  "end": 1938,
+  "map": "survey3",
+  "researched": true,
+  "census": 1930,
+  "label": {
+   "sk": "1. ČSR",
+   "en": "Czechoslovakia"
+  },
+  "title": {
+   "sk": "Prvá Československá republika",
+   "en": "First Czechoslovak Republic"
+  },
+  "names": {
+   "sala": "Šaľa nad Váhom",
+   "galanta": "Galanta",
+   "matuskovo": "Takšoň",
+   "sladkovicovo": "Veľký Diosek"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Československo",
+    "en": "Czechoslovakia"
+   },
+   "county": {
+    "sk": "Do 1923 župy, 1923–28 veľžupy, potom Krajina slovenská",
+    "en": "Counties until 1923, great counties 1923–28, then the Slovak Land"
+   },
+   "local": null
+  },
+  "summary": {
+   "sk": "Československé vojsko obsadilo oblasť v januári 1919. Pozemková reforma priviedla slovenských kolonistov a 30. roky poznačila hospodárska kríza.",
+   "en": "The Czechoslovak army occupied the area in January 1919. Land reform brought Slovak colonists, and the 1930s were marked by the Depression."
+  }
+ },
+ {
+  "id": "p15-vienna-award-ww2",
+  "order": 15,
+  "start": 1938,
+  "end": 1945,
+  "map": "survey3",
+  "researched": true,
+  "census": 1941,
+  "label": {
+   "sk": "1938 – 1945",
+   "en": "1938 – 1945"
+  },
+  "title": {
+   "sk": "Viedenská arbitráž a vojna",
+   "en": "Vienna Award and the war"
+  },
+  "names": {
+   "sala": "Vágsellye",
+   "galanta": "Galánta",
+   "matuskovo": "Taksony",
+   "sladkovicovo": "Diószeg"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Maďarské kráľovstvo (Horthy)",
+    "en": "Kingdom of Hungary (Horthy)"
+   },
+   "county": {
+    "sk": "Zjednotená Nitrianska a Bratislavská župa",
+    "en": "United Nyitra and Pozsony County"
+   },
+   "local": null
+  },
+  "summary": {
+   "sk": "Po Viedenskej arbitráži patrila oblasť opäť Maďarsku. V roku 1944 boli deportovaní miestni Židia. Front prešiel cez Váh koncom marca 1945.",
+   "en": "After the Vienna Award the area belonged to Hungary again. In 1944 the local Jews were deported. The front crossed the Váh at the end of March 1945."
+  }
+ },
+ {
+  "id": "p16-communism",
+  "order": 16,
+  "start": 1945,
+  "end": 1989,
+  "map": "topo25",
+  "researched": true,
+  "census": 1991,
+  "label": {
+   "sk": "1945 – 1989",
+   "en": "1945 – 1989"
+  },
+  "title": {
+   "sk": "Povojnové roky a socializmus",
+   "en": "Post-war years and communism"
+  },
+  "names": {
+   "sala": "Šaľa",
+   "galanta": "Galanta",
+   "matuskovo": "Matúškovo",
+   "sladkovicovo": "Sládkovičovo"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Československo (od 1948 komunistické)",
+    "en": "Czechoslovakia (communist from 1948)"
+   },
+   "county": {
+    "sk": "Okresy a kraje",
+    "en": "Districts and regions"
+   },
+   "local": {
+    "sk": "Národné výbory, JRD",
+    "en": "National Committees, cooperative farms"
+   }
+  },
+  "summary": {
+   "sk": "Po vojne prišli deportácie Maďarov do Čiech a výmena obyvateľstva. Potom kolektivizácia a priemysel: Duslo zmenilo Šaľu na mesto s 25 000 obyvateľmi. Mapa je topografická mapa z 80. rokov.",
+   "en": "After the war came deportations of Hungarians to Bohemia and the population exchange. Then collectivisation and industry: Duslo turned Šaľa into a town of 25,000. The map is a 1980s topographic map."
+  }
+ },
+ {
+  "id": "p17-today",
+  "order": 17,
+  "start": 1989,
+  "end": 2026,
+  "map": "zm50",
+  "researched": true,
+  "census": 2021,
+  "label": {
+   "sk": "Dnes",
+   "en": "Today"
+  },
+  "title": {
+   "sk": "Od Nežnej revolúcie po dnešok",
+   "en": "From the Velvet Revolution to today"
+  },
+  "names": {
+   "sala": "Šaľa",
+   "galanta": "Galanta",
+   "matuskovo": "Matúškovo",
+   "sladkovicovo": "Sládkovičovo"
+  },
+  "ruler": {
+   "state": {
+    "sk": "Slovenská republika (od 1993), EÚ (od 2004)",
+    "en": "Slovak Republic (from 1993), EU (from 2004)"
+   },
+   "county": {
+    "sk": "Trnavský kraj / Nitriansky kraj",
+    "en": "Trnava Region / Nitra Region"
+   },
+   "local": null
+  },
+  "summary": {
+   "sk": "Samostatné Slovensko, Európska únia a nové továrne. Šaľa je opäť okresným mestom a Matúškovo opäť samostatnou obcou.",
+   "en": "Independent Slovakia, the European Union and new factories. Šaľa is a district town again and Matúškovo an independent village again."
+  }
+ }
+]

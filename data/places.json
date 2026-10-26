@@ -1,0 +1,119 @@
+[
+ {
+  "id": "sala",
+  "names": {
+   "sk": "Šaľa",
+   "hu": "Vágsellye",
+   "de": "Schelle",
+   "historical": [
+    "terra Wag (1002, interpolated)",
+    "Sala (c. 1105–1110)",
+    "utraque Sala (1251)",
+    "Sallya (1773)",
+    "Šaľa nad Váhom (1920–1927)",
+    "Šaľa (1945)"
+   ]
+  },
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "firstMention": {
+   "year": 1002,
+   "source": "S004",
+   "note": "Pannonhalma founding charter; passage likely a later insertion, Sala securely attested c. 1105–1110"
+  },
+  "county": "Nitra (Nyitra), Vágsellye district",
+  "role": "core"
+ },
+ {
+  "id": "galanta",
+  "names": {
+   "sk": "Galanta",
+   "hu": "Galánta",
+   "de": "Gallandau",
+   "historical": [
+    "Galantha (1237)",
+    "Galanta (1291)",
+    "Ó-Galánta / Stará Galanta (1297)"
+   ]
+  },
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "firstMention": {
+   "year": 1237,
+   "source": "S008",
+   "note": "Béla IV's charter listing Pannonhalma Abbey estates"
+  },
+  "county": "Pozsony (Bratislava), Galánta district (seat)",
+  "role": "core"
+ },
+ {
+  "id": "matuskovo",
+  "names": {
+   "sk": "Matúškovo",
+   "hu": "Taksony",
+   "historical": [
+    "Toscun (1138)",
+    "Tochsun (1214)",
+    "Toksun (1223)",
+    "Nog Thoxun (1299)",
+    "Taksonyfalva (until 1899)",
+    "Taksony (1773)",
+    "Takšoň (1920)",
+    "Matúškovo (1948)"
+   ]
+  },
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "firstMention": {
+   "year": 1138,
+   "source": "S006",
+   "note": "land of Pozsony castle people; authenticity of the charter unverified"
+  },
+  "county": "Pozsony (Bratislava), Galánta district",
+  "role": "core"
+ },
+ {
+  "id": "trnovec-nad-vahom",
+  "names": {
+   "sk": "Trnovec nad Váhom",
+   "hu": "Tornóc"
+  },
+  "coords": null,
+  "firstMention": null,
+  "county": "Nitra; seat of Vágsellye district before 1918",
+  "role": "context"
+ },
+ {
+  "id": "sladkovicovo",
+  "names": {
+   "sk": "Sládkovičovo",
+   "hu": "Diószeg",
+   "de": "Diosek",
+   "historical": [
+    "Gyozyg (1326)",
+    "Dyosec (1332–37)",
+    "Magyardiószeg / Németdiószeg (19th c.)",
+    "Veľký Diosek / Malý Diosek (1927)",
+    "Diószeg (1943)",
+    "Sládkovičovo (1948)"
+   ]
+  },
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "firstMention": {
+   "year": 1326,
+   "source": "S041",
+   "note": "1252 (Béla IV) is cited but unverified"
+  },
+  "county": "Pozsony (Bratislava), Galánta district",
+  "role": "core"
+ }
+]

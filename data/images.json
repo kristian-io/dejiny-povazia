@@ -1,0 +1,1215 @@
+[
+ {
+  "id": "p02-lbk-vessel",
+  "period": "p02-neolithic",
+  "kind": "find",
+  "elsewhere": true,
+  "commons": "Zoomorfní nádoba, Ervěnice H1-126979 01.jpg",
+  "caption": {
+   "sk": "Nádoba kultúry s lineárnou keramikou (nález z Čiech). Takú keramiku používali aj prví roľníci v Šali.",
+   "en": "A Linear Pottery vessel (found in Bohemia). The first farmers at Šaľa used pottery like this."
+  },
+  "credit": {
+   "author": "Lenka Káchová (photo)",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Zoomorfn%C3%AD_n%C3%A1doba,_Erv%C4%9Bnice_H1-126979_01.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "size": [
+   1600,
+   1272
+  ]
+ },
+ {
+  "id": "p03-unetice-rings",
+  "period": "p03-bronze-age",
+  "kind": "find",
+  "elsewhere": true,
+  "commons": "Spiral golden lock rings, Únětice culture, Bronze Age, City of Prague Museum (cropped).png",
+  "caption": {
+   "sk": "Zlaté záušnice únětickej kultúry (Múzeum mesta Prahy). Únětické hroby sa našli aj v Matúškove.",
+   "en": "Golden lock rings of the Únětice culture (City of Prague Museum). Únětice graves were also found at Matúškovo."
+  },
+  "credit": {
+   "author": "Zde",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Spiral_golden_lock_rings,_%C3%9An%C4%9Btice_culture,_Bronze_Age,_City_of_Prague_Museum_(cropped).png",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "size": [
+   1282,
+   1600
+  ]
+ },
+ {
+  "id": "p04-celtic-vessels",
+  "period": "p04-celts",
+  "kind": "find",
+  "elsewhere": true,
+  "commons": "Celtic vessels, found in Devín Castle.jpg",
+  "caption": {
+   "sk": "Keltské nádoby z Devína pri Bratislave, z rovnakej doby ako laténska osada vo Veči.",
+   "en": "Celtic vessels from Devín near Bratislava, from the same time as the La Tène village at Veča."
+  },
+  "credit": {
+   "author": "Szilas",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Celtic_vessels,_found_in_Dev%C3%ADn_Castle.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "size": [
+   1000,
+   749
+  ]
+ },
+ {
+  "id": "p07-mikulcice",
+  "period": "p07-great-moravia",
+  "kind": "find",
+  "elsewhere": true,
+  "commons": "Mikulčice Archaeopark 14.jpg",
+  "caption": {
+   "sk": "Exponát v Archeoparku Mikulčice, jednom z centier Veľkej Moravy.",
+   "en": "An exhibit at the Mikulčice Archaeopark, one of the centres of Great Moravia."
+  },
+  "credit": {
+   "author": "Tyssil",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mikul%C4%8Dice_Archaeopark_14.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "size": [
+   515,
+   780
+  ]
+ },
+ {
+  "id": "p08-diakovce-church",
+  "period": "p08-early-hungary",
+  "kind": "building",
+  "cover": true,
+  "place": "diakovce",
+  "coords": [
+   17.8469,
+   48.1343
+  ],
+  "commons": "Deaki templom.jpg",
+  "caption": {
+   "sk": "Románsky kostol benediktínskeho opátstva v Diakovciach, vysvätený v roku 1228. Najstaršia stavba v okolí.",
+   "en": "The Romanesque church of the Benedictine abbey at Diakovce, consecrated in 1228. The oldest building in the area."
+  },
+  "credit": {
+   "author": "Taz",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Deaki_templom.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": null
+  },
+  "size": [
+   1600,
+   1200
+  ]
+ },
+ {
+  "id": "p08-diakovce-portal",
+  "period": "p08-early-hungary",
+  "kind": "building",
+  "place": "diakovce",
+  "coords": [
+   17.8469,
+   48.1343
+  ],
+  "commons": "Deáki templomkapu 1.JPG",
+  "caption": {
+   "sk": "Portál kostola v Diakovciach.",
+   "en": "The portal of the Diakovce church."
+  },
+  "credit": {
+   "author": "Taz666",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:De%C3%A1ki_templomkapu_1.JPG",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1200,
+   1600
+  ]
+ },
+ {
+  "id": "p09-sala-castle-old",
+  "period": "p09-high-middle-ages",
+  "kind": "building",
+  "cover": true,
+  "place": "sala",
+  "coords": [
+   17.8765,
+   48.1518
+  ],
+  "commons": "Sala kastiel 01.jpg",
+  "caption": {
+   "sk": "Hrad v Šali stojí na mieste stredovekého vodného hradu pri brode cez Váh.",
+   "en": "Šaľa castle stands on the site of the medieval moated castle by the Váh ford."
+  },
+  "credit": {
+   "author": "Taz",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Sala_kastiel_01.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": null
+  },
+  "size": [
+   960,
+   720
+  ]
+ },
+ {
+  "id": "p10-sala-castle",
+  "period": "p10-ottoman-frontier",
+  "kind": "building",
+  "cover": true,
+  "place": "sala",
+  "coords": [
+   17.8765,
+   48.1518
+  ],
+  "commons": "Šaľa kaštieľ 01.jpg",
+  "event": "e-jesuit-college-1598",
+  "caption": {
+   "sk": "„Pázmányho kaštieľ“ v Šali: renesančný hrad, jezuitské kolégium a v rokoch 1663–1686 turecká pevnosť.",
+   "en": "The 'Pázmány castle' in Šaľa: a Renaissance castle, Jesuit college and Ottoman fortress in 1663–1686."
+  },
+  "credit": {
+   "author": "Ľuboš Repta",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%C5%A0a%C4%BEa_ka%C5%A1tie%C4%BE_01.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "size": [
+   1600,
+   1200
+  ]
+ },
+ {
+  "id": "p10-galanta-manor",
+  "period": "p10-ottoman-frontier",
+  "kind": "building",
+  "place": "galanta",
+  "coords": [
+   17.7275,
+   48.1925
+  ],
+  "approx": true,
+  "commons": "Galanta renesancny kastiel.jpg",
+  "event": "e-esterhazy-galanta",
+  "caption": {
+   "sk": "Renesančný kaštieľ Esterháziovcov v Galante, postavený okolo roku 1600.",
+   "en": "The Esterházy Renaissance manor in Galanta, built around 1600."
+  },
+  "credit": {
+   "author": "Taz",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Galanta_renesancny_kastiel.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": null
+  },
+  "size": [
+   1280,
+   960
+  ]
+ },
+ {
+  "id": "p10-pazmany",
+  "period": "p10-ottoman-frontier",
+  "kind": "portrait",
+  "commons": "Pázmány Péter bíboros, esztergomi érsek.jpg",
+  "event": "e-jesuit-college-1598",
+  "caption": {
+   "sk": "Peter Pázmány, ostrihomský arcibiskup. Hrad v Šali mu slúžil ako letné sídlo.",
+   "en": "Péter Pázmány, Archbishop of Esztergom. Šaľa castle was his summer residence."
+  },
+  "credit": {
+   "author": "Unknown author",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:P%C3%A1zm%C3%A1ny_P%C3%A9ter_b%C3%ADboros,_esztergomi_%C3%A9rsek.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": null
+  },
+  "size": [
+   960,
+   1163
+  ]
+ },
+ {
+  "id": "p11-rakoczi",
+  "period": "p11-18th-century",
+  "kind": "portrait",
+  "commons": "Mányoki, Ádam - Portrait of Prince Ferenc Rákóczi II - Google Art Project.jpg",
+  "event": "e-rakoczi-1703",
+  "caption": {
+   "sk": "František II. Rákóczi (portrét od Ádáma Mányokiho, 1712). V roku 1704 sa zdržiaval v Matúškove.",
+   "en": "Francis II Rákóczi (portrait by Ádám Mányoki, 1712). In 1704 he stayed in Matúškovo."
+  },
+  "credit": {
+   "author": "Ádám Mányoki (1673–1757)",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:M%C3%A1nyoki,_%C3%81dam_-_Portrait_of_Prince_Ferenc_R%C3%A1k%C3%B3czi_II_-_Google_Art_Project.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": null
+  },
+  "size": [
+   1315,
+   1600
+  ]
+ },
+ {
+  "id": "p11-matuskovo-church",
+  "period": "p11-18th-century",
+  "kind": "building",
+  "cover": true,
+  "place": "matuskovo",
+  "coords": [
+   17.7333,
+   48.1663
+  ],
+  "approx": true,
+  "commons": "Matúškovo kostol 01.jpg",
+  "event": "e-churches-1780s",
+  "caption": {
+   "sk": "Kostol v Matúškove (1781–84), dar grófa Františka Esterházyho.",
+   "en": "The church in Matúškovo (1781–84), a gift of Count Ferenc Esterházy."
+  },
+  "credit": {
+   "author": "Ľuboš Repta",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mat%C3%BA%C5%A1kovo_kostol_01.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "size": [
+   1200,
+   1600
+  ]
+ },
+ {
+  "id": "p11-galanta-church",
+  "period": "p11-18th-century",
+  "kind": "building",
+  "place": "galanta",
+  "coords": [
+   17.7262,
+   48.1897
+  ],
+  "approx": true,
+  "commons": "Galanta, kostol. sv. Štefana 24 Slovakia 6.jpg",
+  "caption": {
+   "sk": "Kostol sv. Štefana v Galante (1797–1805).",
+   "en": "St Stephen's church in Galanta (1797–1805)."
+  },
+  "credit": {
+   "author": "Jozef Kotulič",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Galanta,_kostol._sv._%C5%A0tefana_24_Slovakia_6.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "size": [
+   1205,
+   1600
+  ]
+ },
+ {
+  "id": "p12-folk-house",
+  "period": "p12-19th-century",
+  "kind": "building",
+  "cover": true,
+  "place": "matuskovo",
+  "coords": [
+   17.7331,
+   48.1671
+  ],
+  "commons": "Matúškovo ľudový dom 01.jpg",
+  "caption": {
+   "sk": "Ľudový dom v Matúškove z roku 1847. Tak bývali roľníci v čase revolúcie.",
+   "en": "A folk house in Matúškovo from 1847. This is how farmers lived at the time of the revolution."
+  },
+  "credit": {
+   "author": "Ľuboš Repta",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mat%C3%BA%C5%A1kovo_%C4%BEudov%C3%BD_dom_01.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "size": [
+   1600,
+   1200
+  ]
+ },
+ {
+  "id": "p12-galanta-station",
+  "period": "p12-19th-century",
+  "kind": "building",
+  "place": "galanta",
+  "coords": [
+   17.7231,
+   48.185
+  ],
+  "commons": "Galanta, nádraží.JPG",
+  "event": "e-railway-1850",
+  "caption": {
+   "sk": "Železničná stanica v Galante. Trať Viedeň – Pešť tu jazdí od roku 1850.",
+   "en": "Galanta railway station. The Vienna–Pest line has run here since 1850."
+  },
+  "credit": {
+   "author": "Aktron",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Galanta,_n%C3%A1dra%C5%BE%C3%AD.JPG",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1600,
+   1200
+  ]
+ },
+ {
+  "id": "p13-chateau",
+  "period": "p13-austria-hungary",
+  "kind": "building",
+  "cover": true,
+  "place": "galanta",
+  "coords": [
+   17.733,
+   48.192
+  ],
+  "approx": true,
+  "commons": "Neogothic chateu Galanta main wing.jpg",
+  "event": "e-galanta-chateau-1860",
+  "caption": {
+   "sk": "Neogotický kaštieľ Esterháziovcov v Galante (prestavba 1860).",
+   "en": "The Esterházy neo-Gothic chateau in Galanta (rebuilt 1860)."
+  },
+  "credit": {
+   "author": "Malinlu2",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Neogothic_chateu_Galanta_main_wing.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "size": [
+   1600,
+   1200
+  ]
+ },
+ {
+  "id": "p13-chateau-tower",
+  "period": "p13-austria-hungary",
+  "kind": "building",
+  "place": "galanta",
+  "coords": [
+   17.733,
+   48.192
+  ],
+  "approx": true,
+  "commons": "Neogothic chateau Galanta, the tower.jpg",
+  "caption": {
+   "sk": "Veža neogotického kaštieľa.",
+   "en": "The tower of the neo-Gothic chateau."
+  },
+  "credit": {
+   "author": "Malinlu2",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Neogothic_chateau_Galanta,_the_tower.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "size": [
+   1200,
+   1600
+  ]
+ },
+ {
+  "id": "p13-dioszeg-sugar",
+  "period": "p13-austria-hungary",
+  "kind": "photo",
+  "dated": 1905,
+  "place": "sladkovicovo",
+  "coords": [
+   17.65,
+   48.202
+  ],
+  "fortepan": 86788,
+  "caption": {
+   "sk": "Cukrovar v Diószegu (dnes Sládkovičovo), 1905. Priemysel prichádzal do susedstva Galanty.",
+   "en": "The sugar factory at Diószeg (today Sládkovičovo), 1905. Industry was arriving next door to Galanta."
+  },
+  "credit": {
+   "author": "Fortepan / Magyar Földrajzi Múzeum / Erdélyi Mór cége",
+   "license": "CC BY-SA 3.0",
+   "url": "https://fortepan.hu/hu/photos/?id=86788",
+   "site": "Fortepan",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1600,
+   819
+  ],
+  "approx": true,
+  "event": "e-sl-sugar-factory"
+ },
+ {
+  "id": "p14-javorinka",
+  "period": "p14-first-republic",
+  "kind": "building",
+  "cover": false,
+  "place": "galanta",
+  "coords": [
+   17.7112,
+   48.1698
+  ],
+  "commons": "Javorinka 2.jpg",
+  "caption": {
+   "sk": "Javorinka dnes: niekoľko usadlostí uprostred polí. Takto bola založená v roku 1921 – ako osada kolonistov Štefánikov na pôde z pozemkovej reformy.",
+   "en": "Javorinka today: a few farmsteads in the middle of the fields. That is how it was founded in 1921, as the settler colony Štefánikov on land from the land reform."
+  },
+  "credit": {
+   "author": "Taz666",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Javorinka_2.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1280,
+   960
+  ]
+ },
+ {
+  "id": "p14-memorial",
+  "period": "p14-first-republic",
+  "kind": "building",
+  "place": "matuskovo",
+  "coords": [
+   17.7337,
+   48.1659
+  ],
+  "commons": "Matúškovo pamätník 01.jpg",
+  "caption": {
+   "sk": "Vojnový pamätník v Matúškove. Dokončený v roku 1928, odhalený až v roku 1938, poškodený v roku 1945, obnovený v roku 1991.",
+   "en": "The war memorial in Matúškovo. Finished in 1928, unveiled only in 1938, damaged in 1945, restored in 1991."
+  },
+  "credit": {
+   "author": "Ľuboš Repta",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mat%C3%BA%C5%A1kovo_pam%C3%A4tn%C3%ADk_01.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "size": [
+   1200,
+   1600
+  ]
+ },
+ {
+  "id": "p15-entry-1",
+  "period": "p15-vienna-award-ww2",
+  "kind": "photo",
+  "dated": 1938,
+  "cover": true,
+  "place": "galanta",
+  "coords": [
+   17.7262,
+   48.1897
+  ],
+  "approx": true,
+  "fortepan": 55830,
+  "event": "e-vienna-award-1938",
+  "caption": {
+   "sk": "Galanta, 10. novembra 1938: vstup maďarského vojska, na čele plukovník Dezső Told.",
+   "en": "Galanta, 10 November 1938: Hungarian troops enter, led by Colonel Dezső Told."
+  },
+  "credit": {
+   "author": "Fortepan / Magyar Bálint",
+   "license": "CC BY-SA 3.0",
+   "url": "https://fortepan.hu/hu/photos/?id=55830",
+   "site": "Fortepan",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1600,
+   1421
+  ]
+ },
+ {
+  "id": "p15-entry-2",
+  "period": "p15-vienna-award-ww2",
+  "kind": "photo",
+  "dated": 1938,
+  "place": "galanta",
+  "coords": [
+   17.7262,
+   48.1897
+  ],
+  "approx": true,
+  "fortepan": 55834,
+  "caption": {
+   "sk": "Galanta, 10. novembra 1938: príhovor plukovníka Dezső Tolda pri mikrofóne.",
+   "en": "Galanta, 10 November 1938: Colonel Dezső Told speaks at the microphone."
+  },
+  "credit": {
+   "author": "Fortepan / Magyar Bálint",
+   "license": "CC BY-SA 3.0",
+   "url": "https://fortepan.hu/hu/photos/?id=55834",
+   "site": "Fortepan",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1600,
+   1593
+  ]
+ },
+ {
+  "id": "p15-entry-3",
+  "period": "p15-vienna-award-ww2",
+  "kind": "photo",
+  "dated": 1938,
+  "place": "galanta",
+  "coords": [
+   17.7262,
+   48.1897
+  ],
+  "approx": true,
+  "fortepan": 55831,
+  "caption": {
+   "sk": "Galanta v deň vstupu maďarského vojska, 10. novembra 1938.",
+   "en": "Galanta on the day Hungarian troops entered, 10 November 1938."
+  },
+  "credit": {
+   "author": "Fortepan / Magyar Bálint",
+   "license": "CC BY-SA 3.0",
+   "url": "https://fortepan.hu/hu/photos/?id=55831",
+   "site": "Fortepan",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1600,
+   1589
+  ]
+ },
+ {
+  "id": "p16-deportation",
+  "period": "p16-communism",
+  "kind": "photo",
+  "dated": 1947,
+  "cover": true,
+  "place": "galanta",
+  "fortepan": 32734,
+  "event": "e-population-exchange-1947",
+  "caption": {
+   "sk": "Galanta, 1947: vysídľovanie Maďarov z južného Slovenska.",
+   "en": "Galanta, 1947: Hungarians being resettled from southern Slovakia."
+  },
+  "credit": {
+   "author": "Fortepan",
+   "license": "CC BY-SA 3.0",
+   "url": "https://fortepan.hu/hu/photos/?id=32734",
+   "site": "Fortepan",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1600,
+   1059
+  ]
+ },
+ {
+  "id": "p16-square-1970",
+  "period": "p16-communism",
+  "kind": "photo",
+  "dated": 1970,
+  "place": "galanta",
+  "coords": [
+   17.7262,
+   48.1897
+  ],
+  "approx": true,
+  "fortepan": 300044,
+  "caption": {
+   "sk": "Mierové námestie v Galante, 1970.",
+   "en": "Mierové námestie (Peace Square) in Galanta, 1970."
+  },
+  "credit": {
+   "author": "Fortepan / Gépész",
+   "license": "CC BY-SA 3.0",
+   "url": "https://fortepan.hu/hu/photos/?id=300044",
+   "site": "Fortepan",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1600,
+   1040
+  ]
+ },
+ {
+  "id": "p16-square-1972",
+  "period": "p16-communism",
+  "kind": "photo",
+  "dated": 1972,
+  "place": "galanta",
+  "coords": [
+   17.7262,
+   48.1897
+  ],
+  "approx": true,
+  "fortepan": 300063,
+  "caption": {
+   "sk": "Mierové námestie v Galante, 1972.",
+   "en": "Mierové námestie in Galanta, 1972."
+  },
+  "credit": {
+   "author": "Fortepan / Gépész",
+   "license": "CC BY-SA 3.0",
+   "url": "https://fortepan.hu/hu/photos/?id=300063",
+   "site": "Fortepan",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "size": [
+   1600,
+   1046
+  ]
+ },
+ {
+  "id": "p16-veca-estate",
+  "period": "p16-communism",
+  "kind": "photo",
+  "place": "sala",
+  "coords": [
+   17.8902,
+   48.1669
+  ],
+  "approx": true,
+  "commons": "Šaľa - panoráma - pohotovostné sídlisko, Veča, Duslo.jpg",
+  "caption": {
+   "sk": "Šaľa-Veča: sídlisko postavené pre zamestnancov Dusla, v pozadí chemický závod.",
+   "en": "Šaľa-Veča: the housing estate built for Duslo workers, with the chemical plant behind."
+  },
+  "credit": {
+   "author": "JakeSisko",
+   "license": "FAL",
+   "url": "https://commons.wikimedia.org/wiki/File:%C5%A0a%C4%BEa_-_panor%C3%A1ma_-_pohotovostn%C3%A9_s%C3%ADdlisko,_Ve%C4%8Da,_Duslo.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://artlibre.org/licence/lal/en/"
+  },
+  "size": [
+   1280,
+   960
+  ]
+ },
+ {
+  "id": "p16-duslo",
+  "period": "p16-communism",
+  "kind": "photo",
+  "place": "sala",
+  "coords": [
+   17.905,
+   48.165
+  ],
+  "approx": true,
+  "commons": "Šaľa Duslo.JPG",
+  "event": "e-duslo-1958",
+  "caption": {
+   "sk": "Duslo pri pohľade z polí. Výstavba závodu sa začala v roku 1958.",
+   "en": "Duslo seen across the fields. Construction of the plant began in 1958."
+  },
+  "credit": {
+   "author": "JakeSisko",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:%C5%A0a%C4%BEa_Duslo.JPG",
+   "site": "Wikimedia Commons",
+   "licenseUrl": null
+  },
+  "size": [
+   1280,
+   975
+  ]
+ },
+ {
+  "id": "p17-duslo-today",
+  "period": "p17-today",
+  "kind": "photo",
+  "cover": true,
+  "place": "sala",
+  "coords": [
+   17.905,
+   48.165
+  ],
+  "approx": true,
+  "commons": "Duslo .jpg",
+  "caption": {
+   "sk": "Duslo dnes.",
+   "en": "Duslo today."
+  },
+  "credit": {
+   "author": "Danielajavor",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Duslo_.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "size": [
+   1600,
+   989
+  ]
+ },
+ {
+  "id": "p17-galanta-station",
+  "period": "p17-today",
+  "kind": "photo",
+  "place": "galanta",
+  "coords": [
+   17.7215,
+   48.1852
+  ],
+  "commons": "Galata stanica 2023.jpg",
+  "caption": {
+   "sk": "Stanica v Galante v roku 2023.",
+   "en": "Galanta station in 2023."
+  },
+  "credit": {
+   "author": "Matej Grochal",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Galata_stanica_2023.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "size": [
+   1600,
+   1200
+  ]
+ },
+ {
+  "id": "p17-matuskovo-belfry",
+  "period": "p17-today",
+  "kind": "photo",
+  "place": "matuskovo",
+  "coords": [
+   17.7327,
+   48.1672
+  ],
+  "commons": "Matúškovo zvonica 01.jpg",
+  "caption": {
+   "sk": "Zvonica v Matúškove.",
+   "en": "The belfry in Matúškovo."
+  },
+  "credit": {
+   "author": "Ľuboš Repta",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mat%C3%BA%C5%A1kovo_zvonica_01.jpg",
+   "site": "Wikimedia Commons",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "size": [
+   1200,
+   1600
+  ]
+ },
+ {
+  "id": "ai-p05-quadi-village",
+  "period": "p05-romans-quadi",
+  "kind": "ai",
+  "cover": true,
+  "event": "e-roman-village-galanta",
+  "caption": {
+   "sk": "Germánska (kvádska) dedina Pod záhradami v Nebojsi okolo roku 300 – podľa výskumu z roku 2011: zemnice, pec a studňa (AI ilustrácia).",
+   "en": "The Germanic (Quadi) village Pod záhradami at Nebojsa around 300 AD, after the 2011 excavation: pit houses, kiln and well (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "Around 300 AD: a Germanic Quadi village on the bank of a small stream (the Derňa) at today's Galanta-Nebojsa, exactly as excavated: six small sunken pit houses with low gabled thatched roofs barely above ground, one larger rectangular post-built house, a clay pottery kiln with smoke, a timber-lined well, storage pits. Villagers in simple wool clothing; a trader shows a red Roman terra sigillata bowl.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p01-neanderthals",
+  "period": "p01-palaeolithic",
+  "kind": "ai",
+  "cover": true,
+  "event": "e-neanderthals",
+  "caption": {
+   "sk": "Neandertálci na štrkovej lavici Váhu pred asi 90 000 rokmi (AI ilustrácia podľa nálezov Šaľa 1 a 2).",
+   "en": "Neanderthals on a gravel bar of the Váh about 90,000 years ago (AI illustration based on the Šaľa 1 and 2 finds)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "About 90,000 years ago, a small group of Neanderthals (five people: adults and a child, wearing simple hide wraps) on a wide gravel bar of a braided ice-age river, the Váh, in a cold open steppe with scattered birch and pine. One crouches knapping a flint tool, others carry a hide. In the far distance a woolly rhinoceros grazes. Overcast cool light.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p02-longhouses",
+  "period": "p02-neolithic",
+  "kind": "ai",
+  "cover": true,
+  "event": "e-dunes-landscape",
+  "caption": {
+   "sk": "Osada prvých roľníkov na piesočnej dune nad mokraďami, okolo 5300 pred Kr. (AI ilustrácia).",
+   "en": "A first farmers' village on a sand dune above the marshes, around 5300 BC (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "Around 5300 BC: a small Linear Pottery farming village of three long timber longhouses with steep reed-thatched roofs and wattle-and-daub walls, standing on a low sandy dune above reedy marshes and slow river arms. Small fields of emmer wheat, a few cattle, a woman carrying a clay pot with incised band decoration, smoke rising from a roof.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p04-celtic-village",
+  "period": "p04-celts",
+  "kind": "ai",
+  "cover": false,
+  "event": "e-celts",
+  "caption": {
+   "sk": "Keltská osada vo Veči okolo roku 200 pred Kr. (AI ilustrácia).",
+   "en": "The Celtic village at Veča around 200 BC (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "Around 200 BC: a La Tène Celtic farmstead village on a dune by a river arm of the Váh near today's Šaľa-Veča: a few rectangular timber houses with thatched roofs, a granary on posts, a blacksmith working iron at an open hearth, people in wool tunics and cloaks with simple bronze brooches, wheel-made grey pottery stacked by a door.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p07-ford",
+  "period": "p07-great-moravia",
+  "kind": "ai",
+  "cover": true,
+  "event": "e-moravian-warrior",
+  "caption": {
+   "sk": "Veľkomoravská osada pri Váhu v 9. storočí; bojovník s kopijou a bradaticou ako v hrobe z Veče (AI ilustrácia).",
+   "en": "A Great Moravian settlement by the Váh in the 9th century; a warrior with spear and bearded axe like the one in the Veča grave (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "9th century, Great Moravian period: a Slavic farming settlement of log and wattle houses on a sand dune by the Váh; a warrior with a long leaf-shaped iron spear and a bearded axe, wearing a simple tunic with metal buttons, walks beside a wooden ox cart; a wooden bucket with iron hoops; flat marshy lowland behind.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p09-ford-castle",
+  "period": "p09-high-middle-ages",
+  "kind": "ai",
+  "cover": false,
+  "event": "e-via-bohemica",
+  "caption": {
+   "sk": "Brod na Českej ceste a vodný hrad v Šali okolo roku 1450 (AI ilustrácia).",
+   "en": "The ford on the Bohemian Road and the moated castle at Šaľa around 1450 (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "Around 1450: the ford of the Bohemian Road (Via Bohemica) across the river Váh at Šaľa: merchants with covered wagons and packhorses crossing shallow water; on the bank a small moated castle (water castle) of stone and timber with a square tower, surrounded by a water-filled moat; a village church and wooden houses behind.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p10-ottoman-raid",
+  "period": "p10-ottoman-frontier",
+  "kind": "ai",
+  "cover": false,
+  "event": "e-ottoman-sala-1663",
+  "caption": {
+   "sk": "Turecký nájazd na Šaľu v roku 1663 (AI ilustrácia).",
+   "en": "An Ottoman raid on Šaľa in 1663 (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "1663: Ottoman light cavalry (akıncı) on horseback approach a small Hungarian market town on the flat Váh lowland; thatched houses, a church tower and a renaissance castle with corner bastions in the distance; villagers flee with carts toward the reeds. Smoke on the horizon, no gore, seen from a distance.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p12-first-train",
+  "period": "p12-19th-century",
+  "kind": "ai",
+  "cover": false,
+  "event": "e-railway-1850",
+  "caption": {
+   "sk": "Prvý vlak trate Viedeň – Pešť pri Galante, 1850 (AI ilustrácia).",
+   "en": "The first train of the Vienna–Pest line near Galanta, 1850 (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "1850: the first steam train of the Vienna–Pressburg–Pest railway crosses the flat fields near Galanta: an early 4-4-0 steam locomotive with a tall chimney pulling a few wooden carriages along a straight embankment; peasants in white linen and broad hats stop working in a wheat field to watch; a small station building, a church tower of the market town behind.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p06-avar-slavs",
+  "period": "p06-migration",
+  "kind": "ai",
+  "cover": true,
+  "event": "e-avar-cemetery",
+  "caption": {
+   "sk": "Slovania a Avari pri Váhu okolo roku 700 (AI ilustrácia).",
+   "en": "Slavs and Avars by the Váh around 700 AD (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null,
+   "licenseUrl": null
+  },
+  "prompt": "Around 700 AD: an early Slavic hamlet of small square sunken huts (half dug into the ground) with low thatched roofs; NO chimneys anywhere: smoke seeps out through the thatch from clay ovens inside. Among willows by a reedy river arm. An Avar horseman with a cast bronze decorated belt and a composite bow in a quiver talks with Slavic farmers in plain linen; hand-made grey Prague-type pots by a doorway; NO wells with cranks or roofs. Horses grazing on the open grassland beyond.",
+  "size": [
+   1600,
+   893
+  ]
+ },
+ {
+  "id": "ai-p14-stefanikov",
+  "period": "p14-first-republic",
+  "kind": "ai",
+  "cover": true,
+  "event": "e-land-reform-stefanikov",
+  "caption": {
+   "sk": "Kolonisti zakladajú osadu Štefánikov (dnes Javorinka) pri Galante na pôde z pozemkovej reformy, 1921 (AI ilustrácia).",
+   "en": "Settlers founding the Štefánikov colony (today Javorinka) near Galanta on land from the land reform, 1921 (AI illustration)."
+  },
+  "credit": {
+   "author": "Google Gemini (gemini-3-pro-image)",
+   "license": "—",
+   "site": "",
+   "url": null
+  },
+  "prompt": "Spring 1921 in flat open farmland west of Galanta, Slovakia: Slovak settler families from the upper Váh valley found the new colony of Štefánikov on land given by the Czechoslovak land reform. A few new single-storey farmhouses stand far apart, each on its own plot: white-washed walls, simple gabled roofs of red clay tiles, one house still being built with timber scaffolding and a stack of fresh bricks. Men in 1920s work clothes and flat caps dig a fence line and unload a horse-drawn wooden wagon with furniture and tools; a woman in a headscarf and apron carries a child; a surveyor with a measuring chain marks out the next plot. Young fruit-tree saplings, newly ploughed dark fields to the horizon, a distant church tower of Galanta. Hopeful, ordinary, quiet mood. No flags, no uniforms.",
+  "size": [
+   1600,
+   884
+  ]
+ },
+ {
+  "id": "sl-p13-factory-1904",
+  "period": "p13-austria-hungary",
+  "kind": "photo",
+  "dated": 1904,
+  "place": "sladkovicovo",
+  "coords": [
+   17.65,
+   48.202
+  ],
+  "approx": true,
+  "commons": "Cukorgyár Diószeg.png",
+  "caption": {
+   "sk": "Cukrovar v Diószegu okolo roku 1904 (z monografie Pozsony vármegye).",
+   "en": "The Diószeg sugar factory around 1904 (from the Pozsony County monograph)."
+  },
+  "credit": {
+   "author": "Borovszky Samu",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Cukorgy%C3%A1r_Di%C3%B3szeg.png",
+   "site": "Wikimedia Commons"
+  },
+  "size": [
+   897,
+   399
+  ]
+ },
+ {
+  "id": "sl-p13-kuffner",
+  "period": "p13-austria-hungary",
+  "kind": "portrait",
+  "event": "e-sl-darwin",
+  "commons": "Plate 18 Karl Kuffner, Photograph album of German and Austrian scientists (cropped).png",
+  "caption": {
+   "sk": "Karl Kuffner, 1876, z albumu pre Charlesa Darwina (foto Emil Rade).",
+   "en": "Karl Kuffner, 1876, from the album for Charles Darwin (photo Emil Rade)."
+  },
+  "credit": {
+   "author": "Emil Rade (1832 - 1931)",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Plate_18_Karl_Kuffner,_Photograph_album_of_German_and_Austrian_scientists_(cropped).png",
+   "site": "Wikimedia Commons"
+  },
+  "size": [
+   169,
+   237
+  ]
+ },
+ {
+  "id": "sl-p13-manor",
+  "period": "p13-austria-hungary",
+  "kind": "building",
+  "place": "sladkovicovo",
+  "coords": [
+   17.64614,
+   48.20612
+  ],
+  "commons": "Sládkovičovo 17 Slovakia9.jpg",
+  "caption": {
+   "sk": "Kuffnerov kaštieľ v Sládkovičove (prestavba 1885–86).",
+   "en": "The Kuffner manor in Sládkovičovo (rebuilt 1885–86)."
+  },
+  "credit": {
+   "author": "Ing.mgr.Jozef Kotulič",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Sl%C3%A1dkovi%C4%8Dovo_17_Slovakia9.jpg",
+   "site": "Wikimedia Commons"
+  },
+  "size": [
+   1280,
+   959
+  ]
+ },
+ {
+  "id": "sl-p12-stamp",
+  "period": "p12-19th-century",
+  "kind": "find",
+  "commons": "1863issue TJ Dioszegh Slovakia.jpg",
+  "caption": {
+   "sk": "Novinová kolková známka z roku 1863 s pečiatkou pošty DIOSZEGH.",
+   "en": "An 1863 newspaper-tax stamp cancelled by the DIOSZEGH post office."
+  },
+  "credit": {
+   "author": "Jacquesverlaeken",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:1863issue_TJ_Dioszegh_Slovakia.jpg",
+   "site": "Wikimedia Commons"
+  },
+  "size": [
+   330,
+   363
+  ]
+ },
+ {
+  "id": "sl-p11-church",
+  "period": "p11-18th-century",
+  "kind": "building",
+  "place": "sladkovicovo",
+  "coords": [
+   17.64505,
+   48.20542
+  ],
+  "commons": "Diószeg templom 3.JPG",
+  "caption": {
+   "sk": "Kostol Nanebovzatia Panny Márie v Sládkovičove, prestavaný v rokoch 1736 a 1786.",
+   "en": "The Church of the Assumption in Sládkovičovo, rebuilt in 1736 and 1786."
+  },
+  "credit": {
+   "author": "Taz666",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Di%C3%B3szeg_templom_3.JPG",
+   "site": "Wikimedia Commons"
+  },
+  "size": [
+   1280,
+   960
+  ]
+ },
+ {
+  "id": "sl-p11-ujhely",
+  "period": "p11-18th-century",
+  "kind": "building",
+  "place": "sladkovicovo",
+  "coords": [
+   17.5967,
+   48.216
+  ],
+  "approx": true,
+  "event": "e-sl-german-colony",
+  "commons": "Diószeg Újhely kereszt 1.JPG",
+  "caption": {
+   "sk": "Kríž na mieste Újhely, kde sa v rokoch 1786–87 usadili nemeckí kolonisti.",
+   "en": "A cross at Újhely, where the German colonists settled in 1786–87."
+  },
+  "credit": {
+   "author": "Taz",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Di%C3%B3szeg_%C3%9Ajhely_kereszt_1.JPG",
+   "site": "Wikimedia Commons"
+  },
+  "size": [
+   1200,
+   1600
+  ]
+ },
+ {
+  "id": "sl-p16-sladkovic",
+  "period": "p16-communism",
+  "kind": "portrait",
+  "event": "e-sl-renamed",
+  "commons": "Andrej Sládkovič.png",
+  "caption": {
+   "sk": "Básnik Andrej Sládkovič (portrét J. B. Klemensa, 1872), po ktorom mesto v roku 1948 premenovali.",
+   "en": "The poet Andrej Sládkovič (portrait by J. B. Klemens, 1872), after whom the town was renamed in 1948."
+  },
+  "credit": {
+   "author": "Jozef Božetech Klemens (1817-1883)",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Andrej_Sl%C3%A1dkovi%C4%8D.png",
+   "site": "Wikimedia Commons"
+  },
+  "size": [
+   242,
+   352
+  ]
+ }
+]

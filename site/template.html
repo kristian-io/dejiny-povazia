@@ -1,0 +1,1252 @@
+<title>Šaľa · Galanta · Matúškovo · Sládkovičovo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: timeline band across the top; story column on the left, map of the lower Váh on the right. */
+:root {
+  --paper: #eef1ec;
+  --panel: #f8faf7;
+  --ink: #1b2523;
+  --muted: #5a6863;
+  --line: #d2d9d4;
+  --accent: #1d6670;      /* the Váh */
+  --accent-soft: #d5e7e8;
+  --mark: #b23a2d;        /* survey-map red */
+  --hu: #a2793a;
+  --sk: #1d6670;
+  --map-bg: #e4e7e1;
+  /* drawn historical map */
+  --land: #ece6d6;
+  --upland: #ddcfac;
+  --marsh: #c9dccb;
+  --marsh-strong: #a9c9b0;
+  --water: #3f7fa6;
+  --border: #9b2f24;
+  --site: #6b3fa0;
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121716; --panel: #182020; --ink: #e2e8e4; --muted: #94a39e; --line: #2b3633;
+    --accent: #72b9c1; --accent-soft: #1d3436; --mark: #e2735f; --hu: #d0a55e; --sk: #72b9c1; --map-bg: #1d2423;
+    --land: #1f2622; --upland: #2f2c22; --marsh: #22332c; --marsh-strong: #2b4237; --water: #6aa7cc; --border: #e07a63; --site: #b896e6;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #121716; --panel: #182020; --ink: #e2e8e4; --muted: #94a39e; --line: #2b3633;
+  --accent: #72b9c1; --accent-soft: #1d3436; --mark: #e2735f; --hu: #d0a55e; --sk: #72b9c1; --map-bg: #1d2423;
+  --land: #1f2622; --upland: #2f2c22; --marsh: #22332c; --marsh-strong: #2b4237; --water: #6aa7cc; --border: #e07a63; --site: #b896e6;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body {
+  background: var(--paper); color: var(--ink);
+  font-family: var(--font-body); font-size: 16px; line-height: 1.5;
+}
+.app {
+  height: 100%; display: grid;
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: minmax(340px, 34rem) minmax(0, 1fr);
+  grid-template-areas: "head head" "time time" "story map";
+}
+header {
+  grid-area: head; display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap;
+  padding-block: 0.8rem 0.4rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+header h1 { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.6rem; letter-spacing: 0.01em; }
+header .sub { color: var(--muted); font-size: 0.9rem; }
+header .spacer { flex: 1; }
+.lang { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.lang button { font: 500 0.8rem var(--font-mono); padding: 0.25rem 0.6rem; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+/* Timeline */
+.timeline {
+  grid-area: time; display: flex; align-items: stretch; gap: 0.5rem;
+  border-block: 1px solid var(--line); background: var(--panel);
+  padding-block: 0.5rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.timeline .nav { flex: none; width: 2.2rem; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 6px; cursor: pointer; font-size: 1.1rem; }
+.timeline .nav:disabled { opacity: 0.35; cursor: default; }
+.track { flex: 1; min-width: 0; overflow-x: auto; display: flex; gap: 2px; scrollbar-width: thin; }
+.stop {
+  flex: 1 0 5.6rem; text-align: left; border: 0; cursor: pointer;
+  padding: 0.35rem 0.5rem 0.4rem; background: transparent; color: var(--ink);
+  border-top: 3px solid var(--line); border-radius: 0;
+  display: flex; flex-direction: column; gap: 0.1rem;
+}
+.stop .yr { font: 0.68rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.stop .nm { font-size: 0.82rem; font-weight: 600; line-height: 1.2; }
+.stop.draft .nm { font-weight: 400; color: var(--muted); }
+.stop:hover { border-top-color: var(--muted); }
+.stop[aria-current="true"] { border-top-color: var(--accent); background: var(--accent-soft); }
+.stop[aria-current="true"] .nm { color: var(--ink); font-weight: 600; }
+.stop:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Story column */
+.story {
+  grid-area: story; overflow-y: auto; min-width: 0;
+  border-right: 1px solid var(--line); background: var(--panel);
+  padding-block: 1.4rem 3rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 1.6rem;
+}
+.story > * + * { margin-top: 1.1rem; }
+.eyebrow { font: 500 0.78rem var(--font-mono); color: var(--accent); letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
+.story h2 { margin: 0.2rem 0 0; font-family: var(--font-display); font-weight: 600; font-size: 2.3rem; line-height: 1.08; text-wrap: balance; }
+.badge { display: inline-block; font: 500 0.7rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--hu); border: 1px solid currentColor; border-radius: 4px; padding: 0.05rem 0.4rem; }
+.rulers { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 0.9rem; margin: 0; padding: 0.8rem 0; border-block: 1px solid var(--line); }
+.rulers dt { font: 500 0.7rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); padding-top: 0.2rem; }
+.rulers dd { margin: 0; font-size: 0.95rem; }
+.summary { font-size: 1.05rem; max-width: 62ch; }
+.section-label { font: 500 0.72rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.4rem; }
+.events { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.event { display: grid; grid-template-columns: 4.2rem 1fr; gap: 0.8rem; padding: 0.75rem 0.4rem; border-top: 1px solid var(--line); cursor: default; border-radius: 4px; }
+.event:hover, .event.hl { background: var(--accent-soft); }
+.event .when { font: 500 0.82rem var(--font-mono); color: var(--accent); font-variant-numeric: tabular-nums; padding-top: 0.15rem; }
+.event h3 { margin: 0; font-size: 1rem; font-weight: 600; line-height: 1.3; }
+.event p { margin: 0.2rem 0 0; font-size: 0.93rem; color: var(--ink); }
+.cite { margin-top: 0.3rem; display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; }
+.cite a, .cite span.src { font: 0.68rem var(--font-mono); color: var(--muted); text-decoration: none; border: 1px solid var(--line); border-radius: 3px; padding: 0 0.3rem; }
+.cite a:hover { color: var(--accent); border-color: var(--accent); }
+.conf { font: 0.68rem var(--font-mono); color: var(--hu); }
+.census { display: flex; flex-direction: column; gap: 0.45rem; }
+.census .row { display: grid; grid-template-columns: 6.5rem 1fr 4.5rem; gap: 0.6rem; align-items: center; font-size: 0.85rem; }
+.census .bar { display: flex; height: 0.75rem; border-radius: 2px; overflow: hidden; background: var(--line); }
+.census .bar span { display: block; height: 100%; }
+.census .tot { font: 0.75rem var(--font-mono); color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.legend { display: flex; gap: 1rem; font-size: 0.78rem; color: var(--muted); }
+.legend i { display: inline-block; width: 0.7rem; height: 0.7rem; border-radius: 2px; margin-right: 0.3rem; vertical-align: -0.05rem; }
+/* Picture loading: a small spinner until the picture has fully arrived, then a soft fade-in
+   (instead of the browser drawing it line by line). Containers get class "ld", and "ready" once loaded. */
+.ld { position: relative; }
+.ld::before {
+  content: ""; position: absolute; top: 50%; left: 50%; z-index: 1; width: 22px; height: 22px; margin: -11px 0 0 -11px;
+  border-radius: 50%; border: 2px solid color-mix(in srgb, var(--muted) 28%, transparent); border-top-color: var(--accent);
+  animation: ld-spin 0.8s linear infinite; pointer-events: none;
+}
+.ld.sm::before { width: 14px; height: 14px; margin: -7px 0 0 -7px; border-width: 1.5px; }
+.ld.ready::before { display: none; }
+.ld img { opacity: 0; transform: scale(1.02); transition: opacity 0.45s ease, transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1); }
+.ld.ready img { opacity: 1; transform: none; }
+@keyframes ld-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .ld img { transform: none; transition: opacity 0.2s; } .ld::before { animation-duration: 1.6s; } }
+
+/* Pictures: period cover, thumbnail strip, event thumbnails, viewer */
+.cover { margin: 0; position: relative; border-radius: 6px; overflow: hidden; cursor: zoom-in; background: var(--line); aspect-ratio: 16 / 9; max-width: 100%; }
+.cover img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 400ms ease; }
+.cover.ready:hover img { transform: scale(1.02); }
+.cover figcaption { position: absolute; inset: auto 0 0 0; padding: 1.6rem 0.75rem 0.5rem; font-size: 0.78rem; line-height: 1.3; color: #f4f1ea;
+  background: linear-gradient(transparent, rgb(0 0 0 / 0.68)); }
+.cover figcaption b { font: 500 0.7rem var(--font-mono); letter-spacing: 0.05em; margin-right: 0.4rem; }
+/* AI pictures are always marked: corner badge and dashed outline, never mistaken for archival photos */
+.cover.ai::after { content: "AI"; position: absolute; top: 0.5rem; left: 0.5rem; font: 600 0.68rem var(--font-mono); letter-spacing: 0.08em;
+  color: #fff; background: rgb(107 63 160 / 0.85); padding: 0.1rem 0.4rem; border-radius: 3px; }
+.cover.ai, .strip button.ai, .ev-thumb.ai { outline: 2px dashed var(--site); outline-offset: -2px; }
+.strip { display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.2rem; scrollbar-width: thin; margin-top: 0.5rem; }
+.strip button { flex: none; padding: 0; border: 0; border-radius: 4px; overflow: hidden; cursor: zoom-in; background: var(--line); height: 3.6rem; }
+.strip img { height: 100%; width: auto; display: block; }
+.strip-more { display: block; margin-top: 0.35rem; font-size: 0.78rem; color: var(--muted); text-decoration: none; }
+.strip-more a { color: inherit; }
+.strip-more a:hover { color: var(--accent); }
+.ev-thumb { float: right; margin: 0.15rem 0 0.3rem 0.7rem; width: 4.2rem; height: 3.2rem; padding: 0; border: 0; border-radius: 4px; overflow: hidden; cursor: zoom-in; background: var(--line); }
+.ev-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-pin { cursor: pointer; }
+.photo-pin circle { fill: var(--panel); stroke: var(--ink); stroke-width: 2.5; }
+.photo-pin path { fill: var(--ink); }
+.photo-pin:hover circle { fill: var(--accent-soft); stroke: var(--accent); }
+.lightbox { position: fixed; inset: 0; z-index: 30; background: rgb(8 12 11 / 0.94); color: #eef1ec; display: grid; grid-template-rows: 1fr auto;
+  padding: max(12px, env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) max(12px, env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px)); }
+.lightbox[hidden] { display: none; }
+.lb-stage { position: relative; min-height: 0; display: flex; align-items: center; justify-content: center; }
+.lb-stage::before { border-color: rgb(255 255 255 / 0.18); border-top-color: #fff; }
+.lb-stage img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 3px; }
+.lb-info { max-width: 52rem; margin: 0.7rem auto 0; width: 100%; display: grid; gap: 0.25rem; font-size: 0.92rem; }
+.lb-info .meta { font: 0.72rem var(--font-mono); color: #a9b5b0; display: flex; flex-wrap: wrap; gap: 0.3rem 0.8rem; }
+.lb-info .meta a { color: #a9b5b0; }
+.lb-info .tag { color: #e2c48a; text-transform: uppercase; letter-spacing: 0.06em; }
+.lb-btn { position: absolute; top: 50%; transform: translateY(-50%); width: 2.8rem; height: 2.8rem; border-radius: 50%; border: 1px solid rgb(255 255 255 / 0.25);
+  background: rgb(0 0 0 / 0.45); color: #fff; font-size: 1.4rem; cursor: pointer; }
+.lb-prev { left: 0; } .lb-next { right: 0; }
+.lb-close { position: absolute; top: 0; right: 0; transform: none; }
+.lb-count { position: absolute; top: 0.6rem; left: 0; font: 0.75rem var(--font-mono); color: #a9b5b0; }
+.lb-btn:disabled { opacity: 0.25; cursor: default; }
+
+/* "Hlas doby": a real, sourced voice from the period – a quiet card, set apart from the event list */
+.voice { position: relative; margin: 0; padding: 0.9rem 1rem 0.85rem 2.6rem; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
+.voice::before { content: "E"; position: absolute; left: 0.7rem; top: 0.1rem; font: 700 2.6rem/1 var(--font-display); color: var(--hu); opacity: 0.8; }
+.voice.story::before { content: "º6"; font-size: 1.1rem; top: 0.95rem; left: 0.95rem; }
+.voice .v-label { font: 500 0.68rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--hu); margin-bottom: 0.3rem; }
+.voice blockquote { margin: 0 0 0.35rem; font: italic 1rem/1.4 var(--font-display); color: var(--muted); }
+.voice p { margin: 0; font-size: 0.95rem; }
+.voice .v-who { margin-top: 0.45rem; font-size: 0.8rem; color: var(--muted); }
+.voice .v-who b { color: var(--ink); font-weight: 600; }
+.voice .v-who a { color: var(--muted); }
+.voice .ev-thumb { margin-top: 0; }
+.voices { display: flex; flex-direction: column; gap: 0.6rem; }
+
+/* Wikipedia terms: dotted, not blue. First mention on a page is visible, later ones barely there */
+.wl { color: inherit; text-decoration: underline dotted; text-decoration-thickness: 1px; text-underline-offset: 0.22em;
+  text-decoration-color: color-mix(in srgb, var(--muted) 30%, transparent); cursor: pointer; }
+span.wl { -webkit-tap-highlight-color: transparent; }
+span.wl:focus:not(:focus-visible) { outline: none; }
+.wl.first { text-decoration-color: color-mix(in srgb, var(--accent) 80%, transparent); text-decoration-thickness: 1.5px; }
+.wl:hover, .wl:focus-visible, .wl[aria-expanded="true"] { color: var(--accent); text-decoration-color: var(--accent); }
+.wpop {
+  position: fixed; z-index: 20; box-sizing: border-box; width: min(22rem, calc(100vw - 32px));
+  background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.18); padding: 0.8rem 0.9rem; font-size: 0.88rem; line-height: 1.45;
+}
+.wpop .wimg { float: right; width: 72px; height: 72px; border-radius: 4px; overflow: hidden; margin: 0 0 0.4rem 0.7rem; background: var(--line); }
+.wpop .wimg img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.wpop h4 { margin: 0 0 0.3rem; font: 600 1rem var(--font-body); }
+.wpop p { margin: 0; }
+.wpop footer { clear: both; display: flex; justify-content: space-between; align-items: center; gap: 0.8rem; margin-top: 0.65rem; padding-top: 0.5rem; border-top: 1px solid var(--line); }
+.wpop footer span { font: 0.7rem var(--font-mono); color: var(--muted); }
+.wpop footer a { color: var(--accent); font-weight: 600; text-decoration: none; padding: 0.2rem 0; }
+.wpop footer a:hover { text-decoration: underline; }
+.wpop .pic-credit { display: block; clear: both; margin-top: 0.45rem; font: 0.66rem var(--font-mono); color: var(--muted); text-decoration: none; }
+.wpop .pic-credit:hover { color: var(--accent); }
+.pager { display: flex; justify-content: space-between; gap: 1rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.pager button { background: none; border: 0; color: var(--accent); font: 600 0.9rem var(--font-body); cursor: pointer; padding: 0.3rem 0; text-align: left; }
+.pager button:last-child { text-align: right; }
+.pager button:disabled { visibility: hidden; }
+
+/* Map */
+.map { grid-area: map; position: relative; overflow: hidden; overflow: clip; background: var(--map-bg); min-height: 0; cursor: grab; touch-action: none; }
+.map.dragging { cursor: grabbing; }
+.stage { position: absolute; left: 0; top: 0; width: 1800px; height: 1170px; transform-origin: 0 0; }
+.stage img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; opacity: 0; transition: opacity 600ms ease; user-select: none; -webkit-user-drag: none; }
+.stage img.on { opacity: 1; }
+.stage img.relief.on { opacity: 0.55; mix-blend-mode: multiply; }
+:root[data-theme="dark"] .stage img.on:not(.relief) { filter: brightness(0.82) contrast(1.05); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .stage img.on:not(.relief) { filter: brightness(0.82) contrast(1.05); } }
+:root[data-theme="dark"] .stage img.relief.on { mix-blend-mode: normal; filter: invert(1); opacity: 0.6; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .stage img.relief.on { mix-blend-mode: normal; filter: invert(1); opacity: 0.6; } }
+.stage svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+#drawn { opacity: 0; transition: opacity 600ms ease; }
+#drawn.on { opacity: 1; }
+#drawn .bg { fill: var(--land); }
+#drawn .upland { fill: var(--upland); }
+#drawn .flood { fill: url(#marsh-pat); }
+#drawn .wet { fill: var(--marsh-strong); opacity: 0.8; }
+#drawn .lake { fill: var(--water); opacity: 0.75; }
+#drawn .river { fill: none; stroke: var(--water); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+#drawn .river.major { stroke-width: 5; }
+#drawn .county { fill: none; stroke: var(--border); stroke-width: 4; stroke-dasharray: 14 6 3 6; }
+#drawn .county-label { font: 600 22px var(--font-body); letter-spacing: 0.25em; text-transform: uppercase; fill: var(--border); opacity: 0.55; }
+#drawn .vil circle { fill: var(--ink); }
+#drawn .site path { fill: var(--site); stroke: var(--land); stroke-width: 2.5; }
+#drawn .site.approx path { fill-opacity: 0.55; stroke-dasharray: 3 2; }
+#drawn .note { font: italic 600 20px var(--font-body); fill: var(--muted); }
+/* All map labels live in one layer so they can be placed against each other */
+#labels { pointer-events: none; --halo: var(--panel); }
+#labels.on-drawn { --halo: var(--land); }
+#labels text { paint-order: stroke; stroke: var(--halo); stroke-linejoin: round; }
+#labels .l-pin text { font: 700 30px var(--font-display); fill: var(--ink); stroke-width: 6px; }
+#labels .l-pin text.today { font: italic 400 22px var(--font-body); fill: var(--muted); }
+#labels .l-vil text { font: italic 600 23px var(--font-display); fill: var(--ink); stroke-width: 5px; }
+#labels .l-vil text.yr { font: 17px var(--font-mono); font-style: normal; fill: var(--muted); }
+#labels .l-site text { font: 600 22px var(--font-body); fill: var(--site); stroke-width: 5px; }
+.legend-map {
+  position: absolute; left: 12px; top: 12px; display: grid; grid-template-columns: auto 1fr; gap: 0.25rem 0.5rem; align-items: center;
+  background: color-mix(in srgb, var(--panel) 92%, transparent); border: 1px solid var(--line); border-radius: 6px;
+  padding: 0.5rem 0.7rem; font-size: 0.75rem; max-width: 15rem;
+}
+.legend-map svg { width: 1.6rem; height: 0.9rem; overflow: visible; }
+.pin circle.dot { fill: var(--mark); stroke: var(--panel); stroke-width: 3; transition: r 200ms; }
+.pin circle.ring { fill: none; stroke: var(--mark); stroke-width: 2.5; opacity: 0; }
+.pin.has-events circle.ring { opacity: 0.55; }
+.pin.hl circle.ring { opacity: 1; animation: pulse 1.4s ease-out infinite; }
+@keyframes pulse { from { r: 14; opacity: 1; } to { r: 34; opacity: 0; } }
+.map-ui { position: absolute; right: max(12px, env(safe-area-inset-right, 0px)); top: 12px; display: flex; flex-direction: column; gap: 4px; }
+.map-ui button { width: 2.1rem; height: 2.1rem; border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 6px; font-size: 1.1rem; cursor: pointer; }
+.map-caption {
+  position: absolute; left: 12px; bottom: 12px; max-width: min(34rem, calc(100% - 24px));
+  background: color-mix(in srgb, var(--panel) 92%, transparent); border: 1px solid var(--line); border-radius: 6px;
+  padding: 0.45rem 0.7rem; font-size: 0.8rem; line-height: 1.35;
+}
+.map-caption b { font-weight: 600; }
+.map-caption small { display: block; color: var(--muted); font-size: 0.72rem; margin-top: 0.15rem; }
+.scale { position: absolute; right: 12px; bottom: 14px; font: 0.7rem var(--font-mono); color: var(--ink); }
+.scale div { height: 6px; border: 2px solid var(--ink); border-top: 0; margin-top: 2px; }
+
+/* Landing page: a layer over the app; "Explore" slides it out left while the app slides in from the right */
+.intro {
+  position: fixed; inset: 0; z-index: 15; overflow-y: auto; background: var(--paper);
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); align-items: center; gap: clamp(1.5rem, 4vw, 4rem);
+  padding-block: max(2rem, env(safe-area-inset-top, 0px)) 2rem;
+  padding-left: max(clamp(16px, 6vw, 5rem), env(safe-area-inset-left, 0px)); padding-right: max(clamp(16px, 4vw, 4rem), env(safe-area-inset-right, 0px));
+  transition: transform 650ms cubic-bezier(0.65, 0, 0.35, 1), opacity 650ms ease;
+}
+.intro .lang { position: absolute; top: max(1rem, env(safe-area-inset-top, 0px)); right: max(1rem, env(safe-area-inset-right, 0px)); }
+.intro-text { display: flex; flex-direction: column; gap: 1.2rem; max-width: 34rem; min-width: 0; }
+.intro-kicker { font: 500 0.78rem var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.intro h1 { margin: 0; font: 700 clamp(2.4rem, 5vw, 4.2rem) / 1.02 var(--font-display); text-wrap: balance; }
+.intro h1 .nw { white-space: nowrap; }  /* wrap between names, never inside one */
+.intro .lede { margin: 0; font-size: 1.15rem; color: var(--muted); max-width: 32rem; }
+.intro .lede strong { color: var(--ink); font-weight: 600; }
+.explore {
+  align-self: flex-start; display: inline-flex; align-items: center; gap: 0.7rem; margin-top: 0.4rem;
+  font: 600 1.15rem var(--font-body); color: var(--paper); background: var(--accent); border: 0; border-radius: 999px;
+  padding: 0.95rem 1.9rem; cursor: pointer; box-shadow: 0 8px 24px color-mix(in srgb, var(--accent) 35%, transparent);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.explore span { transition: transform 180ms ease; }
+.explore:hover { transform: translateY(-2px); box-shadow: 0 12px 28px color-mix(in srgb, var(--accent) 45%, transparent); }
+.explore:hover span { transform: translateX(4px); }
+.stats { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin: 0; padding: 0; list-style: none; }
+.stats li { display: flex; flex-direction: column; }
+.stats b { font: 600 1.6rem var(--font-display); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.stats span { font: 0.72rem var(--font-mono); color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.about { border-top: 1px solid var(--line); padding-top: 0.8rem; font-size: 0.92rem; }
+.about summary { cursor: pointer; font-weight: 600; color: var(--accent); list-style: none; }
+.about summary::-webkit-details-marker { display: none; }
+.about summary::after { content: " ▾"; color: var(--muted); }
+.about[open] summary::after { content: " ▴"; }
+.about-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem 1.4rem; margin-top: 0.8rem; }
+.about-grid h3 { margin: 0 0 0.15rem; font: 600 0.72rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+.about-grid p { margin: 0; line-height: 1.45; }
+.made { font-size: 0.85rem; color: var(--muted); }
+.made a { color: var(--ink); font-weight: 600; text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent); text-underline-offset: 0.2em; }
+.peek { position: relative; aspect-ratio: 4 / 3; max-height: 82vh; width: 100%; border-radius: 10px; overflow: hidden; background: var(--line);
+  box-shadow: 0 18px 50px rgb(0 0 0 / 0.16); }
+/* Slideshow: a script moves the "on" class every 6 s. Only the shown picture (and the one fading out) moves,
+   and only opacity and transform change, so the graphics card does the work instead of repainting big images. */
+/* Crossfade only: a slow zoom moves big pictures by fractions of a pixel per frame and shimmers on many screens */
+.peek figure { position: absolute; inset: 0; margin: 0; opacity: 0; transition: opacity 1.4s ease; }
+.peek figure.on { opacity: 1; }
+.peek img { width: 100%; height: 100%; object-fit: cover; max-width: none; display: block; }
+.peek figcaption { position: absolute; left: 0.8rem; bottom: 0.8rem; font: 500 0.72rem var(--font-mono); letter-spacing: 0.04em;
+  color: #fff; background: rgb(0 0 0 / 0.55); padding: 0.25rem 0.55rem; border-radius: 4px; }
+/* states */
+body.intro-open .intro { transform: none; }
+body.intro-open .app { transform: translateX(100%); }
+body.app-asleep .app { visibility: hidden; }  /* app waits off-screen while the landing page shows: nothing to draw */
+body:not(.intro-open) .intro { transform: translateX(-100%); pointer-events: none; }
+.app { transition: transform 650ms cubic-bezier(0.65, 0, 0.35, 1); }
+body.app-settled .app { transition: none; transform: none; }  /* no transform at rest: fixed viewer and cards need it */
+body.intro-gone .intro { visibility: hidden; }
+html, body { overflow-x: clip; }  /* the app waiting off-screen must not add a sideways scrollbar */
+.about-link { font: 500 0.8rem var(--font-body); color: var(--muted); background: none; border: 0; cursor: pointer; padding: 0.25rem 0.4rem; }
+.about-link:hover { color: var(--accent); }
+.made .fb-inline { font: inherit; color: var(--ink); font-weight: 600; background: none; border: 0; padding: 0; cursor: pointer;
+  text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent); text-underline-offset: 0.2em; }
+/* Feedback form (Netlify Forms; shown only on the Netlify build) */
+.fb { box-sizing: border-box; width: min(32rem, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow: auto; border: 1px solid var(--line); border-radius: 10px; padding: 1.2rem 1.3rem 1.1rem;
+  background: var(--panel); color: var(--ink); box-shadow: 0 24px 60px rgb(0 0 0 / 0.25); }
+.fb::backdrop { background: rgb(0 0 0 / 0.45); }
+.fb h2 { margin: 0 0 0.3rem; font: 600 1.5rem var(--font-display); }
+.fb p.hint { margin: 0 0 0.9rem; color: var(--muted); font-size: 0.9rem; line-height: 1.45; }
+.fb label { display: block; margin-bottom: 0.7rem; font: 600 0.72rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.fb input, .fb textarea { display: block; width: 100%; box-sizing: border-box; margin-top: 0.25rem; padding: 0.5rem 0.6rem; border: 1px solid var(--line);
+  border-radius: 6px; background: var(--paper); color: var(--ink); font: 1rem var(--font-body); text-transform: none; letter-spacing: 0; }
+.fb textarea { min-height: 7.5rem; resize: vertical; }
+.fb input:focus, .fb textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+.fb .row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 0.8rem; }
+.fb .hp { position: absolute; left: -9999px; }
+.fb .actions { display: flex; align-items: center; justify-content: flex-end; gap: 0.6rem; margin-top: 0.2rem; }
+.fb .actions .status { margin-right: auto; font-size: 0.88rem; color: var(--muted); }
+.fb .actions .status.err { color: var(--mark); }
+.fb button { font: 600 0.9rem var(--font-body); padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; border: 1px solid var(--line); background: transparent; color: var(--ink); }
+.fb button[type="submit"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.fb button:disabled { opacity: 0.6; cursor: default; }
+@media (max-width: 520px) { .fb .row { grid-template-columns: minmax(0, 1fr); } }
+@media (prefers-reduced-motion: reduce) {
+  .intro, .app { transition: opacity 250ms ease !important; }
+  body.intro-open .app, body:not(.intro-open) .intro { transform: none; }
+  body:not(.intro-open) .intro { opacity: 0; }
+  body.intro-open .app { opacity: 0; }
+  .peek figure { transition: none; }
+}
+@media (max-width: 860px) {
+  .intro { grid-template-columns: minmax(0, 1fr); align-items: start; gap: 1.4rem; padding-top: max(3.5rem, env(safe-area-inset-top, 0px)); }
+  /* explicit height: a %-wide box sized only by aspect-ratio collapses to 0 in grid row sizing */
+  .peek { order: -1; aspect-ratio: auto; height: min(58vw, 360px); }
+  .explore { align-self: stretch; justify-content: center; }
+  .about-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+.map-ui .only-mobile { display: none; }
+.map-caption { cursor: default; }
+
+/* Phone & narrow tablet: header, sticky timeline, map, then the story as one scrolling page */
+@media (max-width: 860px) {
+  html, body { height: auto; }
+  body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--panel); }
+  .app { height: auto; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto auto auto; grid-template-areas: "head" "time" "map" "story"; }
+  header { padding-block: 0.6rem 0.4rem; gap: 0.6rem; align-items: center; }
+  header h1 { font-size: 1.3rem; }
+  .timeline { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; gap: 0.35rem; padding-block: 0.35rem; }
+  .timeline .nav { width: 2.4rem; }
+  .stop { flex: 0 0 5rem; padding: 0.3rem 0.4rem; }
+  .stop .nm { font-size: 0.78rem; }
+  .map { height: 52vh; min-height: 280px; max-height: 560px; }
+  .map-ui .only-mobile { display: block; }
+  .map-ui .only-mobile[hidden] { display: none; }
+  .legend-map:not(.open) { display: none; }
+  .legend-map { top: auto; bottom: 3.6rem; max-width: calc(100% - 4.5rem); }
+  .map-caption { cursor: pointer; right: 4.5rem; padding: 0.35rem 0.6rem; }
+  .scale { right: auto; left: 12px; bottom: auto; top: 12px; }
+  .map-caption:not(.open) small { display: none; }
+  .map-caption b::after { content: " ⓘ"; color: var(--muted); font-weight: 400; }
+  .map-caption.open b::after { content: ""; }
+  .story { border-right: 0; overflow: visible; padding-block: 1.1rem 2.5rem; padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .story h2 { font-size: 1.75rem; }
+  .summary { font-size: 1rem; }
+  .event { grid-template-columns: 3.7rem 1fr; gap: 0.6rem; padding-inline: 0.2rem; }
+  .census .row { grid-template-columns: 5.6rem 1fr 3.8rem; }
+  .pager button { padding: 0.6rem 0; }
+}
+@media (max-width: 520px) {
+  header .sub { display: none; }
+  .rulers { grid-template-columns: 1fr; gap: 0.1rem; }
+  .rulers dd + dt { margin-top: 0.45rem; }
+}
+@media (prefers-reduced-motion: reduce) { .stage img { transition: none; } .pin.hl circle.ring { animation: none; opacity: 1; } }
+</style>
+
+<section class="intro" id="intro" aria-labelledby="intro-title">
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="sk">SK</button>
+    <button type="button" data-lang="en">EN</button>
+  </div>
+  <div class="intro-text" id="intro-text"></div>
+  <div class="peek" aria-hidden="true">
+    <figure class="ld on"><img src="peek/peek-1.jpg" alt="" decoding="async"><figcaption id="peek-1"></figcaption></figure>
+    <figure class="ld"><img src="peek/peek-2.jpg" alt="" decoding="async"><figcaption id="peek-2"></figcaption></figure>
+    <figure class="ld"><img src="peek/peek-3.jpg" alt="" decoding="async"><figcaption id="peek-3"></figcaption></figure>
+    <figure class="ld"><img src="peek/peek-4.jpg" alt="" decoding="async"><figcaption id="peek-4"></figcaption></figure>
+  </div>
+</section>
+<!-- Netlify finds this form in the deployed HTML; the script sends it with fetch so the page stays open -->
+<dialog class="fb" id="fb" aria-labelledby="fb-title">
+  <form name="feedback" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="fb-form">
+    <input type="hidden" name="form-name" value="feedback">
+    <input type="hidden" name="page" id="fb-page">
+    <p class="hp"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+    <h2 id="fb-title"></h2>
+    <p class="hint" id="fb-hint"></p>
+    <label><span id="fb-l-msg"></span><textarea name="message" required maxlength="5000"></textarea></label>
+    <div class="row">
+      <label><span id="fb-l-name"></span><input name="name" autocomplete="name" maxlength="200"></label>
+      <label><span id="fb-l-email"></span><input name="email" type="email" autocomplete="email" maxlength="200"></label>
+    </div>
+    <div class="actions">
+      <span class="status" id="fb-status" role="status"></span>
+      <button type="button" id="fb-cancel"></button>
+      <button type="submit" id="fb-send"></button>
+    </div>
+  </form>
+</dialog>
+<div class="app">
+  <header>
+    <h1>Šaľa · Galanta · Matúškovo · Sládkovičovo</h1>
+    <span class="sub" id="sub"></span>
+    <span class="spacer"></span>
+    <button type="button" class="about-link" id="fb-link" hidden></button>
+    <button type="button" class="about-link" id="about-link"></button>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-sk" data-lang="sk">SK</button>
+      <button type="button" id="lang-en" data-lang="en">EN</button>
+    </div>
+  </header>
+  <nav class="timeline" aria-label="Timeline">
+    <button type="button" class="nav" id="prev" aria-label="Previous period">‹</button>
+    <div class="track" id="track"></div>
+    <button type="button" class="nav" id="next" aria-label="Next period">›</button>
+  </nav>
+  <main class="story" id="story" tabindex="-1"></main>
+  <div class="wpop" id="wpop" role="dialog" hidden></div>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery" hidden>
+    <div class="lb-stage ld" id="lb-stage">
+      <img id="lb-img" alt="">
+      <span class="lb-count" id="lb-count"></span>
+      <button type="button" class="lb-btn lb-prev" id="lb-prev" aria-label="Previous picture">‹</button>
+      <button type="button" class="lb-btn lb-next" id="lb-next" aria-label="Next picture">›</button>
+      <button type="button" class="lb-btn lb-close" id="lb-close" aria-label="Close">×</button>
+    </div>
+    <div class="lb-info" id="lb-info"></div>
+  </div>
+  <section class="map" id="map" aria-label="Map">
+    <div class="stage" id="stage">
+      <img class="relief" data-map="relief" src="maps/relief.jpg" alt="">
+      <img data-map="survey3" src="maps/survey3.jpg" alt="">
+      <img data-map="topo25" src="maps/topo25.jpg" alt="">
+      <img data-map="zm50" src="maps/zm50.jpg" alt="">
+      <svg viewBox="0 0 1800 1170" id="drawn" aria-hidden="true"></svg>
+      <svg viewBox="0 0 1800 1170" id="pins" aria-hidden="true"></svg>
+      <svg viewBox="0 0 1800 1170" id="labels" aria-hidden="true"></svg>
+    </div>
+    <div class="map-ui">
+      <button type="button" id="zin" aria-label="Zoom in">+</button>
+      <button type="button" id="zout" aria-label="Zoom out">−</button>
+      <button type="button" id="zreset" aria-label="Reset view">⤢</button>
+      <button type="button" id="lgbtn" class="only-mobile" aria-label="Legend" aria-expanded="false">≡</button>
+    </div>
+    <div class="scale" id="scale"><span id="scale-label">5 km</span><div id="scale-bar"></div></div>
+    <div class="map-caption" id="caption"></div>
+    <div class="legend-map" id="legend" hidden></div>
+  </section>
+</div>
+
+<script>
+const DATA = /*DATA*/null;
+const FEEDBACK = /*FEEDBACK*/false;  // true only in the Netlify build (dist/), where the form can be received
+
+const UI = {
+  sk: { sub: "Mapa dejín Dolného Považia", state: "Štát", county: "Župa / správa", local: "Páni a majitelia", events: "Udalosti", facts: "Čo vieme", draft: "Predbežné · výskum prebieha", census: "Sčítanie obyvateľov", hu: "maďarská", sk: "slovenská / čsl.", other: "iná / neuvedená", prev: "‹ ", next: " ›", today: "dnes", wikiOpen: "Otvoriť na Wikipédii →", voice: "Hlas doby", picture: "Obrázok", kinds: { ai: "AI ilustrácia", historic: "Dobová fotografia", today: "Dnešná fotografia", find: "Archeologický nález", portrait: "Portrét", reconstruction: "Rekonštrukcia", elsewhere: "z iného miesta", more: "Ďalšie dobové pohľadnice na Hungaricane", source: "Zdroj" }, wiki: "Wikipédia", conf: { likely: "pravdepodobné", uncertain: "neisté" },
+    maps: {
+      drawn: ["Rekonštrukcia krajiny pred reguláciou Váhu", "Vlastná mapa. Rieky a ramená podľa OpenStreetMap, Váh pri Kráľovej podľa 3. vojenského mapovania. Mokrade sú odvodené z výškového modelu a župná hranica z katastrov obcí, preto sú približné."],
+      survey3: ["3. vojenské mapovanie, 1872 – 1887", "Niektoré listy sú neskoršie revízie so slovenskými názvami."],
+      topo25: ["Topografická mapa 1 : 25 000", "Československá vojenská mapa, vydanie po roku 1985."],
+      zm50: ["Základná mapa SR 1 : 50 000", "Súčasný stav."] },
+    attr: "© GKÚ Bratislava / ÚGKK SR, CC BY 4.0",
+    attrDrawn: "© prispievatelia OpenStreetMap (ODbL), AWS Terrain Tiles, GKÚ Bratislava (CC BY 4.0)",
+    lg: { flood: "niva a mokrade", water: "rieky a staré ramená", upland: "sprašová pahorkatina", county: "župná hranica", village: "obec · prvá zmienka", site: "archeologické nálezisko", approx: "približná poloha" },
+    pozsony: "Bratislavská župa", nyitra: "Nitrianska župa",
+    limes: "↓ rímsky limes na Dunaji, asi 25 km", uyvar: "Nové Zámky, osmanské 1663 – 1685 ↘" },
+  en: { sub: "A map history of the lower Váh", state: "State", county: "County / admin", local: "Lords & owners", events: "Events", facts: "What we know", draft: "Preliminary · research in progress", census: "Census", hu: "Hungarian", sk: "Slovak / Czechoslovak", other: "other / not stated", prev: "‹ ", next: " ›", today: "today", wikiOpen: "Open on Wikipedia →", voice: "Voice of the time", picture: "Picture", kinds: { ai: "AI illustration", historic: "Historical photo", today: "Present-day photo", find: "Archaeological find", portrait: "Portrait", reconstruction: "Reconstruction", elsewhere: "from elsewhere", more: "More period postcards on Hungaricana", source: "Source" }, wiki: "Wikipedia", conf: { likely: "likely", uncertain: "uncertain" },
+    maps: {
+      drawn: ["The landscape before the Váh was regulated", "Our own map. Rivers and old arms from OpenStreetMap, the Váh at Kráľová from the 3rd military survey. Marshes are derived from an elevation model and the county border from village boundaries, so both are approximate."],
+      survey3: ["3rd military survey, 1872 – 1887", "Some sheets are later revisions with Slovak names."],
+      topo25: ["Topographic map 1 : 25,000", "Czechoslovak military map, edition after 1985."],
+      zm50: ["Base Map of Slovakia 1 : 50,000", "Present day."] },
+    attr: "© GKÚ Bratislava / ÚGKK SR, CC BY 4.0",
+    attrDrawn: "© OpenStreetMap contributors (ODbL), AWS Terrain Tiles, GKÚ Bratislava (CC BY 4.0)",
+    lg: { flood: "floodplain & marsh", water: "rivers & old arms", upland: "loess upland", county: "county border", village: "village · first record", site: "archaeological site", approx: "approximate position" },
+    pozsony: "Pozsony County", nyitra: "Nyitra County",
+    limes: "↓ Roman frontier on the Danube, about 25 km", uyvar: "Nové Zámky, Ottoman 1663 – 1685 ↘" }
+};
+const MODERN = { sala: "Šaľa", galanta: "Galanta", matuskovo: "Matúškovo", sladkovicovo: "Sládkovičovo" };
+
+// Map image covers EPSG:3857 bbox 1958000,6121000 – 2002000,6149600 at 1800×1170 px.
+const BBOX = { x0: 1958000, y1: 6149600, w: 44000, h: 28600, pw: 1800, ph: 1170 };
+function project([lon, lat]) {
+  const x = lon * 20037508.34 / 180;
+  const y = Math.log(Math.tan((90 + lat) * Math.PI / 360)) * 6378137;
+  return [(x - BBOX.x0) / BBOX.w * BBOX.pw, (BBOX.y1 - y) / BBOX.h * BBOX.ph];
+}
+
+let lang = "sk";
+try { const s = localStorage.getItem("sgm-lang"); if (s === "sk" || s === "en") lang = s; } catch (e) {}
+let idx = 0;  // the story starts at the beginning
+const fromHash = DATA.periods.findIndex(p => p.id.split("-")[0] === location.hash.slice(1));
+if (fromHash >= 0) idx = fromHash;
+// a link to a period goes straight into the app; a plain link opens the landing page
+document.body.classList.add(...(fromHash >= 0 ? ["app-settled", "intro-gone"] : ["intro-open", "app-asleep"]));
+
+const t = o => (o == null ? "" : typeof o === "string" ? o : (o[lang] ?? o.sk ?? ""));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmtYear = y => y < 0 ? (lang === "sk" ? `${Math.abs(y).toLocaleString("sk")} pred Kr.` : `${Math.abs(y).toLocaleString("en")} BC`) : String(y);
+const fmtSpan = p => p.order === 17 ? `${p.start} – ${lang === "sk" ? "dnes" : "today"}` : `${fmtYear(p.start)} – ${fmtYear(p.end)}`;
+const fmtDate = d => d.day ? `${d.day}. ${d.month}. ${d.year}` : d.month ? `${d.month}/${d.year}` : (d.approx ? "~" : "") + (d.year < 0 ? fmtYear(d.year) : d.year);
+
+function cite(ids) {
+  return ids.map(id => {
+    const s = DATA.sources[id];
+    if (!s) return `<span class="src">${esc(id)}</span>`;
+    return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}">${esc(id)}</a>` : `<span class="src" title="${esc(s.title)}">${esc(id)}</span>`;
+  }).join("");
+}
+
+function renderTrack() {
+  const track = document.getElementById("track");
+  track.innerHTML = DATA.periods.map((p, i) =>
+    `<button type="button" class="stop${p.researched ? "" : " draft"}" data-i="${i}" ${i === idx ? 'aria-current="true"' : ""}>
+       <span class="yr">${esc(p.start < 0 ? fmtYear(p.start) : p.start)}</span><span class="nm">${esc(t(p.label))}</span></button>`).join("");
+  track.querySelectorAll(".stop").forEach(b => b.addEventListener("click", () => go(+b.dataset.i)));
+  // centre the current stop inside the strip only (scrollIntoView would also move the page on phones)
+  const cur = track.querySelector('[aria-current="true"]');
+  if (cur) track.scrollTo({ left: cur.offsetLeft - track.offsetLeft - (track.clientWidth - cur.offsetWidth) / 2, behavior: renderTrack.done ? "smooth" : "auto" });
+  renderTrack.done = true;
+  document.getElementById("prev").disabled = idx === 0;
+  document.getElementById("next").disabled = idx === DATA.periods.length - 1;
+}
+
+function censusRow(placeId, year) {
+  const series = DATA.population[placeId] || [];
+  const r = [...series].reverse().find(x => x.year <= year) || null;
+  if (!r) return "";
+  const hu = r.hu / r.total * 100, sk = r.sk / r.total * 100, ot = Math.max(0, 100 - hu - sk);
+  const name = MODERN[placeId];
+  return `<div class="row"><span>${esc(name)} <span class="conf">${r.year}</span></span>
+    <div class="bar" title="${Math.round(hu)} % / ${Math.round(sk)} %"><span style="width:${hu}%;background:var(--hu)"></span><span style="width:${sk}%;background:var(--sk)"></span><span style="width:${ot}%"></span></div>
+    <span class="tot">${r.total.toLocaleString(lang)}</span></div>`;
+}
+
+// --- Wikipedia links -------------------------------------------------------------
+// Every mention of a known term becomes a link; the first one on a page is clearly dotted, the rest barely.
+// One regex per language: all word forms of all terms, longest first, never inside a longer word.
+let seenTerms = new Set();
+const TERM_RE = {};
+for (const lg of ["sk", "en"]) {
+  const alts = [];
+  // inner groups in the patterns become non-capturing, so group n always means alternative n
+  DATA.terms.forEach(term => { if (DATA.wiki[term.id]) (term[lg] || []).forEach(pat => alts.push({ pat: pat.replace(/\((?!\?)/g, "(?:"), id: term.id })); });
+  alts.sort((a, b) => b.pat.length - a.pat.length);
+  TERM_RE[lg] = { re: new RegExp(`(?<![\\p{L}])(?:${alts.map(a => `(${a.pat})`).join("|")})(?![\\p{L}])`, "gu"), ids: alts.map(a => a.id) };
+}
+// On touch screens a term is not a real link: the artifact viewer opens link taps itself before our code
+// can cancel them, so the term only opens the preview card and the card's button is the actual link.
+const TOUCH = !matchMedia("(hover: hover) and (pointer: fine)").matches;
+function linkTerms(text) {
+  const { re, ids } = TERM_RE[lang];
+  let out = "", last = 0;
+  for (const m of text.matchAll(re)) {
+    const g = m.slice(1).findIndex(v => v !== undefined);
+    const id = ids[g], w = DATA.wiki[id][lang];
+    const first = !seenTerms.has(id);
+    seenTerms.add(id);
+    out += esc(text.slice(last, m.index)) +
+      (TOUCH
+        ? `<span class="wl${first ? " first" : ""}" role="button" tabindex="0" aria-haspopup="dialog" data-term="${id}">${esc(m[0])}</span>`
+        : `<a class="wl${first ? " first" : ""}" href="${esc(w.url)}" target="_blank" rel="noopener" data-term="${id}">${esc(m[0])}</a>`);
+    last = m.index + m[0].length;
+  }
+  return out + esc(text.slice(last));
+}
+
+function renderStory() {
+  const p = DATA.periods[idx], u = UI[lang];
+  const events = DATA.events.filter(e => e.period === p.id);
+  seenTerms = new Set();  // first mention of a term on this page gets the stronger underline
+  hidePop();
+  const pics = periodPics(p);
+  // linked in reading order: rulers, summary, events
+  const rulerRows = [["state", p.ruler.state], ["county", p.ruler.county], ["local", p.ruler.local]]
+    .filter(([, v]) => v).map(([k, v]) => `<dt>${u[k]}</dt><dd>${linkTerms(t(v))}</dd>`).join("");
+  const summaryHtml = linkTerms(t(p.summary));
+  const voicesHtml = (() => {
+    const vs = DATA.voices.filter(v => v.period === p.id);
+    if (!vs.length) return "";
+    return `<div class="voices">${vs.map(v => {
+      const thumb = v.img ? `<button type="button" class="ev-thumb ld sm" data-img="${v.img}" aria-label="${esc(t(v.who))}"><img src="img/${v.img}_t.jpg" alt="" loading="lazy"></button>` : "";
+      return `<aside class="voice ${v.kind}"><div class="v-label">${esc(u.voice)}</div>${thumb}
+        ${v.orig ? `<blockquote lang="${v.orig.lang}">${esc(v.orig.text)}</blockquote>` : ""}
+        <p>${linkTerms(t(v.text))}</p>
+        <div class="v-who"><b>${esc(t(v.who))}</b> · ${esc(t(v.role))} · ${esc(t(v.when))} · <a href="${esc(v.source.url)}" target="_blank" rel="noopener">${esc(v.source.label)}</a></div></aside>`;
+    }).join("")}</div>`;
+  })();
+  let body = "";
+  if (events.length) {
+    body += `<div><div class="section-label">${u.events}</div><ol class="events">${events.map(e =>
+      `<li class="event" data-place="${esc(e.place || "")}"><span class="when">${esc(fmtDate(e.date))}</span><div>
+        ${evThumb(e.id, pics)}<h3>${linkTerms(t(e.title))}</h3><p>${linkTerms(t(e.text))}</p>
+        <div class="cite">${cite(e.sources)}${e.confidence !== "confirmed" ? `<span class="conf">${esc(u.conf[e.confidence] || e.confidence)}</span>` : ""}</div></div></li>`).join("")}</ol></div>`;
+  }
+  if (p.facts && p.facts.length) {
+    body += `<div><div class="section-label">${u.facts}</div><ul class="events">${p.facts.map(f =>
+      `<li class="event" data-place="${esc(f.place || "")}"><span class="when">·</span><div><p>${linkTerms(t(f))}</p><div class="cite">${cite(f.sources || [])}</div></div></li>`).join("")}</ul></div>`;
+  }
+  if (p.census) {
+    body += `<div class="census"><div class="section-label">${u.census} · ${p.census}</div>
+      ${["sala", "galanta", "matuskovo", "sladkovicovo"].map(id => censusRow(id, p.census)).join("")}
+      <div class="legend"><span><i style="background:var(--hu)"></i>${u.hu}</span><span><i style="background:var(--sk)"></i>${u.sk}</span><span><i style="background:var(--line)"></i>${u.other}</span></div></div>`;
+  }
+  const prev = DATA.periods[idx - 1], next = DATA.periods[idx + 1];
+  document.getElementById("story").innerHTML = `
+    ${galleryHead(p, pics)}
+    <div><div class="eyebrow">${esc(fmtSpan(p))}</div><h2>${esc(t(p.title))}</h2></div>
+    ${p.researched ? "" : `<span class="badge">${u.draft}</span>`}
+    <dl class="rulers">${rulerRows}</dl>
+    <p class="summary">${summaryHtml}</p>
+    ${voicesHtml}
+    ${body}
+    <div class="pager"><button type="button" id="pg-prev" ${prev ? "" : "disabled"}>${prev ? "‹ " + esc(t(prev.label)) : ""}</button>
+      <button type="button" id="pg-next" ${next ? "" : "disabled"}>${next ? esc(t(next.label)) + " ›" : ""}</button></div>`;
+  prepImages(document.getElementById("story"));
+  document.getElementById("pg-prev").onclick = () => go(idx - 1);
+  document.getElementById("pg-next").onclick = () => go(idx + 1);
+  document.querySelectorAll("#story .event").forEach(li => {
+    li.addEventListener("mouseenter", () => highlight(li.dataset.place, true));
+    li.addEventListener("mouseleave", () => highlight(li.dataset.place, false));
+    // touch screens have no hover: a tap pulses the place on the map for a moment
+    li.addEventListener("click", () => {
+      highlight(li.dataset.place, true);
+      setTimeout(() => highlight(li.dataset.place, false), 2400);
+    });
+  });
+  document.getElementById("story").scrollTop = 0;
+}
+
+function renderMap() {
+  const p = DATA.periods[idx], u = UI[lang];
+  const drawn = p.map === "drawn";
+  document.querySelectorAll("#stage img").forEach(img => img.classList.toggle("on", img.dataset.map === p.map));
+  document.getElementById("drawn").classList.toggle("on", drawn);
+  const labels = drawn ? renderDrawn(p) : [];
+  document.getElementById("legend").hidden = !drawn;
+  document.getElementById("lgbtn").hidden = !drawn;
+  const placesWithEvents = new Set([...DATA.events.filter(e => e.period === p.id).map(e => e.place), ...(p.facts || []).map(f => f.place)]);
+  const core = DATA.places.filter(pl => pl.role === "core" && pl.coords);
+  document.getElementById("pins").innerHTML = core.map(pl => {
+    const [x, y] = project(pl.coords);
+    return `<g class="pin${placesWithEvents.has(pl.id) ? " has-events" : ""}" data-place="${pl.id}"><circle class="ring" cx="${x}" cy="${y}" r="16"></circle><circle class="dot" cx="${x}" cy="${y}" r="9"></circle></g>`;
+  }).join("") + photoPins(p);
+  core.forEach(pl => {
+    const [x, y] = project(pl.coords);
+    const hist = p.names && p.names[pl.id];
+    const lines = hist ? [`<text>${esc(hist)}</text>`, ...(hist !== MODERN[pl.id] ? [`<text class="today" y="26">${u.today} ${esc(MODERN[pl.id])}</text>`] : [])]
+                       : [`<text class="today">${u.today} ${esc(MODERN[pl.id])}</text>`];
+    labels.push({ x, y, r: 16, cls: "l-pin", body: lines.join(""), prio: 3 });
+  });
+  const layer = document.getElementById("labels");
+  layer.classList.toggle("on-drawn", drawn);
+  placeLabels(layer, labels, [...document.querySelectorAll(drawn ? "#drawn .county-label, #drawn .note, #pins .photo-pin" : "#pins .photo-pin")]);
+  const [title, note] = u.maps[p.map];
+  document.getElementById("caption").innerHTML = `<b>${esc(title)}</b><small>${esc(note)} ${esc(drawn ? u.attrDrawn : u.attr)}</small>`;
+}
+
+// Our own drawn map (periods before the military surveys). Static parts are built once; per-period parts on every change.
+const L = DATA.layers;
+const pts = cs => cs.map(c => project(c).map(v => v.toFixed(1)).join(",")).join(" ");
+const pathD = cs => "M" + cs.map(c => project(c).map(v => v.toFixed(1)).join(",")).join("L");
+const DRAWN_BASE = `
+  <defs><pattern id="marsh-pat" width="22" height="16" patternUnits="userSpaceOnUse">
+    <rect width="22" height="16" fill="var(--marsh)"></rect>
+    <path d="M4 12 h6 M7 12 v-4 M5 12 l-1.5 -3 M9 12 l1.5 -3" stroke="var(--marsh-strong)" stroke-width="1.3" fill="none"></path>
+  </pattern></defs>
+  <rect class="bg" x="-2000" y="-2000" width="5800" height="5200"></rect>
+  ${L.upland.map(p => `<polygon class="upland" points="${pts(p)}"></polygon>`).join("")}
+  ${L.floodplain.map(p => `<polygon class="flood" points="${pts(p)}"></polygon>`).join("")}
+  ${L.wetlands.map(p => `<polygon class="wet" points="${pts(p)}"></polygon>`).join("")}
+  ${L.water.map(w => `<polygon class="lake" points="${pts(w.coords)}"></polygon>`).join("")}
+  ${L.rivers.map(r => `<path class="river${r.major ? " major" : ""}" d="${pathD(r.coords)}"></path>`).join("")}`;
+const SITE_SHAPE = "M0,-11 L11,0 L0,11 L-11,0 Z";
+
+function renderDrawn(p) {
+  const u = UI[lang], n = p.order, labels = [];
+  let html = DRAWN_BASE;
+  if (n >= 8) {
+    html += L.county.map(c => `<path class="county" d="${pathD(c)}"></path>`).join("");
+    const [px1, py1] = project(L.countyLabels.pozsony), [px2, py2] = project(L.countyLabels.nyitra);
+    html += `<text class="county-label" x="${px1 - 120}" y="${py1}">${esc(u.pozsony)}</text><text class="county-label" text-anchor="end" x="${Math.min(px2 + 200, 1770)}" y="${py2 - 120}">${esc(u.nyitra)}</text>`;
+    L.villages.filter(v => !v.core && v.first <= p.end).forEach(v => {
+      const [x, y] = project(v.coords);
+      html += `<g class="vil"><circle cx="${x}" cy="${y}" r="5.5"></circle></g>`;
+      labels.push({ x, y, r: 7, cls: "l-vil", body: `<text>${esc(v.hu)}</text><text class="yr" y="19">${v.first}</text>`, prio: 1, optional: true });
+    });
+  }
+  if (n === 5) html += `<text class="note" x="900" y="1150" text-anchor="middle">${esc(u.limes)}</text>`;
+  if (n === 10) html += `<text class="note" x="1780" y="1150" text-anchor="end">${esc(u.uyvar)}</text>`;
+  const key = p.id.split("-")[0];
+  L.sites.filter(s => s.periods.includes(key)).forEach(s => {
+    const [x, y] = project(s.coords);
+    const lbl = t(s.label) + (s.approx ? " *" : "");
+    html += `<g class="site${s.approx ? " approx" : ""}" transform="translate(${x.toFixed(1)},${y.toFixed(1)})"><title>${esc(lbl)}</title><path d="${SITE_SHAPE}"></path></g>`;
+    labels.push({ x, y, r: 12, cls: "l-site", body: `<text>${esc(lbl)}</text>`, prio: 2 });
+  });
+  document.getElementById("drawn").innerHTML = html;
+  document.getElementById("legend").innerHTML = `
+    <svg viewBox="0 0 28 14"><rect x="0" y="1" width="28" height="12" fill="var(--marsh)" stroke="var(--marsh-strong)"></rect></svg><span>${esc(u.lg.flood)}</span>
+    <svg viewBox="0 0 28 14"><path d="M0 9 Q7 2 14 8 T28 6" stroke="var(--water)" stroke-width="3" fill="none"></path></svg><span>${esc(u.lg.water)}</span>
+    <svg viewBox="0 0 28 14"><rect x="0" y="1" width="28" height="12" fill="var(--upland)"></rect></svg><span>${esc(u.lg.upland)}</span>
+    ${n >= 8 ? `<svg viewBox="0 0 28 14"><path d="M0 7 H28" stroke="var(--border)" stroke-width="3" stroke-dasharray="8 3 2 3"></path></svg><span>${esc(u.lg.county)}</span>
+    <svg viewBox="0 0 28 14"><circle cx="14" cy="7" r="4" fill="var(--ink)"></circle></svg><span>${esc(u.lg.village)}</span>` : ""}
+    <svg viewBox="-14 -7 28 14"><path d="M0,-6 L6,0 L0,6 L-6,0 Z" fill="var(--site)"></path></svg><span>${esc(u.lg.site)} (* ${esc(u.lg.approx)})</span>`;
+  return labels;
+}
+
+// Label placement: each label is measured, then tried at 8 positions around its marker.
+// The position with the least overlap (other labels, all markers, fixed texts, map edge) wins;
+// higher-priority labels are placed first, and optional labels that cannot fit cleanly are hidden.
+const SLOTS = ["E", "NE", "SE", "W", "NW", "SW", "N", "S"];  // compass side of the marker, in preference order
+function slotBox(slot, x, y, r, w, h) {
+  const g = r + 4, d = g * 0.7;
+  switch (slot) {
+    case "E": return [x + g, y - h / 2];
+    case "NE": return [x + d, y - h - d];
+    case "SE": return [x + d, y + d];
+    case "W": return [x - g - w, y - h / 2];
+    case "NW": return [x - d - w, y - h - d];
+    case "SW": return [x - d - w, y + d];
+    case "N": return [x - w / 2, y - h - g];
+    default: return [x - w / 2, y + g];
+  }
+}
+const overlap = (a, b) => Math.max(0, Math.min(a[2], b[2]) - Math.max(a[0], b[0])) * Math.max(0, Math.min(a[3], b[3]) - Math.max(a[1], b[1]));
+let labelState = null;
+function placeLabels(layer, items, fixedEls) {
+  layer.innerHTML = items.map((it, i) => `<g class="${it.cls}" data-i="${i}">${it.body}</g>`).join("");
+  const groups = [...layer.children];
+  items.forEach((it, i) => { const b = groups[i].getBBox(); it.bb = b; it.el = groups[i]; });
+  const fixed = fixedEls.map(el => {
+    // include the element's own transform (photo markers are translated and scaled groups)
+    const b = el.getBBox(), m = el.transform && el.transform.baseVal.consolidate();
+    const k = m ? m.matrix.a : 1, dx = m ? m.matrix.e : 0, dy = m ? m.matrix.f : 0;
+    return [dx + b.x * k, dy + b.y * k, dx + (b.x + b.width) * k, dy + (b.y + b.height) * k];
+  });
+  labelState = { items, fixed };
+  layoutLabels();
+}
+// Visible part of the map in map pixels, so labels avoid the screen edges too, not only the image edges
+function visibleBox() {
+  const r = mapEl.getBoundingClientRect();
+  if (!r.width) return [0, 0, BBOX.pw, BBOX.ph];
+  return [Math.max(0, -view.x / view.s), Math.max(0, -view.y / view.s),
+          Math.min(BBOX.pw, (r.width - view.x) / view.s), Math.min(BBOX.ph, (r.height - view.y) / view.s)];
+}
+function layoutLabels() {
+  if (!labelState) return;
+  const { items, fixed } = labelState;
+  // labels keep roughly the same size on screen, so zooming in frees room and more labels fit
+  const k = Math.min(1.6, Math.max(0.5, 0.6 / view.s));
+  const pad = 3 * k, frame = visibleBox();
+  const markers = items.map(it => [it.x - it.r, it.y - it.r, it.x + it.r, it.y + it.r]);
+  // panels floating over the map (legend, caption, buttons, scale) count as obstacles, converted to map pixels
+  const mr = mapEl.getBoundingClientRect();
+  const overlays = [...mapEl.querySelectorAll(".legend-map, .map-caption, .map-ui, .scale")]
+    .filter(el => !el.hidden && el.offsetParent).map(el => {
+      const r = el.getBoundingClientRect();
+      return [(r.left - mr.left - view.x) / view.s, (r.top - mr.top - view.y) / view.s,
+              (r.right - mr.left - view.x) / view.s, (r.bottom - mr.top - view.y) / view.s];
+    });
+  const placed = fixed.concat(overlays);
+  [...items.keys()].sort((a, b) => items[b].prio - items[a].prio).forEach(i => {
+    const it = items[i], w = it.bb.width * k + pad * 2, h = it.bb.height * k + pad * 2;
+    let best = null;
+    SLOTS.forEach((slot, k) => {
+      const [bx, by] = slotBox(slot, it.x, it.y, it.r, w, h);
+      const box = [bx, by, bx + w, by + h];
+      let clash = 0;
+      placed.forEach(p => { clash += overlap(box, p) * 3; });
+      markers.forEach((m, j) => { if (j !== i) clash += overlap(box, m) * 4; });
+      clash += (w * h - overlap(box, frame)) * 5;
+      const cost = clash + k * 25;
+      if (!best || cost < best.cost) best = { cost, clash, box };
+    });
+    const offscreen = it.x < frame[0] || it.x > frame[2] || it.y < frame[1] || it.y > frame[3];
+    // towns always show; other labels give way when their marker is out of view or they would collide too much
+    const tolerance = it.prio >= 3 ? Infinity : it.optional ? 0.08 : 0.35;
+    if (it.prio < 3 && (offscreen || best.clash > w * h * tolerance)) { it.el.setAttribute("display", "none"); return; }
+    it.el.removeAttribute("display");
+    placed.push(best.box);
+    it.el.setAttribute("transform", `translate(${(best.box[0] + pad - it.bb.x * k).toFixed(1)},${(best.box[1] + pad - it.bb.y * k).toFixed(1)}) scale(${k.toFixed(3)})`);
+  });
+}
+
+// --- Picture loading ---------------------------------------------------------------
+// Each ".ld" container shows a spinner until its picture has fully loaded, then fades the picture in.
+function watchImg(box) {
+  const img = box.querySelector("img");
+  if (!img) return;
+  const done = () => box.classList.add("ready");
+  if (img.complete && img.naturalWidth) { done(); return; }  // already cached: no spinner
+  box.classList.remove("ready");
+  img.addEventListener("load", done, { once: true });
+  img.addEventListener("error", done, { once: true });  // never leave a spinner turning forever
+}
+const prepImages = root => root.querySelectorAll(".ld:not(.ready)").forEach(watchImg);
+
+// --- Pictures ----------------------------------------------------------------------
+const periodPics = p => DATA.images.filter(i => i.period === p.id).sort((a, b) => (b.cover ? 1 : 0) - (a.cover ? 1 : 0));
+const HUNGARICANA = { // postcards we may not republish: link to them instead
+  "p13-austria-hungary": ["Vágsellye", "Galánta", "Diószeg"], "p14-first-republic": ["Vágsellye", "Galánta", "Diószeg"], "p15-vienna-award-ww2": ["Vágsellye", "Galánta", "Diószeg"] };
+function picTag(pic) {
+  const k = UI[lang].kinds;
+  let tag = pic.dated ? `${k.historic} · ${pic.dated}` : pic.kind === "photo" || pic.kind === "building" ? k.today : k[pic.kind] || "";
+  if (pic.elsewhere) tag += ` · ${k.elsewhere}`;
+  return tag;
+}
+function galleryHead(p, pics) {
+  if (!pics.length) return "";
+  const [c, ...rest] = pics, u = UI[lang];
+  const more = HUNGARICANA[p.id] ? `<div class="strip-more">${esc(u.kinds.more)}: ${HUNGARICANA[p.id].map(q =>
+    `<a href="https://gallery.hungaricana.hu/en/search/results/?query=${encodeURIComponent(q)}" target="_blank" rel="noopener">${esc(q)}</a>`).join(" · ")}</div>` : "";
+  return `<div><figure class="cover ld${c.kind === "ai" ? " ai" : ""}" data-img="${c.id}"><img src="img/${c.id}.jpg" alt="${esc(t(c.caption))}">
+      <figcaption><b>${esc(picTag(c))}</b>${esc(t(c.caption))}</figcaption></figure>
+    ${rest.length ? `<div class="strip">${rest.map(r => `<button type="button" class="ld sm${r.kind === "ai" ? " ai" : ""}" data-img="${r.id}" aria-label="${esc(t(r.caption))}"><img src="img/${r.id}_t.jpg" alt="" loading="lazy"></button>`).join("")}</div>` : ""}${more}</div>`;
+}
+function evThumb(eventId, pics) {
+  const pic = pics.find(i => i.event === eventId);
+  return pic ? `<button type="button" class="ev-thumb ld sm${pic.kind === "ai" ? " ai" : ""}" data-img="${pic.id}" aria-label="${esc(t(pic.caption))}"><img src="img/${pic.id}_t.jpg" alt="" loading="lazy"></button>` : "";
+}
+// map markers for pictures with a known place; pictures from the same spot fan out around it
+function photoPins(p) {
+  const groups = {};
+  return periodPics(p).filter(i => i.coords).map(i => {
+    const [x, y] = project(i.coords), key = `${Math.round(x / 20)},${Math.round(y / 20)}`;
+    const n = groups[key] = (groups[key] || 0) + 1, a = (n - 1) * 1.1, r = n > 1 ? 46 : 0;
+    const px = x + 40 + Math.cos(a) * r, py = y - 40 + Math.sin(a) * r;
+    return `<g class="photo-pin" data-img="${i.id}" transform="translate(${px.toFixed(1)},${py.toFixed(1)}) scale(1.6)"><title>${esc(t(i.caption))}</title>
+      <circle r="15"></circle><path d="M-8,-4h4l2,-3h4l2,3h4v11h-16z"></path><circle class="lens" r="3.2" cy="1.6" style="fill:var(--panel);stroke:none"></circle></g>`;
+  }).join("");
+}
+// viewer
+const lightbox = document.getElementById("lightbox"), lb = { list: [], i: 0, ret: null };
+function lbOpen(list, i) {
+  if (!list.length || i < 0) return;
+  lb.list = list; lb.ret = document.activeElement; lightbox.hidden = false; lbShow(i);
+  document.getElementById("lb-close").focus();
+}
+function lbShow(i) {
+  if (i < 0 || i >= lb.list.length) return;
+  lb.i = i; const pic = lb.list[i], u = UI[lang], c = pic.credit || {};
+  const stage = document.getElementById("lb-stage");
+  stage.classList.remove("ready");
+  document.getElementById("lb-img").src = `img/${pic.id}.jpg`;
+  watchImg(stage);
+  if (lb.list[i + 1]) new Image().src = `img/${lb.list[i + 1].id}.jpg`;  // preload the next picture
+  document.getElementById("lb-img").alt = t(pic.caption);
+  document.getElementById("lb-count").textContent = `${i + 1} / ${lb.list.length}`;
+  document.getElementById("lb-prev").disabled = i === 0;
+  document.getElementById("lb-next").disabled = i === lb.list.length - 1;
+  document.getElementById("lb-info").innerHTML = `<div>${esc(t(pic.caption))}</div>
+    <div class="meta"><span class="tag">${esc(picTag(pic))}</span><span>${esc(c.author || "")}</span>${c.licenseUrl ? `<a href="${esc(c.licenseUrl)}" target="_blank" rel="noopener">${esc(c.license)}</a>` : `<span>${esc(c.license && c.license !== "—" ? c.license : "")}</span>`}
+    ${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.site || u.kinds.source)} →</a>` : ""}</div>`;
+}
+function lbClose() { lightbox.hidden = true; if (lb.ret && lb.ret.focus) lb.ret.focus(); }
+document.getElementById("lb-prev").onclick = () => lbShow(lb.i - 1);
+document.getElementById("lb-next").onclick = () => lbShow(lb.i + 1);
+document.getElementById("lb-close").onclick = lbClose;
+lightbox.addEventListener("click", e => { if (e.target === lightbox || e.target.classList.contains("lb-stage")) lbClose(); });
+let lbSwipe = null;  // swipe left / right on touch screens
+lightbox.addEventListener("pointerdown", e => { lbSwipe = e.clientX; });
+lightbox.addEventListener("pointerup", e => {
+  if (lbSwipe == null) return;
+  const dx = e.clientX - lbSwipe; lbSwipe = null;
+  if (Math.abs(dx) > 50) lbShow(lb.i + (dx < 0 ? 1 : -1));
+});
+document.getElementById("story").addEventListener("click", e => {
+  const el = e.target.closest("[data-img]"); if (!el) return;
+  e.stopPropagation();
+  const pics = periodPics(DATA.periods[idx]);
+  lbOpen(pics, pics.findIndex(p => p.id === el.dataset.img));
+});
+
+// Preview card: hover on desktop (click goes to Wikipedia), tap on touch screens (button inside goes there)
+const pop = document.getElementById("wpop");
+const canHover = matchMedia("(hover: hover) and (pointer: fine)").matches;
+let popFor = null, showT = 0, hideT = 0;
+function showPop(a) {
+  const id = a.dataset.term, entry = DATA.wiki[id], w = entry[lang], u = UI[lang];
+  const note = w.lang !== lang ? ` · ${w.lang.toUpperCase()}` : "";
+  const ic = entry.imgCredit;  // picture credit: required by its CC licence
+  const credit = entry.img && ic ? `<a class="pic-credit" href="${esc(ic.url)}" target="_blank" rel="noopener">${esc(u.picture)}: ${esc([ic.author, ic.license].filter(Boolean).join(" · "))}</a>` : "";
+  pop.innerHTML = `${entry.img ? `<span class="wimg ld sm"><img src="${esc(entry.img)}" alt=""></span>` : ""}<h4>${esc(w.title)}</h4><p>${esc(w.extract)}</p>
+    ${credit}<footer><span>${u.wiki}${note} · CC BY-SA</span><a href="${esc(w.url)}" target="_blank" rel="noopener">${u.wikiOpen}</a></footer>`;
+  prepImages(pop);
+  if (popFor && popFor !== a) popFor.removeAttribute("aria-expanded");
+  popFor = a; a.setAttribute("aria-expanded", "true");
+  pop.hidden = false;
+  const r = a.getBoundingClientRect(), pw = pop.offsetWidth, ph = pop.offsetHeight, m = 16;
+  const left = Math.min(Math.max(m, r.left + r.width / 2 - pw / 2), innerWidth - pw - m);
+  const below = r.bottom + 8 + ph < innerHeight - m || r.top - 8 - ph < m;
+  pop.style.left = left + "px";
+  pop.style.top = (below ? r.bottom + 8 : r.top - 8 - ph) + "px";
+}
+function hidePop() {
+  pop.hidden = true;
+  if (popFor) popFor.removeAttribute("aria-expanded");
+  popFor = null;
+}
+const storyEl = document.getElementById("story");
+if (canHover) {
+  storyEl.addEventListener("mouseover", e => {
+    const a = e.target.closest(".wl"); if (!a) return;
+    clearTimeout(hideT); clearTimeout(showT);
+    showT = setTimeout(() => showPop(a), 250);
+  });
+  storyEl.addEventListener("mouseout", e => {
+    if (!e.target.closest(".wl")) return;
+    clearTimeout(showT); hideT = setTimeout(hidePop, 250);
+  });
+  pop.addEventListener("mouseenter", () => clearTimeout(hideT));
+  pop.addEventListener("mouseleave", () => { hideT = setTimeout(hidePop, 200); });
+} else {
+  storyEl.addEventListener("click", e => {
+    const a = e.target.closest(".wl"); if (!a) return;
+    e.preventDefault(); e.stopPropagation();
+    if (popFor === a) hidePop(); else showPop(a);
+  });
+}
+// focus opens the card for keyboard users on desktop only: on touch screens a tap also focuses the term,
+// and opening on focus would make the tap itself toggle the card straight back closed
+if (!TOUCH) storyEl.addEventListener("focusin", e => { const a = e.target.closest(".wl"); if (a) showPop(a); });
+storyEl.addEventListener("focusout", e => { if (e.target.closest(".wl") && !pop.contains(e.relatedTarget)) hideT = setTimeout(hidePop, 150); });
+document.addEventListener("click", e => { if (popFor && !pop.contains(e.target) && !e.target.closest(".wl")) hidePop(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") hidePop(); });
+// touch-mode terms are buttons, so Enter / Space open the card like a tap
+storyEl.addEventListener("keydown", e => {
+  const a = e.target.closest("span.wl");
+  if (a && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); popFor === a ? hidePop() : showPop(a); }
+});
+// close the card only after a real scroll: a phone page often still glides a little right after a tap
+let popScroll = 0;
+const scrollPos = () => scrollY + storyEl.scrollTop;
+new MutationObserver(() => { if (!pop.hidden) popScroll = scrollPos(); }).observe(pop, { attributes: true, attributeFilter: ["hidden"] });
+const maybeHide = () => { if (popFor && Math.abs(scrollPos() - popScroll) > 60) hidePop(); };
+storyEl.addEventListener("scroll", maybeHide, { passive: true });
+addEventListener("scroll", maybeHide, { passive: true });
+
+function highlight(place, on) {
+  if (!place) return;
+  const g = document.querySelector(`.pin[data-place="${place}"]`);
+  if (g) g.classList.toggle("hl", on);
+}
+
+// --- Landing page --------------------------------------------------------------------
+const INTRO = {
+  sk: { kicker: "Interaktívna mapa dejín", title: "Šaľa · Galanta · Matúškovo · Sládkovičovo",
+    lede: "Dejiny Dolného Považia <strong>od neandertálcov po dnešok</strong>. Prejdite 17 období na časovej osi: ku každému patrí dobová mapa, príbeh toho, kto tu vládol a čo sa dialo, a obrázky.",
+    explore: "Preskúmať", stats: ["období", "udalostí", "obrázkov", "odkazov na Wikipédiu"], about: "O projekte", aboutLink: "O projekte",
+    blocks: [
+      ["Pramene", "Archeologické práce (Točík 1992, Slovenská archeológia 2024), monografie, Vlastivedný slovník obcí, Wikipédia, Hungaricana a Fortepan. Každá udalosť má odkaz na zdroj a mieru istoty."],
+      ["Mapy", "Historické mapy od Geodetického a kartografického ústavu (3. vojenské mapovanie, topografické mapy). Pre staršie obdobia vlastná rekonštrukcia krajiny, ktorá je približná."],
+      ["Obrázky", "Dobové fotografie a dnešné snímky s uvedením autora a licencie. Kde fotografia nemôže existovať, sú AI ilustrácie, vždy označené odznakom AI."],
+      ["Jazyk a odkazy", "Slovensky a anglicky. Pojmy v texte vedú na Wikipédiu s krátkym náhľadom, na počítači po prejdení myšou, na mobile po ťuknutí."]],
+    made: 'Vyrobil s ❤️ <a href="https://kristian-io.github.io/cv/" target="_blank" rel="noopener">Kristian</a> + <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>',
+    peek: ["1880 · 3. vojenské mapovanie", "~300 · AI rekonštrukcia", "1938 · Fortepan", "Pázmányho kaštieľ v Šali"] },
+  en: { kicker: "An interactive history map", title: "Šaľa · Galanta · Matúškovo · Sládkovičovo",
+    lede: "The history of the lower Váh <strong>from the Neanderthals to today</strong>. Move through 17 periods on the timeline: each comes with a map of its time, the story of who ruled here and what happened, and pictures.",
+    explore: "Explore", stats: ["periods", "events", "pictures", "Wikipedia links"], about: "About the project", aboutLink: "About",
+    blocks: [
+      ["Sources", "Archaeology (Točík 1992, Slovenská archeológia 2024), town histories, the Slovak municipal gazetteer, Wikipedia, Hungaricana and Fortepan. Every event links its source and says how certain it is."],
+      ["Maps", "Historical maps from the Slovak geodesy office (3rd military survey, topographic maps). For older periods our own reconstruction of the landscape, which is approximate."],
+      ["Pictures", "Period photographs and present-day photos, credited with author and licence. Where no photo can exist there are AI illustrations, always marked with an AI badge."],
+      ["Languages & links", "Slovak and English. Terms in the text link to Wikipedia with a short preview, on hover on a computer and on tap on a phone."]],
+    made: 'Made with ❤️ by <a href="https://kristian-io.github.io/cv/" target="_blank" rel="noopener">Kristian</a> + <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>',
+    peek: ["1880 · 3rd military survey", "~300 AD · AI reconstruction", "1938 · Fortepan", "The Pázmány castle, Šaľa"] }
+};
+function renderIntro() {
+  const s = INTRO[lang];
+  const counts = [DATA.periods.length, DATA.events.length, DATA.images.length, Object.keys(DATA.wiki).length];
+  const wasOpen = document.querySelector("#intro-text details")?.open;
+  document.getElementById("intro-text").innerHTML = `
+    <div class="intro-kicker">${esc(s.kicker)}</div>
+    <h1 id="intro-title">${s.title.split(" · ").map((n, i, a) => `<span class="nw">${esc(n)}${i < a.length - 1 ? " ·" : ""}</span>`).join(" ")}</h1>
+    <p class="lede">${s.lede}</p>
+    <button type="button" class="explore" id="explore">${esc(s.explore)} <span aria-hidden="true">→</span></button>
+    <ul class="stats">${counts.map((n, i) => `<li><b>${n}</b><span>${esc(s.stats[i])}</span></li>`).join("")}</ul>
+    <details class="about"${wasOpen ? " open" : ""}><summary>${esc(s.about)}</summary>
+      <div class="about-grid">${s.blocks.map(([h, p]) => `<div><h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join("")}</div></details>
+    <div class="made">${s.made}${FEEDBACK ? ` · <button type="button" class="fb-inline" id="fb-inline">${esc(FB[lang].link)}</button>` : ""}</div>`;
+  s.peek.forEach((c, i) => { document.getElementById(`peek-${i + 1}`).textContent = c; });
+  document.getElementById("about-link").textContent = s.aboutLink;
+  document.getElementById("explore").onclick = explore;
+  if (FEEDBACK) {
+    document.getElementById("fb-inline").onclick = openFeedback;
+    document.getElementById("fb-link").textContent = FB[lang].link;
+  }
+}
+const SLIDE_MS = 650;
+function explore() {
+  document.body.classList.remove("app-asleep");
+  void document.body.offsetWidth;  // wake the app before the slide starts
+  document.body.classList.remove("intro-open");
+  setTimeout(() => {
+    document.body.classList.add("app-settled", "intro-gone");
+    layoutLabels();
+    document.querySelector('.stop[aria-current="true"]')?.focus({ preventScroll: true });
+  }, SLIDE_MS);
+  try { history.replaceState(null, "", "#" + DATA.periods[idx].id.split("-")[0]); } catch (e) {}
+}
+function openIntro() {
+  hidePop();
+  // put the app back on its transition track before sliding, then slide both
+  document.body.classList.remove("app-settled", "intro-gone");
+  void document.body.offsetWidth;
+  document.body.classList.add("intro-open");
+  setTimeout(() => {
+    if (document.body.classList.contains("intro-open")) document.body.classList.add("app-asleep");
+    document.getElementById("explore")?.focus({ preventScroll: true });
+  }, SLIDE_MS);
+}
+document.getElementById("about-link").addEventListener("click", openIntro);
+
+// --- Feedback (Netlify Forms) ----------------------------------------------------------
+const FB = {
+  sk: { link: "Napíšte nám", title: "Napíšte nám", hint: "Našli ste chybu, poznáte zdroj, fotku alebo príbeh? Správa príde autorovi, nikde sa nezverejní.",
+    msg: "Správa", name: "Meno (nepovinné)", email: "E-mail (ak chcete odpoveď)", cancel: "Zavrieť", send: "Odoslať",
+    sending: "Odosiela sa…", ok: "Ďakujeme, správa bola odoslaná.", err: "Odoslanie sa nepodarilo. Skúste to, prosím, neskôr." },
+  en: { link: "Send feedback", title: "Send feedback", hint: "Found a mistake, or know a source, photo or story? Your message goes to the author and is never published.",
+    msg: "Message", name: "Name (optional)", email: "E-mail (for a reply)", cancel: "Close", send: "Send",
+    sending: "Sending…", ok: "Thank you, your message was sent.", err: "Sending failed. Please try again later." }
+};
+const fbDlg = document.getElementById("fb"), fbForm = document.getElementById("fb-form"), fbStatus = document.getElementById("fb-status");
+function openFeedback() {
+  const s = FB[lang];
+  [["fb-title", s.title], ["fb-hint", s.hint], ["fb-l-msg", s.msg], ["fb-l-name", s.name], ["fb-l-email", s.email], ["fb-cancel", s.cancel], ["fb-send", s.send]]
+    .forEach(([id, txt]) => { document.getElementById(id).textContent = txt; });
+  document.getElementById("fb-page").value = `${DATA.periods[idx].id} · ${lang}`;
+  fbStatus.textContent = ""; fbStatus.classList.remove("err");
+  document.getElementById("fb-send").disabled = false;
+  hidePop();
+  fbDlg.showModal();
+}
+if (FEEDBACK) {
+  const link = document.getElementById("fb-link");
+  link.hidden = false;
+  link.onclick = openFeedback;
+}
+document.getElementById("fb-cancel").onclick = () => fbDlg.close();
+fbDlg.addEventListener("click", e => { if (e.target === fbDlg) fbDlg.close(); });  // click on the backdrop
+fbForm.addEventListener("submit", async e => {
+  e.preventDefault();
+  const s = FB[lang], send = document.getElementById("fb-send");
+  send.disabled = true; fbStatus.classList.remove("err"); fbStatus.textContent = s.sending;
+  try {
+    const r = await fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(new FormData(fbForm)).toString() });
+    if (!r.ok) throw new Error(r.status);
+    fbForm.reset();
+    fbStatus.textContent = s.ok;
+    setTimeout(() => fbDlg.open && fbDlg.close(), 2200);
+  } catch (err) {
+    fbStatus.textContent = s.err; fbStatus.classList.add("err");
+    send.disabled = false;
+  }
+});
+
+// Landing slideshow: next picture every 6 s, only while the landing page is visible
+const peekFigs = [...document.querySelectorAll(".peek figure")];
+prepImages(document.getElementById("intro"));
+let peekI = 0;
+setInterval(() => {
+  if (!document.body.classList.contains("intro-open") || document.hidden) return;
+  peekFigs[peekI].classList.remove("on");
+  peekI = (peekI + 1) % peekFigs.length;
+  peekFigs[peekI].classList.add("on");
+}, 6000);
+
+function render() {
+  document.documentElement.lang = lang;
+  renderIntro();
+  document.getElementById("sub").textContent = UI[lang].sub;
+  document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
+  renderTrack(); renderStory(); renderMap();
+}
+function go(i) {
+  if (i < 0 || i >= DATA.periods.length || i === idx) return;
+  idx = i;
+  try { history.replaceState(null, "", "#" + DATA.periods[idx].id.split("-")[0]); } catch (e) {}
+  render();
+}
+document.querySelectorAll(".lang button").forEach(b => b.addEventListener("click", () => {
+  lang = b.dataset.lang; try { localStorage.setItem("sgm-lang", lang); } catch (e) {}
+  render();
+}));
+document.getElementById("prev").onclick = () => go(idx - 1);
+document.getElementById("next").onclick = () => go(idx + 1);
+document.addEventListener("keydown", e => {
+  if (e.target.closest && e.target.closest("input,textarea")) return;
+  if (!lightbox.hidden) {  // while the viewer is open the arrows move between pictures
+    if (e.key === "ArrowLeft") lbShow(lb.i - 1);
+    if (e.key === "ArrowRight") lbShow(lb.i + 1);
+    if (e.key === "Escape") lbClose();
+    return;
+  }
+  if (e.key === "ArrowLeft") go(idx - 1);
+  if (e.key === "ArrowRight") go(idx + 1);
+});
+
+// Pan & zoom
+const mapEl = document.getElementById("map"), stage = document.getElementById("stage");
+let view = { s: 1, x: 0, y: 0 }, minS = 0.3;
+function fit() {
+  const r = mapEl.getBoundingClientRect();
+  // start covering the view, but zoom out further if needed so all three towns fit
+  const pts = DATA.places.filter(p => p.role === "core" && p.coords).map(p => project(p.coords));
+  const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
+  const cover = Math.max(r.width / BBOX.pw, r.height / BBOX.ph);
+  const fitTowns = Math.min(r.width * 0.86 / (Math.max(...xs) - Math.min(...xs) + 1), r.height * 0.8 / (Math.max(...ys) - Math.min(...ys) + 1));
+  minS = Math.min(cover, fitTowns, Math.min(r.width / BBOX.pw, r.height / BBOX.ph));
+  const cx = (Math.max(...xs) + Math.min(...xs)) / 2, cy = (Math.max(...ys) + Math.min(...ys)) / 2;
+  view.s = Math.min(cover, fitTowns); view.x = r.width / 2 - cx * view.s; view.y = r.height / 2 - cy * view.s; apply();
+}
+function clamp() {
+  const r = mapEl.getBoundingClientRect();
+  view.s = Math.min(Math.max(view.s, minS), 3);
+  const w = BBOX.pw * view.s, h = BBOX.ph * view.s;
+  view.x = w < r.width ? (r.width - w) / 2 : Math.min(0, Math.max(r.width - w, view.x));
+  view.y = h < r.height ? (r.height - h) / 2 : Math.min(0, Math.max(r.height - h, view.y));
+}
+function apply() {
+  clamp();
+  stage.style.transform = `translate(${view.x}px, ${view.y}px) scale(${view.s})`;
+  // scale bar: metres per screen px at this latitude (~48.17°)
+  const mPerPx = BBOX.w / BBOX.pw / view.s * Math.cos(48.17 * Math.PI / 180);
+  const km = [1, 2, 5, 10].find(k => k * 1000 / mPerPx > 70) || 10;
+  document.getElementById("scale-bar").style.width = (km * 1000 / mPerPx) + "px";
+  document.getElementById("scale-label").textContent = km + " km";
+  clearTimeout(apply.t);
+  apply.t = setTimeout(layoutLabels, 120);  // re-place labels for the new visible area once panning/zooming pauses
+}
+function zoomAt(f, cx, cy) {
+  const r = mapEl.getBoundingClientRect();
+  cx ??= r.width / 2; cy ??= r.height / 2;
+  const ns = Math.min(Math.max(view.s * f, minS), 3); const k = ns / view.s;
+  view.x = cx - (cx - view.x) * k; view.y = cy - (cy - view.y) * k; view.s = ns; apply();
+}
+mapEl.addEventListener("wheel", e => { e.preventDefault(); const r = mapEl.getBoundingClientRect(); zoomAt(e.deltaY < 0 ? 1.15 : 1 / 1.15, e.clientX - r.left, e.clientY - r.top); }, { passive: false });
+// Drag with one pointer, pinch-zoom with two (touch)
+const pointers = new Map();
+let drag = null, pinch = null;
+const pinchState = () => {
+  const [a, b] = [...pointers.values()], r = mapEl.getBoundingClientRect();
+  return { d: Math.hypot(a.x - b.x, a.y - b.y), cx: (a.x + b.x) / 2 - r.left, cy: (a.y + b.y) / 2 - r.top };
+};
+mapEl.addEventListener("pointerdown", e => {
+  if (e.target.closest(".map-ui, .map-caption, .legend-map")) return;
+  pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  try { mapEl.setPointerCapture(e.pointerId); } catch (err) { /* pointer already gone; dragging still works without capture */ }
+  if (pointers.size === 2) { drag = null; pinch = pinchState(); }
+  else { drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y, pin: e.target.closest(".photo-pin") }; mapEl.classList.add("dragging"); }
+});
+mapEl.addEventListener("pointermove", e => {
+  if (!pointers.has(e.pointerId)) return;
+  pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (pinch && pointers.size === 2) {
+    const now = pinchState();
+    zoomAt(now.d / pinch.d, now.cx, now.cy);
+    view.x += now.cx - pinch.cx; view.y += now.cy - pinch.cy; apply();
+    pinch = now;
+  } else if (drag) { view.x = drag.vx + e.clientX - drag.x; view.y = drag.vy + e.clientY - drag.y; apply(); }
+});
+const endPointer = e => {
+  pointers.delete(e.pointerId);
+  if (pointers.size < 2) pinch = null;
+  if (pointers.size === 0) {
+    // a tap on a photo marker (not a drag) opens that picture
+    if (e.type === "pointerup" && drag && drag.pin && Math.hypot(e.clientX - drag.x, e.clientY - drag.y) < 6) {
+      const pics = periodPics(DATA.periods[idx]);
+      lbOpen(pics, pics.findIndex(p => p.id === drag.pin.dataset.img));
+    }
+    drag = null; mapEl.classList.remove("dragging");
+  }
+};
+mapEl.addEventListener("pointerup", endPointer);
+mapEl.addEventListener("pointercancel", endPointer);
+
+// browsers without overflow:clip can still scroll the map box (e.g. on focus); the view is ours, so undo that
+mapEl.addEventListener("scroll", () => { mapEl.scrollLeft = 0; mapEl.scrollTop = 0; });
+
+// Phone: legend and caption details open on demand so they don't cover the small map
+document.getElementById("lgbtn").addEventListener("click", () => {
+  const lg = document.getElementById("legend"), open = !lg.classList.contains("open");
+  lg.classList.toggle("open", open);
+  document.getElementById("lgbtn").setAttribute("aria-expanded", String(open));
+  layoutLabels();
+});
+document.getElementById("caption").addEventListener("click", () => {
+  if (!matchMedia("(max-width: 860px)").matches) return;
+  document.getElementById("caption").classList.toggle("open");
+  layoutLabels();
+});
+document.getElementById("zin").onclick = () => zoomAt(1.4);
+document.getElementById("zout").onclick = () => zoomAt(1 / 1.4);
+document.getElementById("zreset").onclick = fit;
+new ResizeObserver(fit).observe(mapEl);
+fit();
+
+render();
+// label sizes depend on the web fonts; place them again once the fonts are in
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(renderMap);
+</script>

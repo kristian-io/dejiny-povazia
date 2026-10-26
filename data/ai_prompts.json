@@ -1,0 +1,112 @@
+[
+ {
+  "id": "ai-p01-neanderthals",
+  "period": "p01-palaeolithic",
+  "cover": true,
+  "event": "e-neanderthals",
+  "prompt": "About 90,000 years ago, a small group of Neanderthals (five people: adults and a child, wearing simple hide wraps) on a wide gravel bar of a braided ice-age river, the Váh, in a cold open steppe with scattered birch and pine. One crouches knapping a flint tool, others carry a hide. In the far distance a woolly rhinoceros grazes. Overcast cool light.",
+  "caption": {
+   "sk": "Neandertálci na štrkovej lavici Váhu pred asi 90 000 rokmi (AI ilustrácia podľa nálezov Šaľa 1 a 2).",
+   "en": "Neanderthals on a gravel bar of the Váh about 90,000 years ago (AI illustration based on the Šaľa 1 and 2 finds)."
+  }
+ },
+ {
+  "id": "ai-p02-longhouses",
+  "period": "p02-neolithic",
+  "cover": true,
+  "event": "e-dunes-landscape",
+  "prompt": "Around 5300 BC: a small Linear Pottery farming village of three long timber longhouses with steep reed-thatched roofs and wattle-and-daub walls, standing on a low sandy dune above reedy marshes and slow river arms. Small fields of emmer wheat, a few cattle, a woman carrying a clay pot with incised band decoration, smoke rising from a roof.",
+  "caption": {
+   "sk": "Osada prvých roľníkov na piesočnej dune nad mokraďami, okolo 5300 pred Kr. (AI ilustrácia).",
+   "en": "A first farmers' village on a sand dune above the marshes, around 5300 BC (AI illustration)."
+  }
+ },
+ {
+  "id": "ai-p04-celtic-village",
+  "period": "p04-celts",
+  "cover": false,
+  "event": "e-celts",
+  "prompt": "Around 200 BC: a La Tène Celtic farmstead village on a dune by a river arm of the Váh near today's Šaľa-Veča: a few rectangular timber houses with thatched roofs, a granary on posts, a blacksmith working iron at an open hearth, people in wool tunics and cloaks with simple bronze brooches, wheel-made grey pottery stacked by a door.",
+  "caption": {
+   "sk": "Keltská osada vo Veči okolo roku 200 pred Kr. (AI ilustrácia).",
+   "en": "The Celtic village at Veča around 200 BC (AI illustration)."
+  }
+ },
+ {
+  "id": "ai-p05-quadi-village",
+  "period": "p05-romans-quadi",
+  "cover": true,
+  "event": "e-roman-village-galanta",
+  "prompt": "Around 300 AD: a Germanic Quadi village on the bank of a small stream (the Derňa) at today's Galanta-Nebojsa, exactly as excavated: six small sunken pit houses with low gabled thatched roofs barely above ground, one larger rectangular post-built house, a clay pottery kiln with smoke, a timber-lined well, storage pits. Villagers in simple wool clothing; a trader shows a red Roman terra sigillata bowl.",
+  "caption": {
+   "sk": "Germánska (kvádska) dedina Pod záhradami v Nebojsi okolo roku 300 – podľa výskumu z roku 2011: zemnice, pec a studňa (AI ilustrácia).",
+   "en": "The Germanic (Quadi) village Pod záhradami at Nebojsa around 300 AD, after the 2011 excavation: pit houses, kiln and well (AI illustration)."
+  }
+ },
+ {
+  "id": "ai-p06-avar-slavs",
+  "period": "p06-migration",
+  "cover": true,
+  "event": "e-avar-cemetery",
+  "prompt": "Around 700 AD: an early Slavic hamlet of small square sunken huts (half dug into the ground) with low thatched roofs; NO chimneys anywhere: smoke seeps out through the thatch from clay ovens inside. Among willows by a reedy river arm. An Avar horseman with a cast bronze decorated belt and a composite bow in a quiver talks with Slavic farmers in plain linen; hand-made grey Prague-type pots by a doorway; NO wells with cranks or roofs. Horses grazing on the open grassland beyond.",
+  "caption": {
+   "sk": "Slovania a Avari pri Váhu okolo roku 700 (AI ilustrácia).",
+   "en": "Slavs and Avars by the Váh around 700 AD (AI illustration)."
+  }
+ },
+ {
+  "id": "ai-p07-ford",
+  "period": "p07-great-moravia",
+  "cover": true,
+  "event": "e-moravian-warrior",
+  "prompt": "9th century, Great Moravian period: a Slavic farming settlement of log and wattle houses on a sand dune by the Váh; a warrior with a long leaf-shaped iron spear and a bearded axe, wearing a simple tunic with metal buttons, walks beside a wooden ox cart; a wooden bucket with iron hoops; flat marshy lowland behind.",
+  "caption": {
+   "sk": "Veľkomoravská osada pri Váhu v 9. storočí; bojovník s kopijou a bradaticou ako v hrobe z Veče (AI ilustrácia).",
+   "en": "A Great Moravian settlement by the Váh in the 9th century; a warrior with spear and bearded axe like the one in the Veča grave (AI illustration)."
+  }
+ },
+ {
+  "id": "ai-p09-ford-castle",
+  "period": "p09-high-middle-ages",
+  "cover": false,
+  "event": "e-via-bohemica",
+  "prompt": "Around 1450: the ford of the Bohemian Road (Via Bohemica) across the river Váh at Šaľa: merchants with covered wagons and packhorses crossing shallow water; on the bank a small moated castle (water castle) of stone and timber with a square tower, surrounded by a water-filled moat; a village church and wooden houses behind.",
+  "caption": {
+   "sk": "Brod na Českej ceste a vodný hrad v Šali okolo roku 1450 (AI ilustrácia).",
+   "en": "The ford on the Bohemian Road and the moated castle at Šaľa around 1450 (AI illustration)."
+  }
+ },
+ {
+  "id": "ai-p10-ottoman-raid",
+  "period": "p10-ottoman-frontier",
+  "cover": false,
+  "event": "e-ottoman-sala-1663",
+  "prompt": "1663: Ottoman light cavalry (akıncı) on horseback approach a small Hungarian market town on the flat Váh lowland; thatched houses, a church tower and a renaissance castle with corner bastions in the distance; villagers flee with carts toward the reeds. Smoke on the horizon, no gore, seen from a distance.",
+  "caption": {
+   "sk": "Turecký nájazd na Šaľu v roku 1663 (AI ilustrácia).",
+   "en": "An Ottoman raid on Šaľa in 1663 (AI illustration)."
+  }
+ },
+ {
+  "id": "ai-p12-first-train",
+  "period": "p12-19th-century",
+  "cover": false,
+  "event": "e-railway-1850",
+  "prompt": "1850: the first steam train of the Vienna–Pressburg–Pest railway crosses the flat fields near Galanta: an early 4-4-0 steam locomotive with a tall chimney pulling a few wooden carriages along a straight embankment; peasants in white linen and broad hats stop working in a wheat field to watch; a small station building, a church tower of the market town behind.",
+  "caption": {
+   "sk": "Prvý vlak trate Viedeň – Pešť pri Galante, 1850 (AI ilustrácia).",
+   "en": "The first train of the Vienna–Pest line near Galanta, 1850 (AI illustration)."
+  }
+ },
+ {
+  "id": "ai-p14-stefanikov",
+  "period": "p14-first-republic",
+  "cover": true,
+  "event": "e-land-reform-stefanikov",
+  "prompt": "Spring 1921 in flat open farmland west of Galanta, Slovakia: Slovak settler families from the upper Váh valley found the new colony of Štefánikov on land given by the Czechoslovak land reform. A few new single-storey farmhouses stand far apart, each on its own plot: white-washed walls, simple gabled roofs of red clay tiles, one house still being built with timber scaffolding and a stack of fresh bricks. Men in 1920s work clothes and flat caps dig a fence line and unload a horse-drawn wooden wagon with furniture and tools; a woman in a headscarf and apron carries a child; a surveyor with a measuring chain marks out the next plot. Young fruit-tree saplings, newly ploughed dark fields to the horizon, a distant church tower of Galanta. Hopeful, ordinary, quiet mood. No flags, no uniforms.",
+  "caption": {
+   "sk": "Kolonisti zakladajú osadu Štefánikov (dnes Javorinka) pri Galante na pôde z pozemkovej reformy, 1921 (AI ilustrácia).",
+   "en": "Settlers founding the Štefánikov colony (today Javorinka) near Galanta on land from the land reform, 1921 (AI illustration)."
+  }
+ }
+]

@@ -1,0 +1,1381 @@
+{
+ "neanderthal": {
+  "sk": {
+   "lang": "sk",
+   "title": "Človek neandertálsky",
+   "extract": "Človek neandertálsky je vyhynutý druh rodu človek (Homo). Pomenovaný je podľa náleziska Neandertal v Nemecku. Neandertálci žili podľa väčšinového výkladu v Európe, Levante a západnej Ázii od 600 000.",
+   "url": "https://sk.wikipedia.org/wiki/%C4%8Clovek_neandert%C3%A1lsky"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Neanderthal",
+   "extract": "Neanderthals are an extinct group of archaic humans who inhabited Europe and Western and Central Asia during the Middle to Late Pleistocene.",
+   "url": "https://en.wikipedia.org/wiki/Neanderthal"
+  },
+  "img": "wiki/neanderthal.jpg",
+  "imgCredit": {
+   "file": "Amud skull.png",
+   "license": "Public domain",
+   "author": "José-Manuel Benito",
+   "url": "https://commons.wikimedia.org/wiki/File:Amud_skull.png"
+  }
+ },
+ "woolly-rhino": {
+  "sk": {
+   "lang": "sk",
+   "title": "Nosorožec srstnatý",
+   "extract": "Nosorožec srstnatý je vyhynutý druh z čeľade nosorožcovité, ktorý bol bežný v celej Európe a severnej Ázii počas pleistocénu a prežil poslednú ľadovú dobu. Meno rodu týchto nosorožcov Coelodonta znamená „dutý zub“. Nosorožec srstnatý bol členom pleistocénnej megafauny a vyhynul pred 10 000 rokmi.",
+   "url": "https://sk.wikipedia.org/wiki/Nosoro%C5%BEec_srstnat%C3%BD"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Woolly rhinoceros",
+   "extract": "The woolly rhinoceros is an extinct species of rhinoceros that inhabited northern Eurasia during the Pleistocene epoch.",
+   "url": "https://en.wikipedia.org/wiki/Woolly_rhinoceros"
+  },
+  "img": "wiki/woolly-rhino.jpg",
+  "imgCredit": {
+   "file": "Coelodonta_antiquitatis_.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Didier Descouens",
+   "url": "https://commons.wikimedia.org/wiki/File:Coelodonta_antiquitatis_.jpg"
+  }
+ },
+ "linear-pottery": {
+  "sk": {
+   "lang": "sk",
+   "title": "Kultúra s lineárnou keramikou",
+   "extract": "Kultúra s lineárnou keramikou v širšom zmysle bola archeologická kultúra v strednej Európe v neolite: podľa novšieho datovania cca 5700 pred Kr. – 5000 pred Kr. ; podľa staršieho datovania 5000 – 4200 pred Kr..",
+   "url": "https://sk.wikipedia.org/wiki/Kult%C3%BAra_s_line%C3%A1rnou_keramikou"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Linear Pottery culture",
+   "extract": "The Linear Pottery culture (LBK) is a major archaeological horizon of the European Neolithic period, flourishing c. 5500–4500 BC. Derived from the German Linearbandkeramik, it is also known as the Linear Band Ware, Linear Ware, Linear Ceramics or Incised Ware culture, falling within the Danubian I culture of V.",
+   "url": "https://en.wikipedia.org/wiki/Linear_Pottery_culture"
+  },
+  "img": "wiki/linear-pottery.jpg",
+  "imgCredit": {
+   "file": "European-middle-neolithic-en.svg",
+   "license": "CC BY-SA 3.0",
+   "author": "",
+   "url": "https://commons.wikimedia.org/wiki/File:European-middle-neolithic-en.svg"
+  }
+ },
+ "unetice": {
+  "sk": {
+   "lang": "sk",
+   "title": "Únětická kultúra",
+   "extract": "Únětická kultúra bola kultúra zhruba v strede starej bronzovej doby rozšírená od nemeckého pohoria Harz a oblasti Magdeburgu v Nemecku, cez Česko po Považie na Slovensku, Dolné Rakúsko, Hornú a Dolnú Lužicu, Sliezsko a južné Veľkopoľsko. Jej jadro bolo na západ od Slovenska.",
+   "url": "https://sk.wikipedia.org/wiki/%C3%9An%C4%9Btick%C3%A1_kult%C3%BAra"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Únětice culture",
+   "extract": "The Únětice culture, Aunjetitz culture, or Unetician culture is an archaeological culture at the start of the Central European Bronze Age, dated roughly to about 2300–1600 BC. The eponymous site for this culture, the village of Únětice, is located in the central Czech Republic, northwest of Prague.",
+   "url": "https://en.wikipedia.org/wiki/%C3%9An%C4%9Btice_culture"
+  },
+  "img": "wiki/unetice.jpg",
+  "imgCredit": {
+   "file": "Unetice_culture_map.png",
+   "license": "CC0",
+   "author": "Davius",
+   "url": "https://commons.wikimedia.org/wiki/File:Unetice_culture_map.png"
+  }
+ },
+ "celts": {
+  "sk": {
+   "lang": "sk",
+   "title": "Kelti",
+   "extract": "Kelti alebo Galovia alebo Gali boli príbuzné etnické skupiny indoeurópskeho pôvodu, ktoré začali pôsobiť od polovice 2. tisícročia pred Kr. v južných častiach strednej Európy a západnej Európy.",
+   "url": "https://sk.wikipedia.org/wiki/Kelti"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Celts",
+   "extract": "The Celts or Celtic peoples were a collection of Indo-European peoples in Europe and Anatolia, identified by their use of Celtic languages and other cultural similarities.",
+   "url": "https://en.wikipedia.org/wiki/Celts"
+  },
+  "img": "wiki/celts.jpg",
+  "imgCredit": {
+   "file": "Celts_in_Europe.png",
+   "license": "CC BY-SA 3.0",
+   "author": "QuartierLatin1968,The Ogre,Dbachmann",
+   "url": "https://commons.wikimedia.org/wiki/File:Celts_in_Europe.png"
+  }
+ },
+ "la-tene": {
+  "sk": {
+   "lang": "sk",
+   "title": "Laténska kultúra",
+   "extract": "Laténska kultúra bola hlavná archeologická kultúra laténskej doby v strednej a západnej Európe zhruba od 500/450 pred Kr. až po prelom letopočtu. Pre územie tejto kultúry sú pojmy laténska kultúra, laténska doba a mladá železná doba zhodné.",
+   "url": "https://sk.wikipedia.org/wiki/Lat%C3%A9nska_kult%C3%BAra"
+  },
+  "en": {
+   "lang": "en",
+   "title": "La Tène culture",
+   "extract": "The La Tène culture was a European Iron Age culture.",
+   "url": "https://en.wikipedia.org/wiki/La_T%C3%A8ne_culture"
+  },
+  "img": "wiki/la-tene.jpg",
+  "imgCredit": {
+   "file": "Hallstatt_LaTene.png",
+   "license": "CC BY-SA 3.0",
+   "author": "Dbachmann",
+   "url": "https://commons.wikimedia.org/wiki/File:Hallstatt_LaTene.png"
+  }
+ },
+ "roman-empire": {
+  "sk": {
+   "lang": "sk",
+   "title": "Rímske cisárstvo",
+   "extract": "Rímske cisárstvo bol porepublikásky štát v starovekom Ríme. Zahŕňalo územie okolo Stredozemného mora v Európe, severnú Afriku a západnú Áziu, a vládli v ňom cisári.",
+   "url": "https://sk.wikipedia.org/wiki/R%C3%ADmske_cis%C3%A1rstvo"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Roman Empire",
+   "extract": "The Roman Empire was a state that dominated the Mediterranean and much of Europe, Western Asia, and North Africa during the classical period.",
+   "url": "https://en.wikipedia.org/wiki/Roman_Empire"
+  },
+  "img": "wiki/roman-empire.jpg",
+  "imgCredit": {
+   "file": "Roman_Empire_Trajan_117AD.png",
+   "license": "CC BY-SA 3.0",
+   "author": "Tataryn",
+   "url": "https://commons.wikimedia.org/wiki/File:Roman_Empire_Trajan_117AD.png"
+  }
+ },
+ "limes": {
+  "sk": {
+   "lang": "sk",
+   "title": "Dunajský limes",
+   "extract": "Dunajský limes je časť vojenskej hranice Rímskej ríše pozdĺž rieky Dunaj v modernom Bavorsku, Rakúsku, Slovensku, Bulharsku, Chorvátsku, Maďarsku, Rumunsku a Srbsku.",
+   "url": "https://sk.wikipedia.org/wiki/Dunajsk%C3%BD_limes"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Danubian Limes",
+   "extract": "The Danubian Limes, or Danube Limes, refers to the Roman military frontier or limes which lies along the River Danube in the present-day German state of Bavaria, in Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria and Romania.",
+   "url": "https://en.wikipedia.org/wiki/Danubian_Limes"
+  }
+ },
+ "huns": {
+  "sk": {
+   "lang": "sk",
+   "title": "Huni",
+   "extract": "Huni boli zväz nomádskych kmeňov mongolsko-tureckého pôvodu, ktorý vyvolal sťahovanie národov.",
+   "url": "https://sk.wikipedia.org/wiki/Huni"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Huns",
+   "extract": "The Huns were a nomadic people who lived in Central Asia, the Caucasus, and Eastern Europe between the 4th and 6th centuries CE. According to European tradition, they were first reported living east of the Volga River, in an area that was part of Scythia at the time.",
+   "url": "https://en.wikipedia.org/wiki/Huns"
+  },
+  "img": "wiki/huns.jpg",
+  "imgCredit": {
+   "file": "Huns450.png",
+   "license": "CC BY-SA 3.0",
+   "author": "Slovenski Volk",
+   "url": "https://commons.wikimedia.org/wiki/File:Huns450.png"
+  }
+ },
+ "slavs": {
+  "sk": {
+   "lang": "sk",
+   "title": "Slovania",
+   "extract": "Slovania sú najpočetnejšia etnická a jazyková skupina v Európe. Obývajú najmä východnú, južnú a strednú Európu. Patria k nim aj Slováci.",
+   "url": "https://sk.wikipedia.org/wiki/Slovania"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Slavs",
+   "extract": "The Slavs or Slavic people are groups of people who speak Slavic languages.",
+   "url": "https://en.wikipedia.org/wiki/Slavs"
+  },
+  "img": "wiki/slavs.jpg",
+  "imgCredit": {
+   "file": "Slavic_europe_(Kosovo_shaded).svg",
+   "license": "CC BY-SA 3.0",
+   "author": "CrazyPhunk",
+   "url": "https://commons.wikimedia.org/wiki/File:Slavic_europe_%28Kosovo_shaded%29.svg"
+  }
+ },
+ "great-moravia": {
+  "sk": {
+   "lang": "sk",
+   "title": "Veľká Morava",
+   "extract": "Veľká Morava bol západoslovanský štát existujúci medzi rokmi 833 a začiatkom 10. stor.. Jeho centrálne územie zodpovedalo dnešnej Morave a Slovensku spolu so susediacim severným a stredným Maďarskom. Bol to prvý väčší slovanský štát vôbec.",
+   "url": "https://sk.wikipedia.org/wiki/Ve%C4%BEk%C3%A1_Morava"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Great Moravia",
+   "extract": "Great Moravia, or simply Moravia, was the first major state that was predominantly West Slavic to emerge in the area of Central Europe, possibly including territories which are today part of the Czech Republic, Slovakia, Hungary, Austria, Germany, Poland, Romania, Croatia, Serbia, Ukraine and Slovenia.",
+   "url": "https://en.wikipedia.org/wiki/Great_Moravia"
+  },
+  "img": "wiki/great-moravia.jpg",
+  "imgCredit": {
+   "file": "Great_moravia_svatopluk_datailed.png",
+   "license": "Public domain",
+   "author": "",
+   "url": "https://commons.wikimedia.org/wiki/File:Great_moravia_svatopluk_datailed.png"
+  }
+ },
+ "nitra-principality": {
+  "sk": {
+   "lang": "sk",
+   "title": "Nitrianske kniežatstvo",
+   "extract": "Nitrianske kniežatstvo alebo Nitriansko bolo kniežatstvo v časti územia dnešného Slovenska od 7./8. storočia do začiatku 12. storočia. Sídelným mestom kniežaťa bola Nitra. Ide o najstarší historicky dokázaný štátny útvar Slovákov či predkov Slovákov.",
+   "url": "https://sk.wikipedia.org/wiki/Nitrianske_knie%C5%BEatstvo"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Principality of Nitra",
+   "extract": "The Principality of Nitra also known as the Duchy of Nitra, was a West Slavic polity encompassing a group of settlements that developed in the 9th century around Nitra, in present-day Slovakia. Its history remains uncertain because of a lack of contemporary sources.",
+   "url": "https://en.wikipedia.org/wiki/Principality_of_Nitra"
+  },
+  "img": "wiki/nitra-principality.jpg",
+  "imgCredit": {
+   "file": "Nitra_moravia_833.png",
+   "license": "CC0",
+   "author": "WikiEditor2004",
+   "url": "https://commons.wikimedia.org/wiki/File:Nitra_moravia_833.png"
+  }
+ },
+ "magyars": {
+  "sk": {
+   "lang": "sk",
+   "title": "Zaujatie vlasti",
+   "extract": "Zaujatie vlasti je tradičný termín maďarskej historiografie, ktorý zastrešuje sériu historických udalostí končiacich usadením starých Maďarov v strednej Európe na prelome 9. a 10. stor.",
+   "url": "https://sk.wikipedia.org/wiki/Zaujatie_vlasti"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Hungarian conquest of the Carpathian Basin",
+   "extract": "The Hungarian conquest of the Carpathian Basin, also known as the Hungarian conquest or the Hungarian land-taking, was a series of historical events ending with the settlement of the Hungarians in Central Europe in the late 9th and early 10th century.",
+   "url": "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
+  },
+  "img": "wiki/magyars.jpg",
+  "imgCredit": {
+   "file": "Tabula_hungariae.jpg",
+   "license": "Public domain",
+   "author": "Lázár deák (Lazarus secretarius)",
+   "url": "https://commons.wikimedia.org/wiki/File:Tabula_hungariae.jpg"
+  }
+ },
+ "taksony": {
+  "sk": {
+   "lang": "sk",
+   "title": "Takšoň (knieža)",
+   "extract": "Takšoň bol od roku 955 – do svojej smrti uhorským (veľko)kniežaťom z rodu Arpádovcov.",
+   "url": "https://sk.wikipedia.org/wiki/Tak%C5%A1o%C5%88_(knie%C5%BEa)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Taksony of Hungary",
+   "extract": "Taksony was the Grand Prince of the Hungarians after their catastrophic defeat in the 955 Battle of Lechfeld. In his youth he had participated in plundering raids in Western Europe, but during his reign the Hungarians only targeted the Byzantine Empire.",
+   "url": "https://en.wikipedia.org/wiki/Taksony_of_Hungary"
+  },
+  "img": "wiki/taksony.jpg",
+  "imgCredit": {
+   "file": "Képes_krónika_-_33.oldal_-_Taksony_fejedelem.jpg",
+   "license": "Public domain",
+   "author": "Márk Kálti",
+   "url": "https://commons.wikimedia.org/wiki/File:K%C3%A9pes_kr%C3%B3nika_-_33.oldal_-_Taksony_fejedelem.jpg"
+  }
+ },
+ "austria-hungary": {
+  "sk": {
+   "lang": "sk",
+   "title": "Rakúsko-Uhorsko",
+   "extract": "Rakúsko-Uhorsko bolo v rokoch 1867 – 1918 veľké mnohonárodné súštátie dvoch štátov v strednej Európe. Nachádzalo sa na území dnešného Rakúska, Maďarska, Česka, Slovenska, Slovinska, Chorvátska a Bosny a Hercegoviny a na časti územia dnešného Talianska, Poľska, Ukrajiny, Rumunska a Srbska.",
+   "url": "https://sk.wikipedia.org/wiki/Rak%C3%BAsko-Uhorsko"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Austria-Hungary",
+   "extract": "Austria-Hungary, also referred to as the Austro-Hungarian Empire and officially as the Austro-Hungarian Monarchy, was a multi-national empire in Central Europe under a constitutional dual monarchy that existed between 1867 and 1918.",
+   "url": "https://en.wikipedia.org/wiki/Austria-Hungary"
+  },
+  "img": "wiki/austria-hungary.jpg",
+  "imgCredit": {
+   "file": "Coat_of_arms_of_Austria-Hungary_(1914).svg",
+   "license": "Public domain",
+   "author": "",
+   "url": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Austria-Hungary_%281914%29.svg"
+  }
+ },
+ "pannonhalma": {
+  "sk": {
+   "lang": "sk",
+   "title": "Pannonhalmské arciopátstvo",
+   "extract": "Pannonhalmské arciopátstvo je benediktinské opátstvo neďaleko rovnomenného mesta v Maďarsku na 282 m vysokom rovnomennom vrchu. Je to jedna z najstarších historických pamiatok v Maďarsku. Založený bol asi v roku 996.",
+   "url": "https://sk.wikipedia.org/wiki/Pannonhalmsk%C3%A9_arciop%C3%A1tstvo"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Pannonhalma Archabbey",
+   "extract": "The Benedictine Pannonhalma Archabbey or Territorial Abbey of Saint Martin on Mount Pannonhalma is a medieval building in Pannonhalma and one of the oldest historical monuments in Hungary. Founded in 996, it is located near the town, on top of a hill.",
+   "url": "https://en.wikipedia.org/wiki/Pannonhalma_Archabbey"
+  },
+  "img": "wiki/pannonhalma.jpg",
+  "imgCredit": {
+   "file": "Pannonhalma_-_Bencés_apátság.jpg",
+   "license": "CC BY-SA 2.5",
+   "author": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/File:Pannonhalma_-_Benc%C3%A9s_ap%C3%A1ts%C3%A1g.jpg"
+  }
+ },
+ "mongols": {
+  "sk": {
+   "lang": "sk",
+   "title": "Mongolský vpád do Uhorska",
+   "extract": "Mongolsko tatársky vpád do Uhorska bol vpád mongolských vojsk na územie Uhorského kráľovstva v rokoch 1241 – 1242 súvisiaci s rozširovaním Mongolskej ríše smerom na západ od jej pôvodných sídiel. Bol súčasťou mongolského vpádu do Európy, ktorý začal vo Východnej Európe už v roku 1223.",
+   "url": "https://sk.wikipedia.org/wiki/Mongolsk%C3%BD_vp%C3%A1d_do_Uhorska"
+  },
+  "en": {
+   "lang": "en",
+   "title": "First Mongol invasion of Hungary",
+   "extract": "The first invasion of the Kingdom of Hungary by the Mongol Empire started in March 1241. The Mongols started to withdraw in late March 1242.",
+   "url": "https://en.wikipedia.org/wiki/First_Mongol_invasion_of_Hungary"
+  },
+  "img": "wiki/mongols.jpg",
+  "imgCredit": {
+   "file": "Thuróczy_Tatárjárás.JPG",
+   "license": "Public domain",
+   "author": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/File:Thur%C3%B3czy_Tat%C3%A1rj%C3%A1r%C3%A1s.JPG"
+  }
+ },
+ "bela-iv": {
+  "sk": {
+   "lang": "sk",
+   "title": "Belo IV.",
+   "extract": "Belo IV. bol slavónsky údelný vojvoda v rokoch 1220 – 1226, sedmohradský údelný vojvoda v rokoch 1226 – 1235 a uhorský kráľ v rokoch 1235 – 1270, z rodu Arpádovcov.",
+   "url": "https://sk.wikipedia.org/wiki/Belo_IV."
+  },
+  "en": {
+   "lang": "en",
+   "title": "Béla IV of Hungary",
+   "extract": "Béla IV was King of Hungary and Croatia between 1235 and 1270, and Duke of Styria from 1254 to 1258. As the oldest son of King Andrew II, he was crowned upon the initiative of a group of influential noblemen in his father's lifetime in 1214.",
+   "url": "https://en.wikipedia.org/wiki/B%C3%A9la_IV_of_Hungary"
+  },
+  "img": "wiki/bela-iv.jpg",
+  "imgCredit": {
+   "file": "Képes_krónika_-_126.oldal_-_IV._Béla_uralkodói_díszben.jpg",
+   "license": "Public domain",
+   "author": "Márk Kálti",
+   "url": "https://commons.wikimedia.org/wiki/File:K%C3%A9pes_kr%C3%B3nika_-_126.oldal_-_IV._B%C3%A9la_uralkod%C3%B3i_d%C3%ADszben.jpg"
+  }
+ },
+ "bela-ii": {
+  "sk": {
+   "lang": "sk",
+   "title": "Belo II. (Uhorsko)",
+   "extract": "Belo II., zvaný Slepý bol uhorským kráľom v rokoch 1131 – 1141, z rodu Arpádovcov. Ako chlapec bol roku 1113 oslepený svojim strýkom, uhorským kráľom Kolomanom – rovnaký osud postihol aj jeho otca Álmoša. Korunovaný za uhorského kráľa bol 28. apríla 1131.",
+   "url": "https://sk.wikipedia.org/wiki/Belo_II._(Uhorsko)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Béla II of Hungary",
+   "extract": "Béla II the Blind was King of Hungary and Croatia from 1131 to 1141. He was blinded along with his rebellious father Álmos on the order of Álmos's brother, King Coloman of Hungary. Béla grew up in monasteries during the reign of Coloman's son Stephen II. The childless king arranged Béla's marriage with Helena of Rascia.",
+   "url": "https://en.wikipedia.org/wiki/B%C3%A9la_II_of_Hungary"
+  },
+  "img": "wiki/bela-ii.jpg",
+  "imgCredit": {
+   "file": "Képes_krónika_-_114.oldal_-_II._(Vak)_Béla_uralkodói_díszben.jpg",
+   "license": "Public domain",
+   "author": "Márk Kálti",
+   "url": "https://commons.wikimedia.org/wiki/File:K%C3%A9pes_kr%C3%B3nika_-_114.oldal_-_II._%28Vak%29_B%C3%A9la_uralkod%C3%B3i_d%C3%ADszben.jpg"
+  }
+ },
+ "miklos-esterhazy": {
+  "sk": {
+   "lang": "sk",
+   "title": "Mikuláš Esterházi (1583 – 1645)",
+   "extract": "Gróf Mikuláš Esterházi de Galántha bol uhorský šľachtic. Bol synom Františka Esterháziho a vnukom Benedikta Esterháziho.",
+   "url": "https://sk.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_Esterh%C3%A1zi_(1583_%E2%80%93_1645)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Nikolaus, Count Esterházy",
+   "extract": "Baron, later Count Nikolaus Esterházy de Galántha was the founder of the West-Hungarian noble House of Esterházy which became one of the grandest and most influential aristocratic families of the Kingdom of Hungary.",
+   "url": "https://en.wikipedia.org/wiki/Nikolaus%2C_Count_Esterh%C3%A1zy"
+  },
+  "img": "wiki/miklos-esterhazy.jpg",
+  "imgCredit": {
+   "file": "Esterházy_M.jpg",
+   "license": "Public domain",
+   "author": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/File:Esterh%C3%A1zy_M.jpg"
+  }
+ },
+ "esterhazy": {
+  "sk": {
+   "lang": "sk",
+   "title": "Esterháziovci",
+   "extract": "Esterháziovci bol významný uhorský šľachtický rod. Pochádzali z okolia Čilistova na Žitnom ostrove.",
+   "url": "https://sk.wikipedia.org/wiki/Esterh%C3%A1ziovci"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Esterházy",
+   "extract": "The House of Esterházy, also spelled Eszterházy, is a Hungarian noble family with origins in the Middle Ages. From the 17th century, the Esterházys were the greatest landowner magnates of the Kingdom of Hungary, during the time that it was part of the Habsburg monarchy and later Austria-Hungary.",
+   "url": "https://en.wikipedia.org/wiki/Esterh%C3%A1zy"
+  },
+  "img": "wiki/esterhazy.jpg",
+  "imgCredit": {
+   "file": "Esterhazy_Princely_Coat_of_Arms.jpg",
+   "license": "CC0",
+   "author": "MarcBgd",
+   "url": "https://commons.wikimedia.org/wiki/File:Esterhazy_Princely_Coat_of_Arms.jpg"
+  }
+ },
+ "mohacs": {
+  "sk": {
+   "lang": "sk",
+   "title": "Bitka pri Moháči (1526)",
+   "extract": "Bitka pri Moháči bola jedna z najvýznamnejších bitiek v histórii strednej Európy. Odohrala sa dňa 29. augusta roku 1526 blízko Moháča (Uhorsko) medzi Uhorskom, vedeným Ľudovítom II., a Osmanskou ríšou, vedenou Süleymanom I.",
+   "url": "https://sk.wikipedia.org/wiki/Bitka_pri_Moh%C3%A1%C4%8Di_(1526)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Battle of Mohács",
+   "extract": "The Battle of Mohács took place on 29 August 1526 near Mohács, in the Kingdom of Hungary. It was fought between the forces of Hungary, led by King Louis II, and the invading Ottoman Empire, commanded by Suleiman the Magnificent and his grand vizier, Pargalı Ibrahim Pasha.",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Moh%C3%A1cs"
+  },
+  "img": "wiki/mohacs.jpg",
+  "imgCredit": {
+   "file": "A_mohácsi_csata_(Des_Türckischen_Keysers_Solymon_schlacht_-_So_mit_dem_Künig_von_Hungern_gethan,_Bamberg,_1526).jpg",
+   "license": "Public domain",
+   "author": "unknown",
+   "url": "https://commons.wikimedia.org/wiki/File:A_moh%C3%A1csi_csata_%28Des_T%C3%BCrckischen_Keysers_Solymon_schlacht_-_So_mit_dem_K%C3%BCnig_von_Hungern_gethan%2C_Bamberg%2C_1526%29.jpg"
+  }
+ },
+ "habsburg": {
+  "sk": {
+   "lang": "sk",
+   "title": "Habsburská monarchia",
+   "extract": "Habsburská monarchia alebo habsburská ríša bol štátny útvar v strednej Európe, komplex krajín spojených najmä vládou spoločného panovníka z rodu rakúskych Habsburgovcov v rokoch 1526 až 1918.",
+   "url": "https://sk.wikipedia.org/wiki/Habsbursk%C3%A1_monarchia"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Habsburg monarchy",
+   "extract": "The Habsburg monarchy, also known as the Habsburg Empire, Habsburg Realm, or Danube Monarchy, was the collection of empires, kingdoms, duchies, counties and other polities that were ruled by the House of Habsburg. From 1804 onward it was referred to as the Austrian Empire, and from 1867 onward as Austria-Hungary.",
+   "url": "https://en.wikipedia.org/wiki/Habsburg_monarchy"
+  },
+  "img": "wiki/habsburg.jpg",
+  "imgCredit": {
+   "file": "Flag_of_the_Habsburg_Monarchy.svg",
+   "license": "Public domain",
+   "author": "ThrashedParanoid and Peregrine981.",
+   "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Habsburg_Monarchy.svg"
+  }
+ },
+ "ottoman": {
+  "sk": {
+   "lang": "sk",
+   "title": "Osmanská ríša",
+   "extract": "Osmanská ríša bola jedna z najväčších ríš v priestore pri Stredozemnom mori. Ríša existovala v rokoch 1299 – 1922 a v tomto období zahŕňala oblasti Malej Ázie, Balkánu, Čierneho mora, Blízkeho a Stredného východu a severnej Afriky.",
+   "url": "https://sk.wikipedia.org/wiki/Osmansk%C3%A1_r%C3%AD%C5%A1a"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Ottoman Empire",
+   "extract": "The Ottoman Empire, also known historically as Turkey or the Turkish Empire, was a state that spanned much of Southeastern Europe, West Asia, and North Africa from the 14th century to the early 20th century, centred in modern-day Turkey.",
+   "url": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+  },
+  "img": "wiki/ottoman.jpg",
+  "imgCredit": {
+   "file": "Flag_of_the_Ottoman_Empire_(1844–1922).svg",
+   "license": "Public domain",
+   "author": "User:Orwellianist",
+   "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg"
+  }
+ },
+ "uyvar": {
+  "sk": {
+   "lang": "sk",
+   "title": "Novozámocký ejálet",
+   "extract": "Novozámocký ejálet bol ejálet Osmanskej ríše, ktorý sa v rokoch 1663 až 1685 rozprestieral na území dnešného juhozápadného Slovenska a malej časti severného Maďarska. Sídlom ejáletu bolo mesto Nové Zámky.",
+   "url": "https://sk.wikipedia.org/wiki/Novoz%C3%A1mock%C3%BD_ej%C3%A1let"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Uyvar Eyalet",
+   "extract": "Uyvar Eyalet was an eyalet of the Ottoman Empire.",
+   "url": "https://en.wikipedia.org/wiki/Uyvar_Eyalet"
+  },
+  "img": "wiki/uyvar.jpg",
+  "imgCredit": {
+   "file": "Uyvar_Eyalet,_Central_europe_1683.png",
+   "license": "CC0",
+   "author": "",
+   "url": "https://commons.wikimedia.org/wiki/File:Uyvar_Eyalet%2C_Central_europe_1683.png"
+  }
+ },
+ "ferdinand-i": {
+  "sk": {
+   "lang": "sk",
+   "title": "Ferdinand I. (Svätá rímska ríša)",
+   "extract": "Ferdinand I. Habsburský, bol rakúsky arcivojvoda, český, uhorský a rímsky kráľ, rímsko-nemecký cisár, zakladateľ rakúskej línie Habsburgovcov, mladší syn kastílskeho spolukráľa a burgundského vojvodu Filipa I. a Jany Kastílskej, kastílskej kráľovnej a dedičky španielskeho trónu.",
+   "url": "https://sk.wikipedia.org/wiki/Ferdinand_I._(Sv%C3%A4t%C3%A1_r%C3%ADmska_r%C3%AD%C5%A1a)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Ferdinand I, Holy Roman Emperor",
+   "extract": "Ferdinand I was Holy Roman Emperor from 1556, King of Bohemia, Hungary, and Croatia from 1526, and Archduke of Austria from 1521 until his death in 1564.",
+   "url": "https://en.wikipedia.org/wiki/Ferdinand_I%2C_Holy_Roman_Emperor"
+  },
+  "img": "wiki/ferdinand-i.jpg",
+  "imgCredit": {
+   "file": "Hans_Bocksberger_der_Aeltere_001(cropped).jpg",
+   "license": "Public domain",
+   "author": "Hans Bocksberger the Elder",
+   "url": "https://commons.wikimedia.org/wiki/File:Hans_Bocksberger_der_Aeltere_001%28cropped%29.jpg"
+  }
+ },
+ "ferdinand-ii": {
+  "sk": {
+   "lang": "sk",
+   "title": "Ferdinand II. (Svätá rímska ríša)",
+   "extract": "Ferdinand II. Habsburský, zv. tiež Štajerský, bol rakúsky a štajerský arcivojvoda, český a uhorský kráľ a rímskonemecký cisár. Najstarší syn arcivojvodu Karola Štajerského a Márie Anny Bavorskej pochádzal zo štajerskej línie rakúskych Habsburgovcov.",
+   "url": "https://sk.wikipedia.org/wiki/Ferdinand_II._(Sv%C3%A4t%C3%A1_r%C3%ADmska_r%C3%AD%C5%A1a)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Ferdinand II, Holy Roman Emperor",
+   "extract": "Ferdinand II was Holy Roman Emperor, King of Bohemia, Hungary, and Croatia from 1619 until his death in 1637. He was the son of Archduke Charles II of Inner Austria and Maria of Bavaria, who were devout Catholics.",
+   "url": "https://en.wikipedia.org/wiki/Ferdinand_II%2C_Holy_Roman_Emperor"
+  },
+  "img": "wiki/ferdinand-ii.jpg",
+  "imgCredit": {
+   "file": "Portrait_of_Ferdinand_II,_Holy_Roman_Emperor_(Kunsthistorisches_Museum,_Wien).jpg",
+   "license": "Public domain",
+   "author": "Unidentified painter",
+   "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ferdinand_II%2C_Holy_Roman_Emperor_%28Kunsthistorisches_Museum%2C_Wien%29.jpg"
+  }
+ },
+ "jesuits": {
+  "sk": {
+   "lang": "sk",
+   "title": "Spoločnosť Ježišova",
+   "extract": "Spoločnosť Ježišova alebo Rád jezuitov alebo Jezuiti je najväčší rímskokatolícky rehoľný rád. V súčasnosti má okolo 20 000 členov. Jej činnosť sa sústreďuje na oblasť misií, vedy a pastorácie. Rehoľníci zo Spoločnosti Ježišovej na Slovensku si za meno píšu skratku SJ.",
+   "url": "https://sk.wikipedia.org/wiki/Spolo%C4%8Dnos%C5%A5_Je%C5%BEi%C5%A1ova"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Jesuits",
+   "extract": "The Society of Jesus, also known as the Jesuit Order or the Jesuits, is a religious order of clerics regular of pontifical right for men in the Catholic Church. Headquartered in Rome, it was founded in 1540 by Ignatius of Loyola and six companions, with the approval of Pope Paul III.",
+   "url": "https://en.wikipedia.org/wiki/Jesuits"
+  },
+  "img": "wiki/jesuits.jpg",
+  "imgCredit": {
+   "file": "Ihs-logo.svg",
+   "license": "Public domain",
+   "author": "Moranski",
+   "url": "https://commons.wikimedia.org/wiki/File:Ihs-logo.svg"
+  }
+ },
+ "bocskai": {
+  "sk": {
+   "lang": "sk",
+   "title": "Povstanie Štefana Bočkaia",
+   "extract": "Povstanie Štefana Bočkaja bolo prvé zo šiestich protihabsburských stavovských povstaní. Dialo sa v rokoch 1604 – 1606.",
+   "url": "https://sk.wikipedia.org/wiki/Povstanie_%C5%A0tefana_Bo%C4%8Dkaia"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Bocskai uprising",
+   "extract": "The Bocskai uprising, known in Hungary as Bocskai's War of Independence was a revolt which took place in Hungary, Transylvania and modern Slovakia during the Long Turkish War against Emperor Rudolf II. The rebel leader was Stephen Bocskai, a Protestant Hungarian nobleman.",
+   "url": "https://en.wikipedia.org/wiki/Bocskai_uprising"
+  },
+  "img": "wiki/bocskai.jpg",
+  "imgCredit": {
+   "file": "Mur_des_Réformateurs_09-05-2013_-_18_-_Bogskay.jpg",
+   "license": "CC BY-SA 3.0",
+   "author": "Clément Bucco-Lechat",
+   "url": "https://commons.wikimedia.org/wiki/File:Mur_des_R%C3%A9formateurs_09-05-2013_-_18_-_Bogskay.jpg"
+  }
+ },
+ "rakoczi": {
+  "sk": {
+   "lang": "sk",
+   "title": "Povstanie Františka II. Rákociho",
+   "extract": "Povstanie Františka II. Rákociho bolo posledným z radu protihabsburských stavovských povstaní, ktoré sa odohralo v rokoch 1703 – 1711 na čele s bývalým šarišským županom a od roku 1704 sedmohradským kniežaťom Františkom II. Rákocim. Ten bol taktiež známy ako najbohatší uhorský feudál.",
+   "url": "https://sk.wikipedia.org/wiki/Povstanie_Franti%C5%A1ka_II._R%C3%A1kociho"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Rákóczi's War of Independence",
+   "extract": "Rákóczi's War of Independence (1703–1711) was one of the most significant attempts to topple the rule of the Habsburgs over Hungary. The war was conducted by a group of noblemen and wealthy and high-ranking progressives and was led by Francis II Rákóczi; resigned soldiers and peasants also fought alongside the noblemen.",
+   "url": "https://en.wikipedia.org/wiki/R%C3%A1k%C3%B3czi's_War_of_Independence"
+  },
+  "img": "wiki/rakoczi.jpg",
+  "imgCredit": {
+   "file": "Kurucok_labancokat_hajtanak.jpg",
+   "license": "Public domain",
+   "author": "id. Georg Philipp Rugendas",
+   "url": "https://commons.wikimedia.org/wiki/File:Kurucok_labancokat_hajtanak.jpg"
+  }
+ },
+ "kuruc": {
+  "sk": {
+   "lang": "sk",
+   "title": "Kuruc (povstalecký vojak)",
+   "extract": "Kuruc bol protihabsburský povstalecký vojak z oblasti Uhorska medzi rokmi 1514 a 1711. Pojem kuruci sa používal najmä koncom 17. storočia. Avšak napr. František II. Rákoci tento termín pre označovanie vlastných vojsk nepoužíval. Protivníkmi kurucov boli vojská habsburskej monarchie, nazývaní tiež labanci.",
+   "url": "https://sk.wikipedia.org/wiki/Kuruc_(povstaleck%C3%BD_vojak)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Kuruc",
+   "extract": "Kuruc, also spelled kurutz, refers to a group of armed anti-Habsburg insurgents in the Kingdom of Hungary between 1671 and 1711.",
+   "url": "https://en.wikipedia.org/wiki/Kuruc"
+  },
+  "img": "wiki/kuruc.jpg",
+  "imgCredit": {
+   "file": "Madarász_Kuruc_és_labanc_1855.jpg",
+   "license": "Public domain",
+   "author": "Viktor Madarász",
+   "url": "https://commons.wikimedia.org/wiki/File:Madar%C3%A1sz_Kuruc_%C3%A9s_labanc_1855.jpg"
+  }
+ },
+ "franz-joseph": {
+  "sk": {
+   "lang": "sk",
+   "title": "František Jozef I.",
+   "extract": "František Jozef I. bol rakúsky arcivojvoda, rakúsky cisár, český a uhorský kráľ a prezident Nemeckého spolku z habsbursko-lotrinského rodu, najstarší syn arcivojvodu Františka Karola Habsburského a Žofie Bavorskej.",
+   "url": "https://sk.wikipedia.org/wiki/Franti%C5%A1ek_Jozef_I."
+  },
+  "en": {
+   "lang": "en",
+   "title": "Franz Joseph I",
+   "extract": "Franz Joseph I or Francis Joseph I was Emperor of Austria, King of Hungary, and the ruler of the other states of the Habsburg monarchy from 2 December 1848 until his death in 1916.",
+   "url": "https://en.wikipedia.org/wiki/Franz_Joseph_I"
+  },
+  "img": "wiki/franz-joseph.jpg",
+  "imgCredit": {
+   "file": "Franz_Joseph_I_of_Austria.1910_(cropped).jpg",
+   "license": "Public domain",
+   "author": "Carl Pietzner",
+   "url": "https://commons.wikimedia.org/wiki/File:Franz_Joseph_I_of_Austria.1910_%28cropped%29.jpg"
+  }
+ },
+ "yeshiva": {
+  "sk": {
+   "lang": "sk",
+   "title": "Ješiva",
+   "extract": "Ješiva je vyššia židovská škola, talmudická akadémia vyššieho vzdelávania pre židovských mladých mužov, ktorí po jej absolvovaní často vykonávali funkciu rabína vo väčších židovských osídleniach (diaspórach). Učebnou látkou v ješivách bol hlavne Talmud a jeho komentáre.",
+   "url": "https://sk.wikipedia.org/wiki/Je%C5%A1iva"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Yeshiva",
+   "extract": "A yeshiva is a traditional Jewish educational institution focused on the study of Rabbinic literature, primarily the Talmud and halacha, while Torah and Jewish philosophy are studied in parallel. The studying is usually done through daily shiurim as well as in study pairs called chavrusas.",
+   "url": "https://en.wikipedia.org/wiki/Yeshiva"
+  },
+  "img": "wiki/yeshiva.jpg",
+  "imgCredit": {
+   "file": "Mirs_14.JPG",
+   "license": "CC BY 3.0",
+   "author": "Rimona Traub",
+   "url": "https://commons.wikimedia.org/wiki/File:Mirs_14.JPG"
+  }
+ },
+ "talmud": {
+  "sk": {
+   "lang": "sk",
+   "title": "Talmud",
+   "extract": "Talmud je spolu s Tanachom najdôležitejším náboženským textom judaizmu.",
+   "url": "https://sk.wikipedia.org/wiki/Talmud"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Talmud",
+   "extract": "The Talmud is a central text of Rabbinic Judaism, and a primary source of Jewish law and Jewish theology. It consists of the part of the Oral Torah compiled in the Mishnah and its commentaries, the Gemara.",
+   "url": "https://en.wikipedia.org/wiki/Talmud"
+  },
+  "img": "wiki/talmud.jpg",
+  "imgCredit": {
+   "file": "Talmud-Druck_von_Daniel_Bomberg_und_Ambrosius_Froben.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "LGLou",
+   "url": "https://commons.wikimedia.org/wiki/File:Talmud-Druck_von_Daniel_Bomberg_und_Ambrosius_Froben.jpg"
+  }
+ },
+ "czechoslovakia": {
+  "sk": {
+   "lang": "sk",
+   "title": "Československo",
+   "extract": "Československo bol vnútrozemský štát v strednej Európe, ktorý existoval v rokoch 1918 – 1992, s výnimkou obdobia druhej svetovej vojny, kedy však mal svoju exilovú vládu v zahraničí.",
+   "url": "https://sk.wikipedia.org/wiki/%C4%8Ceskoslovensko"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Czechoslovakia",
+   "extract": "Czechoslovakia was a country in Central Europe. The country was bordered by Austria and Hungary to the south, Germany to the west and northwest, Poland to the northeast, and Ukraine to the southeast.",
+   "url": "https://en.wikipedia.org/wiki/Czechoslovakia"
+  },
+  "img": "wiki/czechoslovakia.jpg",
+  "imgCredit": {
+   "file": "Flag_of_the_Czech_Republic.svg",
+   "license": "Public domain",
+   "author": "Jaroslav Kursa",
+   "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg"
+  }
+ },
+ "depression": {
+  "sk": {
+   "lang": "sk",
+   "title": "Veľká hospodárska kríza (30. roky 20. storočia)",
+   "extract": "Veľká hospodárska kríza bola celosvetová ekonomická kríza, ktorá začala obrovským prepadom akcií na americkej burze New York Stock Exchange, 24. októbra 1929 a trvala až do polovice 30. rokov 20. storočia. Všeobecne sa za rok konca krízy považuje 1933, no tento údaj sa v mnohých krajinách líšil.",
+   "url": "https://sk.wikipedia.org/wiki/Ve%C4%BEk%C3%A1_hospod%C3%A1rska_kr%C3%ADza_(30._roky_20._storo%C4%8Dia)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Great Depression",
+   "extract": "The Great Depression was a severe global economic downturn from 1929 to 1939. The period was marked by high rates of unemployment and poverty, drastic reductions in industrial production and international trade, and widespread bank and business failures around the world.",
+   "url": "https://en.wikipedia.org/wiki/Great_Depression"
+  },
+  "img": "wiki/depression.jpg",
+  "imgCredit": {
+   "file": "Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone,_02-1931_-_NARA_-_541927.jpg",
+   "license": "Public domain",
+   "author": "Unknown authorUnknown author or not provided",
+   "url": "https://commons.wikimedia.org/wiki/File:Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg"
+  }
+ },
+ "vienna-award": {
+  "sk": {
+   "lang": "sk",
+   "title": "Prvá viedenská arbitráž",
+   "extract": "Prvá viedenská arbitráž bola medzinárodná arbitráž, ktorá sa konala 2. novembra 1938 a ktorou nacistické Nemecko a fašistické Taliansko donútili Československo vzdať sa v prospech Maďarského kráľovstva územia na juhu Slovenska a Podkarpatskej Rusi obývaného prevažne maďarsky hovoriacim obyvateľstvom.",
+   "url": "https://sk.wikipedia.org/wiki/Prv%C3%A1_viedensk%C3%A1_arbitr%C3%A1%C5%BE"
+  },
+  "en": {
+   "lang": "en",
+   "title": "First Vienna Award",
+   "extract": "The First Vienna Award was a treaty signed on 2 November 1938 pursuant to the Vienna Arbitration, which took place at Vienna's Belvedere Palace. The arbitration and award were direct consequences of the previous month's Munich Agreement, which resulted in the partitioning of Czechoslovakia.",
+   "url": "https://en.wikipedia.org/wiki/First_Vienna_Award"
+  },
+  "img": "wiki/vienna-award.jpg",
+  "imgCredit": {
+   "file": "Territorial_gains_of_Hungary_1938-41_en.svg",
+   "license": "CC0",
+   "author": "Jxxy",
+   "url": "https://commons.wikimedia.org/wiki/File:Territorial_gains_of_Hungary_1938-41_en.svg"
+  }
+ },
+ "horthy": {
+  "sk": {
+   "lang": "sk",
+   "title": "Miklós Horthy",
+   "extract": "Rytier Miklós Horthy de Nagybánya bol rakúsko-uhorský admirál, maďarský politik a v rokoch 1920 – 1944 správca ríše (regent) Maďarska. Počas 2. svetovej vojny sa Maďarsko stalo členom Osi. Na jej konci (1944) sa Horthy snažil zachrániť samostatnosť Maďarska separátnou kapituláciou Spojencom.",
+   "url": "https://sk.wikipedia.org/wiki/Mikl%C3%B3s_Horthy"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Miklós Horthy",
+   "extract": "Miklós Horthy de Nagybánya was a Hungarian admiral and statesman who was the regent of the Kingdom of Hungary during the interwar period and most of World War II, from 1 March 1920 to 15 October 1944.",
+   "url": "https://en.wikipedia.org/wiki/Mikl%C3%B3s_Horthy"
+  },
+  "img": "wiki/horthy.jpg",
+  "imgCredit": {
+   "file": "TF_62_2304_Nr001.jpg",
+   "license": "Public domain",
+   "author": "Magyar Film Iroda",
+   "url": "https://commons.wikimedia.org/wiki/File:TF_62_2304_Nr001.jpg"
+  }
+ },
+ "auschwitz": {
+  "sk": {
+   "lang": "sk",
+   "title": "Koncentračný tábor Auschwitz",
+   "extract": "Neďaleko poľského mestečka Osvienčim sa v rokoch 1940 – 1945 nachádzal najväčší komplex nemeckých koncentračných a vyhladzovacích táborov.",
+   "url": "https://sk.wikipedia.org/wiki/Koncentra%C4%8Dn%C3%BD_t%C3%A1bor_Auschwitz"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Auschwitz concentration camp",
+   "extract": "Auschwitz, also known as Oświęcim, was a complex of over 40 concentration and extermination camps operated by Nazi Germany in occupied Poland during World War II and the Holocaust.",
+   "url": "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
+  },
+  "img": "wiki/auschwitz.jpg",
+  "imgCredit": {
+   "file": "Auschwitz_I_(22_May_2010)_b.jpg",
+   "license": "CC BY 2.0",
+   "author": "",
+   "url": "https://commons.wikimedia.org/wiki/File:Auschwitz_I_%2822_May_2010%29_b.jpg"
+  }
+ },
+ "velvet-revolution": {
+  "sk": {
+   "lang": "sk",
+   "title": "Nežná revolúcia",
+   "extract": "Nežná revolúcia je názov pre nekrvavé udalosti, ktorých dôsledkom bolo odstránenie komunistického režimu v Československu. Iniciátormi boli študenti, ku ktorým sa pridali najprv výtvarníci, herci a divadelníci a postupne ostatné skupiny obyvateľstva.",
+   "url": "https://sk.wikipedia.org/wiki/Ne%C5%BEn%C3%A1_revol%C3%BAcia"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Velvet Revolution",
+   "extract": "The Velvet Revolution or Gentle Revolution was a non-violent transition of power in what was then Czechoslovakia, occurring from 17 November to 28 November 1989. Popular demonstrations against the one-party government of the Communist Party of Czechoslovakia included students and older dissidents.",
+   "url": "https://en.wikipedia.org/wiki/Velvet_Revolution"
+  },
+  "img": "wiki/velvet-revolution.jpg",
+  "imgCredit": {
+   "file": "Praha_1989-11-25,_Letná,_dav_(01).jpg",
+   "license": "CC BY-SA 3.0",
+   "author": "ŠJů (cs:ŠJů)",
+   "url": "https://commons.wikimedia.org/wiki/File:Praha_1989-11-25%2C_Letn%C3%A1%2C_dav_%2801%29.jpg"
+  }
+ },
+ "eu": {
+  "sk": {
+   "lang": "sk",
+   "title": "Európska únia",
+   "extract": "Európska únia je integračné zoskupenie, ktoré od februára 2020 tvorí 27 členských štátov s celkovým počtom 449 miliónov obyvateľov.",
+   "url": "https://sk.wikipedia.org/wiki/Eur%C3%B3pska_%C3%BAnia"
+  },
+  "en": {
+   "lang": "en",
+   "title": "European Union",
+   "extract": "The European Union (EU) is a political and economic union of 27 member states that are located primarily in Europe.",
+   "url": "https://en.wikipedia.org/wiki/European_Union"
+  },
+  "img": "wiki/eu.jpg",
+  "imgCredit": {
+   "file": "Flag_of_Europe.svg",
+   "license": "Public domain",
+   "author": "",
+   "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+  }
+ },
+ "samsung": {
+  "sk": {
+   "lang": "sk",
+   "title": "Samsung Electronics",
+   "extract": "Samsung Electronics je juhokórejská nadnárodná spoločnosť, ktorá vyrába elektroniku. Jej sídlo je v meste Suwon. Je vlajkovou dcérskou spoločnosťou skupiny Samsung a od roku 2009 je podľa obratu najväčšou spoločnosťou vyrábajúcou informačné technológie na svete.",
+   "url": "https://sk.wikipedia.org/wiki/Samsung_Electronics"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Samsung Electronics",
+   "extract": "Samsung Electronics Co., Ltd. is a South Korean multinational consumer electronics and semiconductor corporation founded in 1969 and headquartered in Yeongtong District, Suwon, South Korea.",
+   "url": "https://en.wikipedia.org/wiki/Samsung_Electronics"
+  },
+  "img": "wiki/samsung.jpg",
+  "imgCredit": {
+   "file": "Samsung_headquarters.jpg",
+   "license": "CC BY-SA 2.0",
+   "author": "Oskar Alexanderson",
+   "url": "https://commons.wikimedia.org/wiki/File:Samsung_headquarters.jpg"
+  }
+ },
+ "corded-ware": {
+  "sk": {
+   "lang": "cs",
+   "title": "Kultura se šňůrovou keramikou",
+   "extract": "Kultura se šňůrovou keramikou, též kultura šňůrové keramiky zahrnuje širokou skupinu indoevropských archeologických kultur Evropy zhruba mezi lety 2900–2350 př. n. l., a to od eneolitu až do časné doby bronzové.",
+   "url": "https://cs.wikipedia.org/wiki/Kultura_se_%C5%A1%C5%88%C5%AFrovou_keramikou"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Corded Ware culture",
+   "extract": "The Corded Ware culture comprises a broad archaeological horizon of Europe between c.",
+   "url": "https://en.wikipedia.org/wiki/Corded_Ware_culture"
+  },
+  "img": "wiki/corded-ware.jpg",
+  "imgCredit": {
+   "file": "Corded_Ware_Culture.png",
+   "license": "CC0",
+   "author": "Maptist",
+   "url": "https://commons.wikimedia.org/wiki/File:Corded_Ware_Culture.png"
+  }
+ },
+ "solidus": {
+  "sk": {
+   "lang": "cs",
+   "title": "Solidus",
+   "extract": "Solidus byla zlatá mince užívaná Římany. Její užívání se udrželo až do pozdní antiky a raného středověku, kdy byla nahrazena měnou hyperpyron. Od 4. až do 11. století byl zachován nezměněný obsah zlata v minci, což je nejdelší doba v historii. Ovlivněna solidem byla i ražba obdobných arabských či evropských mincí.",
+   "url": "https://cs.wikipedia.org/wiki/Solidus"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Solidus",
+   "extract": "The solidus or nomisma was a highly pure gold coin issued in the Later Roman Empire and Byzantine Empire. It was introduced in the early 4th century, replacing the aureus, and its weight of about 4.45 grams remained relatively constant for seven centuries.",
+   "url": "https://en.wikipedia.org/wiki/Solidus"
+  },
+  "img": "wiki/solidus.jpg",
+  "imgCredit": {
+   "file": "Theodosius_II_solidus.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Byzantium565",
+   "url": "https://commons.wikimedia.org/wiki/File:Theodosius_II_solidus.jpg"
+  }
+ },
+ "premonstratensians": {
+  "sk": {
+   "lang": "sk",
+   "title": "Rád premonštrátov",
+   "extract": "Premonštráti alebo norbertíni je kanonická rehoľa, rád rehoľných kanonikov, založený v roku 1120 svátým Norbertom v údolí Prémontré vo francúzskej diecéze Soissons na zásade rehole sv. Augustína. Postupne sa venovali najmä duchovnej správe a vyučovaniu.",
+   "url": "https://sk.wikipedia.org/wiki/R%C3%A1d_premon%C5%A1tr%C3%A1tov"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Premonstratensians",
+   "extract": "The Order of Canons Regular of Prémontré, also known as the Premonstratensians, the Norbertines and, in Britain and Ireland, as the White Canons, is a religious order of canons regular in the Catholic Church. They were founded in Prémontré near Laon in 1120 by Norbert of Xanten, who later became Archbishop of Magdeburg.",
+   "url": "https://en.wikipedia.org/wiki/Premonstratensians"
+  },
+  "img": "wiki/premonstratensians.jpg",
+  "imgCredit": {
+   "file": "COA_Premonstratensians.svg",
+   "license": "Public domain",
+   "author": "",
+   "url": "https://commons.wikimedia.org/wiki/File:COA_Premonstratensians.svg"
+  }
+ },
+ "red-army": {
+  "sk": {
+   "lang": "sk",
+   "title": "Červená armáda",
+   "extract": "Červená armáda, v rokoch 1918 až 1939 s názvom Robotnícko-roľnícka Červená armáda, bol oficiálny názov armády Sovietskeho zväzu od januára 1918 do februára 1946. Armáda sa zúčastnila predovšetkým bojov počas ruskej občianskej vojny v rokoch 1918-1922.",
+   "url": "https://sk.wikipedia.org/wiki/%C4%8Cerven%C3%A1_arm%C3%A1da"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Red Army",
+   "extract": "The Workers' and Peasants' Red Army, often referred by its shortened name as the Red Army, was the army and air force of the Russian Soviet Republic and, from 1922, the Soviet Union.",
+   "url": "https://en.wikipedia.org/wiki/Red_Army"
+  },
+  "img": "wiki/red-army.jpg",
+  "imgCredit": {
+   "file": "Soviet_Red_Army_Hammer_and_Sickle.svg",
+   "license": "Public domain",
+   "author": "RKKA",
+   "url": "https://commons.wikimedia.org/wiki/File:Soviet_Red_Army_Hammer_and_Sickle.svg"
+  }
+ },
+ "population-exchange": {
+  "sk": {
+   "lang": "sk",
+   "title": "Výmena obyvateľstva medzi Československom a Maďarskom",
+   "extract": "Výmena obyvateľstva medzi Československom a Maďarskom bola povojnová obojstranná migrácia obyvateľstva na základe vzájomnej dohody medzi oboma štátmi. Bola zriadená Československá presídľovacia komisia so sídlom v Budapešti, ktorej predsedom bol Daniel Okáli.",
+   "url": "https://sk.wikipedia.org/wiki/V%C3%BDmena_obyvate%C4%BEstva_medzi_%C4%8Ceskoslovenskom_a_Ma%C4%8Farskom"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Czechoslovak–Hungarian population exchange",
+   "extract": "The Czechoslovak–Hungarian population exchange was the exchange of inhabitants between Czechoslovakia and Hungary after World War II.",
+   "url": "https://en.wikipedia.org/wiki/Czechoslovak%E2%80%93Hungarian_population_exchange"
+  }
+ },
+ "diakovce": {
+  "sk": {
+   "lang": "sk",
+   "title": "Diakovce",
+   "extract": "Diakovce je obec na Slovensku v okrese Šaľa.",
+   "url": "https://sk.wikipedia.org/wiki/Diakovce"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Diakovce",
+   "extract": "Diakovce is an old village and municipality in Šaľa District, in the Nitra Region of southwest Slovakia.",
+   "url": "https://en.wikipedia.org/wiki/Diakovce"
+  },
+  "img": "wiki/diakovce.jpg",
+  "imgCredit": {
+   "file": "Deáki_templom_1.JPG",
+   "license": "CC BY-SA 3.0",
+   "author": "Taz666",
+   "url": "https://commons.wikimedia.org/wiki/File:De%C3%A1ki_templom_1.JPG"
+  }
+ },
+ "znievo": {
+  "sk": {
+   "lang": "sk",
+   "title": "Kláštor pod Znievom",
+   "extract": "Kláštor pod Znievom je obec na Slovensku v okrese Martin.",
+   "url": "https://sk.wikipedia.org/wiki/Kl%C3%A1%C5%A1tor_pod_Znievom"
+  },
+  "en": {
+   "lang": "sk",
+   "title": "Kláštor pod Znievom",
+   "extract": "Kláštor pod Znievom je obec na Slovensku v okrese Martin.",
+   "url": "https://sk.wikipedia.org/wiki/Kl%C3%A1%C5%A1tor_pod_Znievom"
+  },
+  "img": "wiki/znievo.jpg",
+  "imgCredit": {
+   "file": "Kalvária_kostol_-_Kláštor_pod_Znievom.JPG",
+   "license": "CC BY-SA 3.0",
+   "author": "113nessinka",
+   "url": "https://commons.wikimedia.org/wiki/File:Kalv%C3%A1ria_kostol_-_Kl%C3%A1%C5%A1tor_pod_Znievom.JPG"
+  }
+ },
+ "nove-zamky": {
+  "sk": {
+   "lang": "sk",
+   "title": "Nové Zámky",
+   "extract": "Nové Zámky sú mesto na Slovensku, ktoré je centrom novozámockého okresu v Nitrianskom kraji.",
+   "url": "https://sk.wikipedia.org/wiki/Nov%C3%A9_Z%C3%A1mky"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Nové Zámky",
+   "extract": "Nové Zámky is a town in Nové Zámky District in the Nitra Region of southwestern Slovakia.",
+   "url": "https://en.wikipedia.org/wiki/Nov%C3%A9_Z%C3%A1mky"
+  },
+  "img": "wiki/nove-zamky.jpg",
+  "imgCredit": {
+   "file": "Novezamky01.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Markocska1916",
+   "url": "https://commons.wikimedia.org/wiki/File:Novezamky01.jpg"
+  }
+ },
+ "duslo": {
+  "sk": {
+   "lang": "sk",
+   "title": "Duslo",
+   "extract": "Duslo, a. s. je slovenská spoločnosť zaoberajúca sa výrobou priemyselných hnojív a dusíkatých zlúčenín. Patrí k najväčším podnikom chemického priemyslu v krajine.",
+   "url": "https://sk.wikipedia.org/wiki/Duslo"
+  },
+  "en": {
+   "lang": "sk",
+   "title": "Duslo",
+   "extract": "Duslo, a. s. je slovenská spoločnosť zaoberajúca sa výrobou priemyselných hnojív a dusíkatých zlúčenín. Patrí k najväčším podnikom chemického priemyslu v krajine.",
+   "url": "https://sk.wikipedia.org/wiki/Duslo"
+  },
+  "img": "wiki/duslo.jpg",
+  "imgCredit": {
+   "file": "Šaľa_Duslo.JPG",
+   "license": "Public domain",
+   "author": "ja",
+   "url": "https://commons.wikimedia.org/wiki/File:%C5%A0a%C4%BEa_Duslo.JPG"
+  }
+ },
+ "quadi": {
+  "sk": {
+   "lang": "sk",
+   "title": "Kvádi",
+   "extract": "Kvádi boli západogermánsky kmeň. Spolu s Markomanmi tvorili vyšší kmeňový zväz Svébi, preto ich neskôr antickí autori uvádzali aj pod týmto menom.",
+   "url": "https://sk.wikipedia.org/wiki/Kv%C3%A1di"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Quadi",
+   "extract": "The Quadi were a Germanic people during the Roman era, who were prominent in Greek and Roman records from about 20 AD to about 400 AD. By about 20 AD they had a kingdom centred in the area of present-day western Slovakia, north of the Roman border on the Danube river.",
+   "url": "https://en.wikipedia.org/wiki/Quadi"
+  },
+  "img": "wiki/quadi.jpg",
+  "imgCredit": {
+   "file": "Quadi_settlement_area.png",
+   "license": "CC BY 4.0",
+   "author": "Zello",
+   "url": "https://commons.wikimedia.org/wiki/File:Quadi_settlement_area.png"
+  }
+ },
+ "avars": {
+  "sk": {
+   "lang": "sk",
+   "title": "Avari (Stredná Ázia)",
+   "extract": "Avari boli nomádske etnikum ázijského pôvodu, ktoré tvorili kmene War a Chun usadené v 5. storočí v západnej Sibíri. Časť Avarov si podrobili východní Turci, časť pred nimi utiekla a v roku 558 sa dostala do čiernomorských stepí. Ich ríša na území dnešného Maďarska sa nazýva Avarská ríša.",
+   "url": "https://sk.wikipedia.org/wiki/Avari_(Stredn%C3%A1_%C3%81zia)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Pannonian Avars",
+   "extract": "The Pannonian Avars or Carpathian Avars were a confederation of Eurasian nomads. They were also known as the Obri in the chronicles of the Rus, as the Abaroi or Varchonitai, or Pseudo-Avars in Byzantine sources, and as the Apar to the Göktürks.",
+   "url": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+  },
+  "img": "wiki/avars.jpg",
+  "imgCredit": {
+   "file": "Avar_Khaganate_Map_602.png",
+   "license": "CC BY-SA 4.0",
+   "author": "Wario2",
+   "url": "https://commons.wikimedia.org/wiki/File:Avar_Khaganate_Map_602.png"
+  }
+ },
+ "kingdom-hungary": {
+  "sk": {
+   "lang": "sk",
+   "title": "Uhorsko",
+   "extract": "Uhorsko bol multietnický štát v Karpatskej kotline od roku 895/896 do roku 1918. Do roku 1000/1001 bol kniežatstvom, a teda sa pre toto obdobie (dnes) nazýva aj Uhorské kniežatstvo. Od roku 1000/1001 do svojho zániku bol kráľovstvom a teda sa pre toto obdobie nazýva aj Uhorské kráľovstvo.",
+   "url": "https://sk.wikipedia.org/wiki/Uhorsko"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Kingdom of Hungary",
+   "extract": "The Kingdom of Hungary was a monarchy in Central Europe that existed for nearly a millennium, from 1000 to 1946. The Catholic kingdom emerged as a continuation of the Grand Principality of Hungary upon the coronation of the first king Stephen I at Esztergom around 1000; his family led the monarchy for 300 years.",
+   "url": "https://en.wikipedia.org/wiki/Kingdom_of_Hungary"
+  },
+  "img": "wiki/kingdom-hungary.jpg",
+  "imgCredit": {
+   "file": "Flag_of_Hungary_(1915-1918;_angels).svg",
+   "license": "Public domain",
+   "author": "Thommy",
+   "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary_%281915-1918%3B_angels%29.svg"
+  }
+ },
+ "palatine": {
+  "sk": {
+   "lang": "sk",
+   "title": "Palatín",
+   "extract": "Palatín alebo nádvorník, pôvodne po slovensky nádvorný špán/župan, bol najvyšší krajinský hodnostár v Uhorsku, predtým na Veľkej Morave.",
+   "url": "https://sk.wikipedia.org/wiki/Palat%C3%ADn"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Palatine of Hungary",
+   "extract": "The Palatine of Hungary was the highest-ranking office in the Kingdom of Hungary from the beginning of the 11th century to 1848. Initially, Palatines were representatives of the monarchs, later the vice-regent (viceroy).",
+   "url": "https://en.wikipedia.org/wiki/Palatine_of_Hungary"
+  },
+  "img": "wiki/palatine.jpg",
+  "imgCredit": {
+   "file": "Royal_coat_of_arms_of_the_Kingdom_of_Hungary_(1896-1915;_angels).svg",
+   "license": "Public domain",
+   "author": "Thommy",
+   "url": "https://commons.wikimedia.org/wiki/File:Royal_coat_of_arms_of_the_Kingdom_of_Hungary_%281896-1915%3B_angels%29.svg"
+  }
+ },
+ "pazmany": {
+  "sk": {
+   "lang": "sk",
+   "title": "Peter Pázmaň",
+   "extract": "Peter Pázmaň bol uhorský rímskokatolícky biskup a kardinál, rehoľník – jezuita, arcibiskup ostrihomský a prímas uhorský, turčiansky prepošt, filozof, teológ, pedagóg, náboženský spisovateľ a politik. Významný predstaviteľ protireformácie v Habsburskej monarchii, najmä v Uhorsku.",
+   "url": "https://sk.wikipedia.org/wiki/Peter_P%C3%A1zma%C5%88"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Péter Pázmány",
+   "extract": "Péter Pázmány de Panasz, S.J., was a Hungarian Jesuit who was a noted philosopher, theologian, cardinal, pulpit orator and statesman. He was an important figure in the Counter-Reformation in Royal Hungary.",
+   "url": "https://en.wikipedia.org/wiki/P%C3%A9ter_P%C3%A1zm%C3%A1ny"
+  },
+  "img": "wiki/pazmany.jpg",
+  "imgCredit": {
+   "file": "Pazmany_Peter_ismeretlen_mester_alkotasan.JPG",
+   "license": "Public domain",
+   "author": "Unidentified painter",
+   "url": "https://commons.wikimedia.org/wiki/File:Pazmany_Peter_ismeretlen_mester_alkotasan.JPG"
+  }
+ },
+ "revolution-1848": {
+  "sk": {
+   "lang": "sk",
+   "title": "Uhorská revolúcia",
+   "extract": "Uhorská revolúcia  bola tá časť revolúcie 1848 – 49, ktorá sa odohrala v Uhorsku.",
+   "url": "https://sk.wikipedia.org/wiki/Uhorsk%C3%A1_revol%C3%BAcia"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Hungarian Revolution of 1848",
+   "extract": "The Hungarian Revolution of 1848, also known in Hungary as Hungarian Revolution and War of Independence of 1848–1849 was one of a number of European Revolutions of 1848 and was closely linked to other revolutions of 1848 in the Habsburg areas.",
+   "url": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1848"
+  },
+  "img": "wiki/revolution-1848.jpg",
+  "imgCredit": {
+   "file": "March15.jpg",
+   "license": "Public domain",
+   "author": "Mihály Zichy",
+   "url": "https://commons.wikimedia.org/wiki/File:March15.jpg"
+  }
+ },
+ "trianon": {
+  "sk": {
+   "lang": "sk",
+   "title": "Trianonská mierová zmluva",
+   "extract": "Trianonská mierová zmluva alebo Trianonská zmluva alebo trianonský mier bola mierová dohoda podpísaná 4. júna 1920 a nadobudla platnosť 26. júla 1921. Ukončila vojnový stav medzi Maďarskom a väčšinou spojeneckých mocností, ktorý sa začal ako súčasť prvej svetovej vojny od roku 1914.",
+   "url": "https://sk.wikipedia.org/wiki/Trianonsk%C3%A1_mierov%C3%A1_zmluva"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Treaty of Trianon",
+   "extract": "The Treaty of Trianon, often referred to in Hungary as the Peace Dictate of Trianon or Dictate of Trianon, was prepared at the Paris Peace Conference. It was signed in the Grand Trianon at Versailles on 4 June 1920, and formally terminated World War I between most of the Allies of World War I and the Kingdom of Hungary.",
+   "url": "https://en.wikipedia.org/wiki/Treaty_of_Trianon"
+  },
+  "img": "wiki/trianon.jpg",
+  "imgCredit": {
+   "file": "Signature_de_la_Paix_avec_la_Hongrie,_en_tête_Benárd_Ágost_hongrois(passant_devant_un_piquet_d'honneur_à_Versailles).jpg",
+   "license": "Public domain",
+   "author": "Agence Rol",
+   "url": "https://commons.wikimedia.org/wiki/File:Signature_de_la_Paix_avec_la_Hongrie%2C_en_t%C3%AAte_Ben%C3%A1rd_%C3%81gost_hongrois%28passant_devant_un_piquet_d%27honneur_%C3%A0_Versailles%29.jpg"
+  }
+ },
+ "collectivisation": {
+  "sk": {
+   "lang": "sk",
+   "title": "Kolektivizácia poľnohospodárstva",
+   "extract": "Kolektivizácia poľnohospodárstva alebo kolektivizácia je premena individuálneho súkromného hospodárstva na kolektívne. Historicky sa uskutočňovalo buď dobrovoľným združovaním roľníkov do družstiev alebo vytváraním štátnych poľnohospodárskych podnikov či znárodňovaním.",
+   "url": "https://sk.wikipedia.org/wiki/Kolektiviz%C3%A1cia_po%C4%BEnohospod%C3%A1rstva"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Collective farming",
+   "extract": "Collective farming and communal farming are various types of agricultural production in which multiple farmers run their holdings as a joint enterprise.",
+   "url": "https://en.wikipedia.org/wiki/Collective_farming"
+  },
+  "img": "wiki/collectivisation.jpg",
+  "imgCredit": {
+   "file": "Drive_to_the_Collective_Farm.jpg",
+   "license": "Public domain",
+   "author": "Anonymous, Soviet Union",
+   "url": "https://commons.wikimedia.org/wiki/File:Drive_to_the_Collective_Farm.jpg"
+  }
+ },
+ "sladkovic": {
+  "sk": {
+   "lang": "sk",
+   "title": "Andrej Sládkovič",
+   "extract": "Andrej Sládkovič bol slovenský evanjelický kňaz, básnik, kritik literárnych a dramatických prác, publicista a prekladateľ. Je po ňom pomenovaná planétka (4781) Sládkovič aj gymnázium v Banskej Bystrici aj v Krupine. V Krupine je po ňom pomenované aj múzeum, ulica a park.",
+   "url": "https://sk.wikipedia.org/wiki/Andrej_Sl%C3%A1dkovi%C4%8D"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Andrej Sládkovič",
+   "extract": "Andrej Sládkovič was a Slovak poet, critic, publicist, translator and Lutheran priest.",
+   "url": "https://en.wikipedia.org/wiki/Andrej_Sl%C3%A1dkovi%C4%8D"
+  },
+  "img": "wiki/sladkovic.jpg",
+  "imgCredit": {
+   "file": "Sladkovic.jpg",
+   "license": "Public domain",
+   "author": "Jozef Božetech Klemens",
+   "url": "https://commons.wikimedia.org/wiki/File:Sladkovic.jpg"
+  }
+ },
+ "bell-beaker": {
+  "sk": {
+   "lang": "sk",
+   "title": "Kultúra zvoncovitých pohárov",
+   "extract": "Kultúra zvoncovitých pohárov alebo staršie kultúra zvoncových pohárov bola kultúra na mnohých miestach západnej a strednej Európy a Maroka zhruba v rokoch 2900 pred Kr. až 1800/1700 pred Kr., s jadrom azda okolo 2400 pred Kr. až 1800/1700 pred Kr., teda v eneolite a na začiatku bronzovej doby.",
+   "url": "https://sk.wikipedia.org/wiki/Kult%C3%BAra_zvoncovit%C3%BDch_poh%C3%A1rov"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Bell Beaker culture",
+   "extract": "The Bell Beaker culture, also known as the Bell Beaker complex or Bell Beaker phenomenon, is an archaeological culture named after the inverted-bell beaker drinking vessel used at the beginning of the European Bronze Age, arising as early as 2800 BCE.",
+   "url": "https://en.wikipedia.org/wiki/Bell_Beaker_culture"
+  },
+  "img": "wiki/bell-beaker.jpg",
+  "imgCredit": {
+   "file": "Bell Beaker Culture.png",
+   "license": "CC0",
+   "author": "Maptist",
+   "url": "https://commons.wikimedia.org/wiki/File:Bell_Beaker_Culture.png"
+  }
+ },
+ "poor-clares": {
+  "sk": {
+   "lang": "cs",
+   "title": "Chudé sestry svaté Kláry",
+   "extract": "Chudé sestry svaté Kláry je církevní římskokatolický ženský řád.",
+   "url": "https://cs.wikipedia.org/wiki/Chud%C3%A9_sestry_svat%C3%A9_Kl%C3%A1ry"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Poor Clares",
+   "extract": "The Poor Clares, officially the Order of Saint Clare, originally referred to as the Order of Poor Ladies, and also known as the Clarisses or Clarissines, the Minoresses, the Franciscan Clarist Order, and the Second Order of Saint Francis, are members of an enclosed order of nuns in the Catholic Church.",
+   "url": "https://en.wikipedia.org/wiki/Poor_Clares"
+  },
+  "img": "wiki/poor-clares.jpg",
+  "imgCredit": {
+   "file": "SDamiano-Clara og søstre.jpg",
+   "license": "Public domain",
+   "author": "Gunnar Bach Pedersen",
+   "url": "https://commons.wikimedia.org/wiki/File:SDamiano-Clara_og_s%C3%B8stre.jpg"
+  }
+ },
+ "rudolf-ii": {
+  "sk": {
+   "lang": "sk",
+   "title": "Rudolf II. (Svätá rímska ríša)",
+   "extract": "Rudolf II. Habsburský bol rakúsky arcivojvoda, uhorský, český a nemecký kráľ a rímskonemecký cisár, syn cisára Maximiliána II. Habsburského a Márie Španielskej.",
+   "url": "https://sk.wikipedia.org/wiki/Rudolf_II._(Sv%C3%A4t%C3%A1_r%C3%ADmska_r%C3%AD%C5%A1a)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Rudolf II, Holy Roman Emperor",
+   "extract": "Rudolf II was Holy Roman Emperor (1576–1612), King of Hungary and Croatia, King of Bohemia (1575–1608/1611) and Archduke of Austria (1576–1608). He was a member of the House of Habsburg.",
+   "url": "https://en.wikipedia.org/wiki/Rudolf_II%2C_Holy_Roman_Emperor"
+  },
+  "img": "wiki/rudolf-ii.jpg",
+  "imgCredit": {
+   "file": "Martino Rota (workshop) Portrait of Emperor Rudolf.jpg",
+   "license": "Public domain",
+   "author": "Workshop of Martino Rota",
+   "url": "https://commons.wikimedia.org/wiki/File:Martino_Rota_%28workshop%29_Portrait_of_Emperor_Rudolf.jpg"
+  }
+ },
+ "joseph-ii": {
+  "sk": {
+   "lang": "sk",
+   "title": "Jozef II. (Svätá rímska ríša)",
+   "extract": "Jozef II. bol od roku 1764 kráľom, resp. od roku 1765 cisárom Svätej rímskej ríše nemeckého národa, od roku 1765 bol aj spoluvládcom Márie Terézie v Rakúskej monarchii. Po matkinej smrti v roku 1780 sa stal samostatným vládcom Rakúskej monarchie, teda rakúskym arcivojvodom, uhorským a českým kráľom.",
+   "url": "https://sk.wikipedia.org/wiki/Jozef_II._(Sv%C3%A4t%C3%A1_r%C3%ADmska_r%C3%AD%C5%A1a)"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Joseph II, Holy Roman Emperor",
+   "extract": "Joseph II was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg monarchy from 29 November 1780 until his death.",
+   "url": "https://en.wikipedia.org/wiki/Joseph_II%2C_Holy_Roman_Emperor"
+  },
+  "img": "wiki/joseph-ii.jpg",
+  "imgCredit": {
+   "file": "Anton von Maron 006.png",
+   "license": "Public domain",
+   "author": "Anton von Maron",
+   "url": "https://commons.wikimedia.org/wiki/File:Anton_von_Maron_006.png"
+  }
+ },
+ "starhemberg": {
+  "sk": {
+   "lang": "cs",
+   "title": "Guido ze Starhembergu",
+   "extract": "Hrabě Guido ze Starhembergu byl rakouský šlechtic z rodu Starhembergů a vojevůdce císařské armády. Během dynastických válek 17. a 18. století dosáhl hodnosti polního maršála (1704).",
+   "url": "https://cs.wikipedia.org/wiki/Guido_ze_Starhembergu"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Guido Starhemberg",
+   "extract": "Guido Wald Rüdiger, Graf von Starhemberg was an Austrian army officer. He is considered one of the great military leaders from the early modern period.",
+   "url": "https://en.wikipedia.org/wiki/Guido_Starhemberg"
+  },
+  "img": "wiki/starhemberg.jpg",
+  "imgCredit": {
+   "file": "Guido von Starhemberg.jpg",
+   "license": "Public domain",
+   "author": "Jan Kupecký",
+   "url": "https://commons.wikimedia.org/wiki/File:Guido_von_Starhemberg.jpg"
+  }
+ },
+ "dudvah": {
+  "sk": {
+   "lang": "sk",
+   "title": "Dudváh",
+   "extract": "Dudváh je nížinná rieka na juhozápadnom Slovensku. Má dĺžku 97,6 km, plochu povodia 1 531,6 km² a priemerný prietok 1,3 m³/s v Siladiciach. Priemerná lesnatosť povodia je cca 20 %, na dolnom toku je takmer nulová.",
+   "url": "https://sk.wikipedia.org/wiki/Dudv%C3%A1h"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Dudváh",
+   "extract": "The Dudváh is a lowland river in western Slovakia. Its source is located in the Čachtice Little Carpathians, and it mostly runs in parallel to the Váh river. It flows into the Váh near the village of Siladice. Its average discharge flow is 1.3 m³/s near Siladice.",
+   "url": "https://en.wikipedia.org/wiki/Dudv%C3%A1h"
+  }
+ },
+ "pitvaros": {
+  "sk": {
+   "lang": "sk",
+   "title": "Pitvaroš",
+   "extract": "Pitvaroš je obec v Maďarsku v Čongrádskej župe v Makovskom okrese, v tesnej blízkosti rumunských hraníc,",
+   "url": "https://sk.wikipedia.org/wiki/Pitvaro%C5%A1"
+  },
+  "en": {
+   "lang": "en",
+   "title": "Pitvaros",
+   "extract": "Pitvaros is a village in Csongrád county, in the Southern Great Plain region of southern Hungary.",
+   "url": "https://en.wikipedia.org/wiki/Pitvaros"
+  }
+ }
+}

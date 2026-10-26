@@ -1,0 +1,9 @@
+# Netlify builds the public site from the data files; nothing built is committed.
+[build]
+  command = "python3 site/build.py --dist"
+  publish = "dist"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

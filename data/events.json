@@ -1,0 +1,1934 @@
+[
+ {
+  "id": "e-neanderthals",
+  "period": "p01-palaeolithic",
+  "date": {
+   "year": -90000,
+   "approx": true
+  },
+  "title": {
+   "sk": "Neandertálci zo Šale",
+   "en": "The Šaľa Neanderthals"
+  },
+  "text": {
+   "sk": "V roku 1961 našiel Jozef Syrový na štrkovej lavici Váhu pod Šaľou čelovú kosť neandertálca (Šaľa 1); v rokoch 1993 a 1995 pribudli časti ďalšej lebky (Šaľa 2). Sú to jediné kostrové pozostatky neandertálcov na Slovensku, staré asi 100 000 – 75 000 rokov.",
+   "en": "In 1961 Jozef Syrový found a Neanderthal frontal bone on a gravel bar of the Váh below Šaľa (Šaľa 1); pieces of a second skull followed in 1993 and 1995 (Šaľa 2). They are the only Neanderthal skeletal remains in Slovakia, about 100,000–75,000 years old."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S033",
+   "S004"
+  ]
+ },
+ {
+  "id": "e-woolly-rhino",
+  "period": "p01-palaeolithic",
+  "date": {
+   "year": -40000,
+   "approx": true
+  },
+  "title": {
+   "sk": "Srstnatý nosorožec",
+   "en": "Woolly rhinoceros"
+  },
+  "text": {
+   "sk": "V koryte Váhu pri Šali sa našli aj kosti srstnatého nosorožca, zvieraťa ľadových dôb.",
+   "en": "Bones of the woolly rhinoceros, an Ice Age animal, were also found in the Váh riverbed at Šaľa."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004"
+  ]
+ },
+ {
+  "id": "e-dunes-landscape",
+  "period": "p02-neolithic",
+  "date": {
+   "year": -5500,
+   "approx": true
+  },
+  "title": {
+   "sk": "Život na piesočných dunách",
+   "en": "Living on the sand dunes"
+  },
+  "text": {
+   "sk": "Váh až do regulácie v 19. storočí pravidelne zaplavoval nížinu. Ľudia sa usádzali na piesočných dunách a náplavových valoch medzi ramenami a močiarmi. Na tých istých dunách sa v 20. storočí ťažil piesok, a tak sa našla a zároveň zničila väčšina nálezísk.",
+   "en": "Until it was regulated in the 19th century, the Váh flooded the lowland regularly. People settled on sand dunes and levees between side channels and marshes. The same dunes were dug for sand in the 20th century, which is how most sites were found and destroyed."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S031",
+   "S032"
+  ]
+ },
+ {
+  "id": "e-lbk-sala",
+  "period": "p02-neolithic",
+  "date": {
+   "year": -5300,
+   "approx": true
+  },
+  "title": {
+   "sk": "Prví roľníci v Šali",
+   "en": "The first farmers at Šaľa"
+  },
+  "text": {
+   "sk": "Pri stavbe Dusla sa našla osada kultúry s lineárnou keramikou, prvých roľníkov v strednej Európe. Mladšia doba kamenná je doložená aj v Nebojsi pri Galante.",
+   "en": "During the Duslo construction a settlement of the Linear Pottery culture, the first farmers of central Europe, was found. The Late Stone Age is also attested at Nebojsa near Galanta."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004",
+   "S034"
+  ]
+ },
+ {
+  "id": "e-corded-ware",
+  "period": "p03-bronze-age",
+  "date": {
+   "year": -2600,
+   "approx": true
+  },
+  "title": {
+   "sk": "Pohrebiská doby medenej a bronzovej",
+   "en": "Copper and Bronze Age burials"
+  },
+  "text": {
+   "sk": "V Šali sú tri pohrebiská kultúry so šnúrovou keramikou a žiarový hrob skupiny Kosihy–Čaka. V Galante-Nebojsi sa našli jamy zo záveru eneolitu.",
+   "en": "Šaľa has three Corded Ware burial sites and a cremation grave of the Kosihy–Čaka group. Pits from the end of the Copper Age were found at Galanta-Nebojsa."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004",
+   "S031",
+   "S032"
+  ]
+ },
+ {
+  "id": "e-sl-bell-beaker",
+  "period": "p03-bronze-age",
+  "date": {
+   "year": -2300,
+   "approx": true
+  },
+  "title": {
+   "sk": "Hrob kultúry zvoncovitých pohárov",
+   "en": "A Bell Beaker grave"
+  },
+  "text": {
+   "sk": "Pri stavbe cesty v rokoch 1966–67 preskúmal A. Točík v polohe Nové diely v Sládkovičove hrob kultúry zvoncovitých pohárov s dvoma pohárikmi a štvornožkovou misou, najreprezentatívnejší svojho druhu na juhozápadnom Slovensku.",
+   "en": "During road building in 1966–67, A. Točík excavated a Bell Beaker grave at Nové diely in Sládkovičovo, with two cups and a four-footed bowl: the most representative of its kind in south-west Slovakia."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S046",
+   "S039"
+  ]
+ },
+ {
+  "id": "e-unetice-matuskovo",
+  "period": "p03-bronze-age",
+  "date": {
+   "year": -2000,
+   "approx": true
+  },
+  "title": {
+   "sk": "Únětické hroby v Matúškove",
+   "en": "Únětice graves at Matúškovo"
+  },
+  "text": {
+   "sk": "V 50. rokoch preskúmali v Matúškove pohrebisko staršej doby bronzovej (únětická kultúra).",
+   "en": "In the 1950s an Early Bronze Age cemetery (Únětice culture) was excavated at Matúškovo."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S006",
+   "S017"
+  ]
+ },
+ {
+  "id": "e-celts",
+  "period": "p04-celts",
+  "date": {
+   "year": -200,
+   "approx": true
+  },
+  "title": {
+   "sk": "Keltská osada vo Veči",
+   "en": "A Celtic village at Veča"
+  },
+  "text": {
+   "sk": "V Šali-Veči stála laténska (keltská) osada. V Nebojsi sa našli keltské hroby z prelomu 2. a 1. storočia pred Kr.",
+   "en": "A La Tène (Celtic) village stood at Šaľa-Veča. Celtic graves from around the 2nd–1st century BC were found at Nebojsa."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S004",
+   "S034"
+  ]
+ },
+ {
+  "id": "e-quadi-sala",
+  "period": "p05-romans-quadi",
+  "date": {
+   "year": 100,
+   "approx": true
+  },
+  "title": {
+   "sk": "Kvádi na Váhu",
+   "en": "The Quadi on the Váh"
+  },
+  "text": {
+   "sk": "Rímska hranica viedla po Dunaji. Severne od nej žili germánski Kvádi; ich osídlenie z 1.–4. storočia je doložené v Šali.",
+   "en": "The Roman frontier ran along the Danube. North of it lived the Germanic Quadi; their settlement of the 1st–4th centuries is attested at Šaľa."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004",
+   "S035"
+  ]
+ },
+ {
+  "id": "e-sl-germanic-cemetery",
+  "period": "p05-romans-quadi",
+  "date": {
+   "year": 100,
+   "approx": true
+  },
+  "title": {
+   "sk": "Germánske pohrebisko v Diószegu",
+   "en": "A Germanic cemetery at Diószeg"
+  },
+  "text": {
+   "sk": "Germánska osada a pohrebisko z 1.–2. storočia s pochovávaním spaľovaním aj kostrovým hrobom, z čias, keď tu žili Kvádi.",
+   "en": "A Germanic settlement and a cemetery of the 1st–2nd centuries with both cremation and inhumation graves, from the time of the Quadi."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S041",
+   "S039"
+  ]
+ },
+ {
+  "id": "e-roman-village-galanta",
+  "period": "p05-romans-quadi",
+  "date": {
+   "year": 300,
+   "approx": true
+  },
+  "title": {
+   "sk": "Germánska dedina v Nebojsi",
+   "en": "A Germanic village at Nebojsa"
+  },
+  "text": {
+   "sk": "Pri stavbe obchvatu Galanty v roku 2011 preskúmali na brehu potoka Derňa neskororímsku osadu: šesť zemníc, pec, studňu, kolovú stavbu a zásobné jamy.",
+   "en": "During the Galanta bypass works in 2011, a Late Roman-period village on the Derňa stream was excavated: six pit houses, a kiln, a well, a post-built house and storage pits."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S031"
+  ]
+ },
+ {
+  "id": "e-byzantine-solidus",
+  "period": "p06-migration",
+  "date": {
+   "year": 620,
+   "approx": true
+  },
+  "title": {
+   "sk": "Byzantská zlatá minca",
+   "en": "A Byzantine gold coin"
+  },
+  "text": {
+   "sk": "Zlatý solidus zo začiatku 7. storočia, údajne nájdený v Šali, poslali v roku 1889 do Maďarského národného múzea.",
+   "en": "A gold solidus of the early 7th century, reportedly found at Šaľa, was sent to the Hungarian National Museum in 1889."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004"
+  ]
+ },
+ {
+  "id": "e-avar-cemetery",
+  "period": "p06-migration",
+  "date": {
+   "year": 700,
+   "approx": true
+  },
+  "title": {
+   "sk": "Avarsko-slovanské pohrebisko",
+   "en": "An Avar–Slavic cemetery"
+  },
+  "text": {
+   "sk": "V Šali-Veči sa našlo kostrové pohrebisko zo 7.–8. storočia z čias Avarského kaganátu. Osadu, ku ktorej patrilo, zničili skôr, ako ju stihli preskúmať. V Matúškove je ranoslovanské žiarové pohrebisko.",
+   "en": "At Šaľa-Veča a cemetery of the 7th–8th centuries, from the time of the Avar Khaganate, was found. Its settlement was destroyed before it could be studied. Matúškovo has an early Slavic cremation cemetery."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S004",
+   "S006"
+  ]
+ },
+ {
+  "id": "e-moravian-warrior",
+  "period": "p07-great-moravia",
+  "date": {
+   "year": 850,
+   "approx": true
+  },
+  "title": {
+   "sk": "Hrob bojovníka so sekerou",
+   "en": "A warrior's grave with an axe"
+  },
+  "text": {
+   "sk": "V roku 1956 zachránil traktorista J. Palanta v pieskovisku vo Veči dva hroby; o rok neskôr archeológovia preskúmali ďalších 23. V hrobe 1 ležal muž s dlhou kopijou, „moravskou“ bradaticou a vedierkom. Pohrebisko je z 9. storočia; duna dnes neexistuje.",
+   "en": "In 1956 a tractor driver, J. Palanta, rescued two graves from the sand pit at Veča; a year later archaeologists excavated 23 more. Grave 1 held a man with a long spear, a 'Moravian' bearded axe and a bucket. The cemetery dates to the 9th century; the dune no longer exists."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S032"
+  ]
+ },
+ {
+  "id": "e-richtarske",
+  "period": "p07-great-moravia",
+  "date": {
+   "year": 900,
+   "approx": true
+  },
+  "title": {
+   "sk": "Osada Richtárske",
+   "en": "The Richtárske settlement"
+  },
+  "text": {
+   "sk": "Východne od Galanty stála osada z 9.–11. storočia, objavená pri stavbe obchvatu.",
+   "en": "East of Galanta stood a settlement of the 9th–11th centuries, found during the bypass construction."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S031"
+  ]
+ },
+ {
+  "id": "e-papfold",
+  "period": "p08-early-hungary",
+  "date": {
+   "year": 950,
+   "approx": true
+  },
+  "title": {
+   "sk": "Staromaďarské pohrebisko v Galante",
+   "en": "Old Hungarian cemetery at Galanta"
+  },
+  "text": {
+   "sk": "V roku 1964 narazili pri ťažbe piesku pri Hodskej ceste na hroby; žiaci miestnej školy zachránili nálezy a ohlásili ich. Archeológovia preskúmali 22 hrobov z polovice 10. storočia so striebornou retiazkou a ozdobami odevu.",
+   "en": "In 1964 sand digging by the Hody road hit graves; pupils of the local school rescued the finds and reported them. Archaeologists excavated 22 graves of the mid-10th century, with a silver chain and dress mounts."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S032",
+   "S034"
+  ]
+ },
+ {
+  "id": "e-sl-rider-grave",
+  "period": "p08-early-hungary",
+  "date": {
+   "year": 950,
+   "approx": true
+  },
+  "title": {
+   "sk": "Hrob staromaďarského jazdca",
+   "en": "An Old Hungarian rider's grave"
+  },
+  "text": {
+   "sk": "V roku 1967 sa pri stavbe cesty v Sládkovičove našli hroby z 10. storočia. V jednom ležal mladý jazdec s lebkou a prednými nohami koňa pri nohách. Točík ho považoval za stopu staromaďarskej vojenskej hranice voči mladému štátu Přemyslovcov.",
+   "en": "In 1967 road works at Sládkovičovo uncovered 10th-century graves. One held a young rider with the skull and forelegs of his horse at his feet. Točík read it as a trace of the Old Hungarian military frontier facing the young Přemyslid state."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S032"
+  ]
+ },
+ {
+  "id": "e-kertalja",
+  "period": "p08-early-hungary",
+  "date": {
+   "year": 955,
+   "approx": true
+  },
+  "title": {
+   "sk": "Veľké pohrebisko v Matúškove",
+   "en": "The great cemetery at Matúškovo"
+  },
+  "text": {
+   "sk": "Pohrebisko z 10. storočia s pravdepodobne viac ako sto hrobmi zničila ťažba piesku v rokoch 1968–70. Tradícia ho spája s veľkokniežaťom Taksonyom, podľa ktorého má obec maďarské meno.",
+   "en": "A 10th-century cemetery of probably over a hundred graves was destroyed by sand digging in 1968–70. Tradition links it to Grand Prince Taksony, whose name the village bears in Hungarian."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S032",
+   "S017"
+  ]
+ },
+ {
+  "id": "e-andelok",
+  "period": "p08-early-hungary",
+  "date": {
+   "year": 1000,
+   "approx": true
+  },
+  "title": {
+   "sk": "Dedinské pohrebisko pod Duslom",
+   "en": "A village cemetery under Duslo"
+  },
+  "text": {
+   "sk": "Pri kopaní kanála pre Duslo narazili v roku 1959 na radové pohrebisko. Do roku 1963 preskúmali 90 hrobov z konca 10. a 11. storočia, z čias prvých kresťanských dedín.",
+   "en": "While digging a canal for Duslo in 1959, workers hit a row cemetery. By 1963, 90 graves of the late 10th and 11th centuries, from the first Christian villages, had been excavated."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S032"
+  ]
+ },
+ {
+  "id": "e-terra-wag-1002",
+  "period": "p08-early-hungary",
+  "date": {
+   "year": 1002
+  },
+  "title": {
+   "sk": "Terra Wag",
+   "en": "Terra Wag"
+  },
+  "text": {
+   "sk": "Zakladacia listina Panonhalmského opátstva spomína „zem Wag“ pri Váhu, ktorú dostali benediktíni. Je to pravdepodobne neskorší dodatok; meno Sala je isté okolo 1105–1110.",
+   "en": "The founding charter of Pannonhalma Abbey mentions the 'land of Wag' by the Váh, given to the Benedictines. The passage is probably a later addition; the name Sala is certain c. 1105–1110."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004",
+   "S037"
+  ]
+ },
+ {
+  "id": "e-toscun-1138",
+  "period": "p08-early-hungary",
+  "date": {
+   "year": 1138
+  },
+  "title": {
+   "sk": "Toscun",
+   "en": "Toscun"
+  },
+  "text": {
+   "sk": "V listine Bela II. pre prepoštstvo v Dömöse sa spomína Toscun (Matúškovo), zem bratislavských hradných ľudí.",
+   "en": "Béla II's charter for the Dömös provostry mentions Toscun (Matúškovo), land of the Pozsony castle folk."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S017",
+   "S003"
+  ]
+ },
+ {
+  "id": "e-diakovce-1228",
+  "period": "p08-early-hungary",
+  "date": {
+   "year": 1228
+  },
+  "title": {
+   "sk": "Románsky kostol v Diakovciach",
+   "en": "Romanesque church at Diakovce"
+  },
+  "text": {
+   "sk": "Kostol benediktínskeho opátstva v Diakovciach, 4 km od Šale, vysvätili 14. novembra 1228. Stojí dodnes.",
+   "en": "The church of the Benedictine abbey at Diakovce, 4 km from Šaľa, was consecrated on 14 November 1228. It still stands."
+  },
+  "place": "sala",
+  "coords": [
+   17.8566,
+   48.1336
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S037"
+  ]
+ },
+ {
+  "id": "e-galantha-1237",
+  "period": "p08-early-hungary",
+  "date": {
+   "year": 1237
+  },
+  "title": {
+   "sk": "Galantha",
+   "en": "Galantha"
+  },
+  "text": {
+   "sk": "Galanta sa prvý raz spomína v súpise majetkov Panonhalmského opátstva za Bela IV.",
+   "en": "Galanta is first mentioned in Béla IV's inventory of Pannonhalma Abbey's estates."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S005",
+   "S008",
+   "S034"
+  ]
+ },
+ {
+  "id": "e-mongols-1241",
+  "period": "p09-high-middle-ages",
+  "date": {
+   "year": 1241
+  },
+  "title": {
+   "sk": "Tatári ničia Šaľu",
+   "en": "The Mongols destroy Šaľa"
+  },
+  "text": {
+   "sk": "Pri vpáde Tatárov v rokoch 1241–42 bola Šaľa zničená.",
+   "en": "During the Mongol invasion of 1241–42 Šaľa was destroyed."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S007"
+  ]
+ },
+ {
+  "id": "e-sala-premonstratensians",
+  "period": "p09-high-middle-ages",
+  "date": {
+   "year": 1251
+  },
+  "title": {
+   "sk": "Šaľa pripadá premonštrátom",
+   "en": "Šaľa passes to the Premonstratensians"
+  },
+  "text": {
+   "sk": "Kráľ Belo IV. daroval Šaľu premonštrátskej prepozitúre v Znieve (Turiec), ktorá ju držala do 16. storočia.",
+   "en": "King Béla IV gave Šaľa to the Premonstratensian provostry of Znievo (Turiec), which held it until the 16th century."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S007",
+   "S029"
+  ]
+ },
+ {
+  "id": "e-via-bohemica",
+  "period": "p09-high-middle-ages",
+  "date": {
+   "year": 1300,
+   "approx": true
+  },
+  "title": {
+   "sk": "Brod na Českej ceste",
+   "en": "A ford on the Bohemian Road"
+  },
+  "text": {
+   "sk": "Šaľa ležala pri brode cez Váh na Českej ceste (Via Bohemica), ktorá spájala Čechy s Budínom. V 15. storočí tu stál vodný hrad.",
+   "en": "Šaľa lay at a ford of the Váh on the Bohemian Road (Via Bohemica), linking Bohemia with Buda. A moated castle stood here in the 15th century."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S004",
+   "S029"
+  ]
+ },
+ {
+  "id": "e-matuskovo-parish-1307",
+  "period": "p09-high-middle-ages",
+  "date": {
+   "year": 1307
+  },
+  "title": {
+   "sk": "Fara v Taksoni",
+   "en": "A parish in Taksony"
+  },
+  "text": {
+   "sk": "Prvá zmienka o fare. Obec postupne vlastnili Taksonyiovci, Rozgonyiovci, Báthoryovci a Thurzovci.",
+   "en": "First mention of the parish. The village was owned in turn by the Taksony, Rozgonyi, Báthori and Thurzó families."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S017"
+  ]
+ },
+ {
+  "id": "e-sl-first-mention",
+  "period": "p09-high-middle-ages",
+  "date": {
+   "year": 1326
+  },
+  "title": {
+   "sk": "Gyozyg – Orechový kút",
+   "en": "Gyozyg, the walnut corner"
+  },
+  "text": {
+   "sk": "Diószeg (maď. „orechový kút“) sa isto spomína v roku 1326 ako Gyozyg; častejšie uvádzaný rok 1252 nie je overený. V roku 1301 patril Mikulášovi Dudvágymu, neskôr Petrovi Orrosovi a Stiborovi zo Stiboríc.",
+   "en": "Diószeg (Hungarian for 'walnut corner') is securely recorded in 1326 as Gyozyg; the often-quoted 1252 is unverified. In 1301 it belonged to Nicholas Dudvágy, later to Peter Orros and Stibor of Stiboricz."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S041",
+   "S039",
+   "S042"
+  ]
+ },
+ {
+  "id": "e-sl-ottomans",
+  "period": "p10-ottoman-frontier",
+  "date": {
+   "year": 1530
+  },
+  "title": {
+   "sk": "Turecké nájazdy",
+   "en": "Ottoman raids"
+  },
+  "text": {
+   "sk": "Turci Diószeg vypálili v roku 1530 a vyplienili v roku 1599. Susedná dedina Dudvágszeg zanikla v rokoch 1673–83; zostal po nej len názov poľa.",
+   "en": "The Ottomans burned Diószeg in 1530 and looted it in 1599. The neighbouring village of Dudvágszeg was destroyed in 1673–83; only a field name remains."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S039",
+   "S044",
+   "S042"
+  ]
+ },
+ {
+  "id": "e-sala-town-1536",
+  "period": "p10-ottoman-frontier",
+  "date": {
+   "year": 1536
+  },
+  "title": {
+   "sk": "Šaľa mestečkom",
+   "en": "Šaľa becomes a market town"
+  },
+  "text": {
+   "sk": "Ferdinand I. povýšil Šaľu na mestečko. Renesančný hrad sa stal súčasťou protitureckého pohraničného systému.",
+   "en": "Ferdinand I raised Šaľa to a market town. The Renaissance castle became part of the anti-Ottoman border defences."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S001",
+   "S004",
+   "S029"
+  ]
+ },
+ {
+  "id": "e-esterhazy-galanta",
+  "period": "p10-ottoman-frontier",
+  "date": {
+   "year": 1539,
+   "approx": true
+  },
+  "title": {
+   "sk": "Esterháziovci v Galante",
+   "en": "The Esterházys come to Galanta"
+  },
+  "text": {
+   "sk": "Prvým predkom Esterháziovcov v Galante bol Mikuláš Estoras (1421). Trvalým sídlom rodu sa Galanta stala v 16. storočí po sobáši Benedikta Zerhasa s Helenou Bessenyeiovou a po kráľovskej donácii z roku 1590. Ich syn František postavil okolo roku 1600 renesančný kaštieľ.",
+   "en": "The first Esterházy ancestor at Galanta was Mikuláš Estoras (1421). Galanta became the family's lasting seat in the 16th century, after Benedek Zerhas married Ilona Bessenyei and after a royal grant of 1590. Their son Ferenc built the Renaissance manor around 1600."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S034",
+   "S026",
+   "S027"
+  ]
+ },
+ {
+  "id": "e-sl-poor-clares",
+  "period": "p10-ottoman-frontier",
+  "date": {
+   "year": 1582
+  },
+  "title": {
+   "sk": "Mestečko klarisiek",
+   "en": "A market town of the Poor Clares"
+  },
+  "text": {
+   "sk": "Diószeg asi 230 rokov (okolo 1553 – 1782) vlastnili rehoľníčky klarisky z Budína a neskôr z Bratislavy. Rudolf II. mu v roku 1582 udelil trhové právo. Ležal na kráľovskej ceste Bratislava – Nitra s brodom cez Dudváh.",
+   "en": "For about 230 years (c. 1553–1782) Diószeg belonged to the Poor Clare nuns of Buda and later of Pressburg. Rudolf II granted it market rights in 1582. It lay on the royal road Pressburg–Nitra, with a crossing of the Dudváh."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S042",
+   "S039",
+   "S044"
+  ]
+ },
+ {
+  "id": "e-miklos-esterhazy-1583",
+  "period": "p10-ottoman-frontier",
+  "date": {
+   "year": 1583
+  },
+  "title": {
+   "sk": "V Galante sa narodil budúci palatín",
+   "en": "A future Palatine born in Galanta"
+  },
+  "text": {
+   "sk": "Mikuláš Esterházy (1583–1645) sa stal uhorským palatínom, najvyšším hodnostárom krajiny po kráľovi, a zakladateľom kniežacej línie rodu.",
+   "en": "Miklós Esterházy (1583–1645) became Palatine of Hungary, the highest office after the king, and founded the princely line of the family."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S026",
+   "S028"
+  ]
+ },
+ {
+  "id": "e-jesuit-college-1598",
+  "period": "p10-ottoman-frontier",
+  "date": {
+   "year": 1598
+  },
+  "title": {
+   "sk": "Jezuitské kolégium v Šali",
+   "en": "The Jesuit college at Šaľa"
+  },
+  "text": {
+   "sk": "Jezuiti, páni Šale od roku 1586, sem presunuli kolégium zo Zniev. Okolo roku 1600 malo asi 400 študentov; zaniklo v roku 1604 počas Bočkajovho povstania. Hrad neskôr slúžil Petrovi Pázmánymu ako letné sídlo.",
+   "en": "The Jesuits, lords of Šaľa from 1586, moved their college here from Znievo. By 1600 it had about 400 students; it closed in 1604 during the Bocskai uprising. The castle later served Péter Pázmány as a summer residence."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S029",
+   "S007"
+  ]
+ },
+ {
+  "id": "e-galanta-market-1635",
+  "period": "p10-ottoman-frontier",
+  "date": {
+   "year": 1635
+  },
+  "title": {
+   "sk": "Trhové právo pre Galantu",
+   "en": "Market rights for Galanta"
+  },
+  "text": {
+   "sk": "Galanta sa stala mestečkom (1613/14) a v roku 1635 dostala od Ferdinanda II. právo na štyri výročné jarmoky a týždenné trhy.",
+   "en": "Galanta became a market town (1613/14), and in 1635 Ferdinand II granted it four annual fairs and weekly markets."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S002",
+   "S026"
+  ]
+ },
+ {
+  "id": "e-ottoman-sala-1663",
+  "period": "p10-ottoman-frontier",
+  "date": {
+   "year": 1663
+  },
+  "title": {
+   "sk": "Šaľa pod Osmanmi",
+   "en": "Šaľa under the Ottomans"
+  },
+  "text": {
+   "sk": "Po nájazdoch v rokoch 1661 a 1663 zostalo z 300 domov stáť len 30. Po páde Nových Zámkov v roku 1663 patril hrad aj mesto Osmanom až do roku 1686.",
+   "en": "After the raids of 1661 and 1663 only 30 of 300 houses stood. After Nové Zámky fell in 1663, the castle and town belonged to the Ottomans until 1686."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S004",
+   "S009",
+   "S029"
+  ]
+ },
+ {
+  "id": "e-rakoczi-1703",
+  "period": "p11-18th-century",
+  "date": {
+   "year": 1703
+  },
+  "title": {
+   "sk": "Rákócziho povstanie",
+   "en": "Rákóczi's uprising"
+  },
+  "text": {
+   "sk": "V decembri 1703 obsadili kuruci kaštieľ v Galante; v roku 1704 sa Rákóczi zdržiaval v Matúškove. Šaľa utrpela ťažké škody: v roku 1715 v nej žilo len 29 poddanských domácností.",
+   "en": "In December 1703 kuruc rebels took the Galanta manor; in 1704 Rákóczi stayed in Matúškovo. Šaľa was badly hit: in 1715 only 29 peasant households lived there."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S003",
+   "S004",
+   "S005"
+  ]
+ },
+ {
+  "id": "e-sl-1709-fire",
+  "period": "p11-18th-century",
+  "date": {
+   "year": 1707
+  },
+  "title": {
+   "sk": "Starhemberg a požiar",
+   "en": "Starhemberg and the great fire"
+  },
+  "text": {
+   "sk": "Počas Rákócziho povstania obsadil cisársky generál Guido Starhemberg v roku 1707 mestečko a opevnil ho proti kurucom. V roku 1709 celé vyhorelo.",
+   "en": "During Rákóczi's uprising the imperial general Guido Starhemberg occupied the town in 1707 and fortified it against the kuruc. In 1709 the whole town burned down."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S044",
+   "S039"
+  ]
+ },
+ {
+  "id": "e-galanta-jews-1729",
+  "period": "p11-18th-century",
+  "date": {
+   "year": 1729
+  },
+  "title": {
+   "sk": "Židovská obec v Galante",
+   "en": "Galanta's Jewish community"
+  },
+  "text": {
+   "sk": "Gróf Ferdinand Esterházy dal Židom modlitebňu a pozemok na cintorín. Prvá synagóga a prvý rabín sú doložené v roku 1757.",
+   "en": "Count Ferdinand Esterházy gave the Jews a prayer room and land for a cemetery. The first synagogue and rabbi are recorded in 1757."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S015"
+  ]
+ },
+ {
+  "id": "e-jesuits-end-1773",
+  "period": "p11-18th-century",
+  "date": {
+   "year": 1773
+  },
+  "title": {
+   "sk": "Koniec jezuitov v Šali",
+   "en": "The end of Jesuit Šaľa"
+  },
+  "text": {
+   "sk": "Po zrušení rádu prešla Šaľa na študijný fond a v roku 1776 na kráľovskú komoru.",
+   "en": "After the order was dissolved, Šaľa passed to the study fund and in 1776 to the Royal Chamber."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S007"
+  ]
+ },
+ {
+  "id": "e-churches-1780s",
+  "period": "p11-18th-century",
+  "date": {
+   "year": 1781
+  },
+  "title": {
+   "sk": "Nové kostoly",
+   "en": "New churches"
+  },
+  "text": {
+   "sk": "Kostol v Matúškove (1781–84, dar grófa Františka Esterházyho), kaštieľ v Hodoch (1780–90) a kostol sv. Štefana v Galante (1797–1805).",
+   "en": "The church in Matúškovo (1781–84, a gift of Count Ferenc Esterházy), the Hody manor (1780–90) and St Stephen's church in Galanta (1797–1805)."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S002",
+   "S003"
+  ]
+ },
+ {
+  "id": "e-sl-german-colony",
+  "period": "p11-18th-century",
+  "date": {
+   "year": 1786
+  },
+  "title": {
+   "sk": "Nemeckí kolonisti",
+   "en": "The German colonists"
+  },
+  "text": {
+   "sk": "V rokoch 1786–87 sa za Jozefa II. na pustatine Újhely usadilo okolo 60 nemeckých rodín (asi 321 ľudí) z Breisgau, Württemberska, Bamberska či Mohuča. Ich osada Németdiószeg bola v rokoch 1853 – 1943 samostatnou obcou.",
+   "en": "In 1786–87, under Joseph II, about 60 German families (some 321 people) from Breisgau, Württemberg, Bamberg and Mainz settled on the Újhely estate. Their village, Németdiószeg, was a separate municipality from 1853 to 1943."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.5967,
+   48.216
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S043",
+   "S039",
+   "S042"
+  ]
+ },
+ {
+  "id": "e-1828-census",
+  "period": "p12-19th-century",
+  "date": {
+   "year": 1828
+  },
+  "title": {
+   "sk": "Súpis z roku 1828",
+   "en": "The 1828 survey"
+  },
+  "text": {
+   "sk": "Galanta mala 251 domov a 1 853 obyvateľov, Matúškovo 105 domov a 778 obyvateľov. V Šali sa stavia kostol sv. Margity (1828–37).",
+   "en": "Galanta had 251 houses and 1,853 people, Matúškovo 105 houses and 778 people. In Šaľa St Margaret's church is being built (1828–37)."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S006",
+   "S008",
+   "S001"
+  ]
+ },
+ {
+  "id": "e-1849-battles",
+  "period": "p12-19th-century",
+  "date": {
+   "year": 1849,
+   "month": 6
+  },
+  "title": {
+   "sk": "Bitky pri Šali",
+   "en": "Battles near Šaľa"
+  },
+  "text": {
+   "sk": "Počas revolúcie sa 16. júna 1849 bojovalo pri Žihárci a 20.–21. júna pri Tešedíkove (Pered). V meste boli ubytované vojská a po bojoch prišla cholera.",
+   "en": "During the revolution, battles were fought at Žihárec on 16 June 1849 and at Tešedíkovo (Pered) on 20–21 June. Troops were quartered in the town, and cholera followed."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004"
+  ]
+ },
+ {
+  "id": "e-railway-1850",
+  "period": "p12-19th-century",
+  "date": {
+   "year": 1850
+  },
+  "title": {
+   "sk": "Prichádza železnica",
+   "en": "The railway arrives"
+  },
+  "text": {
+   "sk": "Trať Viedeň – Bratislava – Pešť prešla cez Galantu a Šaľu a zmenila obe trhové mestečká.",
+   "en": "The Vienna – Pressburg – Pest line ran through Galanta and Šaľa and transformed both market towns."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S001",
+   "S008"
+  ]
+ },
+ {
+  "id": "e-sl-railway",
+  "period": "p12-19th-century",
+  "date": {
+   "year": 1850
+  },
+  "title": {
+   "sk": "Stanica v nemeckej časti",
+   "en": "A station in the German part"
+  },
+  "text": {
+   "sk": "Trať Bratislava – Pešť prešla v roku 1850 aj cez Diószeg; stanica stála v nemeckej časti. Fényes (1851) opisuje maďarsko-nemecké mestečko s veľkým hostincom, tisícovými stádami oviec a dobrými koňmi.",
+   "en": "The Pressburg–Pest railway reached Diószeg in 1850; the station stood in the German part. Fényes (1851) describes a Hungarian–German market town with a large inn, flocks of thousands of sheep and fine horses."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.62969,
+   48.19555
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S039",
+   "S043"
+  ]
+ },
+ {
+  "id": "e-galanta-chateau-1860",
+  "period": "p13-austria-hungary",
+  "date": {
+   "year": 1860
+  },
+  "title": {
+   "sk": "Neogotický kaštieľ Esterháziovcov",
+   "en": "Esterházy neo-Gothic chateau"
+  },
+  "text": {
+   "sk": "József Esterházy dal prestavať galantský kaštieľ v neogotickom slohu; o 11 rokov neskôr pribudla rodinná hrobka.",
+   "en": "József Esterházy had the Galanta manor rebuilt in neo-Gothic style; the family burial chapel followed 11 years later."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S002",
+   "S005"
+  ]
+ },
+ {
+  "id": "e-sl-sugar-factory",
+  "period": "p13-austria-hungary",
+  "date": {
+   "year": 1867
+  },
+  "title": {
+   "sk": "Kuffnerov cukrovar",
+   "en": "Kuffner's sugar factory"
+  },
+  "text": {
+   "sk": "Viedenská firma Kuffner & Guttmann tu v roku 1867 spustila cukrovar. Viedol ho Karl Kuffner, ktorý prišiel ako 22-ročný, stal sa barónom „z Diószegu“ a premenil mestečko: kaštieľ (1885–86), mlyn Mária (1912), robotnícka kolónia, park a rodinné mauzóleum. Závod zamestnával vyše 1 000 ľudí.",
+   "en": "The Viennese firm Kuffner & Guttmann opened a sugar factory here in 1867. It was run by Karl Kuffner, who arrived aged 22, became Baron Kuffner 'of Diószeg' and reshaped the town: the manor (1885–86), the Mária mill (1912), a workers' colony, the park and the family mausoleum. The factory employed over 1,000 people."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.65,
+   48.202
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S043",
+   "S049",
+   "S048",
+   "S016"
+  ]
+ },
+ {
+  "id": "e-sl-darwin",
+  "period": "p13-austria-hungary",
+  "date": {
+   "year": 1876
+  },
+  "title": {
+   "sk": "Diószeg v albume pre Darwina",
+   "en": "Diószeg in Darwin's album"
+  },
+  "text": {
+   "sk": "Fotografia Karla Kuffnera „z Dioszeghu v Uhorsku“ je v albume, ktorý v roku 1876 poslali Charlesovi Darwinovi jeho nemeckí a rakúski obdivovatelia.",
+   "en": "A photograph of Karl Kuffner 'of Dioszegh, Hungary' is in the album that Charles Darwin's German and Austrian admirers sent him in 1876."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S050"
+  ]
+ },
+ {
+  "id": "e-galanta-trnava-railway-1883",
+  "period": "p13-austria-hungary",
+  "date": {
+   "year": 1883
+  },
+  "title": {
+   "sk": "Železnica Galanta – Sereď – Trnava",
+   "en": "Galanta – Sereď – Trnava railway"
+  },
+  "text": {
+   "sk": "Galanta, od roku 1850 na trati Viedeň – Pešť, sa stala železničným uzlom.",
+   "en": "Galanta, on the Vienna–Pest line since 1850, became a railway junction."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S008"
+  ]
+ },
+ {
+  "id": "e-galanta-yeshiva",
+  "period": "p13-austria-hungary",
+  "date": {
+   "year": 1890,
+   "approx": true
+  },
+  "title": {
+   "sk": "Galantská ješiva a hebrejská tlačiareň",
+   "en": "Galanta yeshiva and Hebrew press"
+  },
+  "text": {
+   "sk": "Talmudická škola s takmer 200 študentmi z celej Európy a tlačiareň Samuela Neufelda (1889), ktorá vydala aj Talmud. Fungovali až do roku 1944.",
+   "en": "A Talmudic school with nearly 200 students from across Europe and Samuel Neufeld's printing house (1889), which printed the Talmud. Both operated until 1944."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S005",
+   "S015"
+  ]
+ },
+ {
+  "id": "e-sala-bridges",
+  "period": "p13-austria-hungary",
+  "date": {
+   "year": 1898
+  },
+  "title": {
+   "sk": "Mosty cez Váh v Šali",
+   "en": "Bridges over the Váh at Šaľa"
+  },
+  "text": {
+   "sk": "Železničný most cez Váh (1898) a prvý cestný most (1912) nahradili starý brod.",
+   "en": "A railway bridge over the Váh (1898) and the first road bridge (1912) replaced the old ford."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004"
+  ]
+ },
+ {
+  "id": "e-taksony-name-1899",
+  "period": "p13-austria-hungary",
+  "date": {
+   "year": 1899
+  },
+  "title": {
+   "sk": "Z Taksonyfalvy je Taksony",
+   "en": "Taksonyfalva becomes Taksony"
+  },
+  "text": {
+   "sk": "Dnešné Matúškovo dostalo úradný názov Taksony, ktorý podľa tradície odkazuje na veľkokniežaťa Taksonya (10. stor.).",
+   "en": "Today's Matúškovo was officially named Taksony, a name tradition links to Grand Prince Taksony (10th c.)."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S010",
+   "S017"
+  ]
+ },
+ {
+  "id": "e-1919-czechoslovak-army",
+  "period": "p14-first-republic",
+  "date": {
+   "year": 1919,
+   "month": 1,
+   "day": 7
+  },
+  "title": {
+   "sk": "Československé vojsko v Šali",
+   "en": "Czechoslovak army enters Šaľa"
+  },
+  "text": {
+   "sk": "Po rozpade Rakúsko-Uhorska obsadilo územie československé vojsko; hranicu potvrdila Trianonská zmluva 4. júna 1920.",
+   "en": "After Austria-Hungary collapsed, Czechoslovak troops occupied the area; the Treaty of Trianon confirmed the border on 4 June 1920."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004",
+   "S011"
+  ]
+ },
+ {
+  "id": "e-sl-1919",
+  "period": "p14-first-republic",
+  "date": {
+   "year": 1919,
+   "month": 1,
+   "day": 6
+  },
+  "title": {
+   "sk": "Československé vojsko v Diószegu",
+   "en": "Czechoslovak troops at Diószeg"
+  },
+  "text": {
+   "sk": "V nedeľu 6. januára 1919 obsadilo Diószeg československé vojsko; miestna národná garda odovzdala zbrane bez odporu. V roku 1927 dostali obe obce mená Veľký a Malý Diosek.",
+   "en": "On Sunday 6 January 1919 Czechoslovak troops occupied Diószeg; the local national guard handed over its weapons without resistance. In 1927 the two villages were named Veľký and Malý Diosek."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S016",
+   "S041"
+  ]
+ },
+ {
+  "id": "e-land-reform-stefanikov",
+  "period": "p14-first-republic",
+  "date": {
+   "year": 1921
+  },
+  "title": {
+   "sk": "Pozemková reforma a kolónia Štefánikov",
+   "en": "Land reform and the Štefánikov colony"
+  },
+  "text": {
+   "sk": "Pôda prevažne maďarských vlastníkov bola pridelená slovenským kolonistom. Pri Galante vznikla osada Štefánikov (dnes Javorinka).",
+   "en": "Land, mostly from Hungarian owners, was given to Slovak settlers. Near Galanta the colony of Štefánikov (today Javorinka) was founded."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S002",
+   "S008",
+   "S016"
+  ]
+ },
+ {
+  "id": "e-sala-name-1927",
+  "period": "p14-first-republic",
+  "date": {
+   "year": 1927
+  },
+  "title": {
+   "sk": "Šaľa nad Váhom sa mení na Šaľu",
+   "en": "Šaľa nad Váhom becomes Šaľa"
+  },
+  "text": {
+   "sk": "Mesto dostalo skrátený názov, ktorý nesie dodnes.",
+   "en": "The town received the shorter name it still carries."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S001"
+  ]
+ },
+ {
+  "id": "e-hunger-marches",
+  "period": "p14-first-republic",
+  "date": {
+   "year": 1932
+  },
+  "title": {
+   "sk": "Kríza a hladové pochody",
+   "en": "Depression and hunger marches"
+  },
+  "text": {
+   "sk": "Vo februári 1932 bolo v okrese Galanta 7 118 nezamestnaných; v rokoch 1930–1933 sa konali tri hladové pochody a každoročné štrajky poľnohospodárskych robotníkov.",
+   "en": "In February 1932 the Galanta district had 7,118 unemployed; three hunger marches took place in 1930–33, with farm-worker strikes every year."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S008"
+  ]
+ },
+ {
+  "id": "e-vienna-award-1938",
+  "period": "p15-vienna-award-ww2",
+  "date": {
+   "year": 1938,
+   "month": 11,
+   "day": 2
+  },
+  "title": {
+   "sk": "Viedenská arbitráž",
+   "en": "First Vienna Award"
+  },
+  "text": {
+   "sk": "Južné Slovensko vrátane Galanty, Šale a Matúškova bolo pripojené k Maďarsku. Maďarské vojsko vstúpilo do Šale 10. novembra 1938.",
+   "en": "Southern Slovakia, including Galanta, Šaľa and Matúškovo, was annexed to Hungary. Hungarian troops entered Šaľa on 10 November 1938."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S004",
+   "S011",
+   "S012"
+  ]
+ },
+ {
+  "id": "e-sl-1938",
+  "period": "p15-vienna-award-ww2",
+  "date": {
+   "year": 1938,
+   "month": 11,
+   "day": 10
+  },
+  "title": {
+   "sk": "Diószeg znova v Maďarsku",
+   "en": "Diószeg back in Hungary"
+  },
+  "text": {
+   "sk": "Maďarské vojsko prevzalo obe obce 10. novembra 1938. Mali 4 808 obyvateľov, z toho 84 % Maďarov a 152 Židov. V roku 1943 sa Magyardiószeg a Németdiószeg zlúčili do jednej obce Diószeg.",
+   "en": "Hungarian troops took over both villages on 10 November 1938. They had 4,808 inhabitants, 84% Hungarian and 152 Jewish. In 1943 Magyardiószeg and Németdiószeg were merged into one municipality, Diószeg."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S045",
+   "S043"
+  ]
+ },
+ {
+  "id": "e-holocaust-galanta-1944",
+  "period": "p15-vienna-award-ww2",
+  "date": {
+   "year": 1944,
+   "month": 6
+  },
+  "title": {
+   "sk": "Deportácia Židov z Galanty",
+   "en": "Deportation of Galanta's Jews"
+  },
+  "text": {
+   "sk": "V máji 1944 boli Židia z Galanty a okolia sústredení v gete a potom v tehelni v Nových Zámkoch. V júni bolo do Auschwitzu deportovaných asi 1 560 ľudí; prežili len niektorí.",
+   "en": "In May 1944 Jews from Galanta and the area were confined in a ghetto and then in a brickyard in Nové Zámky. In June about 1,560 people were deported to Auschwitz; only a few survived."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S015",
+   "S023"
+  ]
+ },
+ {
+  "id": "e-sala-ghetto-1944",
+  "period": "p15-vienna-award-ww2",
+  "date": {
+   "year": 1944
+  },
+  "title": {
+   "sk": "Geto v Šali",
+   "en": "Ghetto in Šaľa"
+  },
+  "text": {
+   "sk": "Záznamy policajného úradu v Šali dokumentujú protižidovské opatrenia, internácie a geto v meste.",
+   "en": "Records of the Šaľa police office document anti-Jewish measures, internments and a ghetto in the town."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S022"
+  ]
+ },
+ {
+  "id": "e-sl-holocaust",
+  "period": "p15-vienna-award-ww2",
+  "date": {
+   "year": 1944
+  },
+  "title": {
+   "sk": "Deportácia diószegských Židov",
+   "en": "The deportation of Diószeg's Jews"
+  },
+  "text": {
+   "sk": "Miestni Židia boli v roku 1944 deportovaní, pravdepodobne ako galantskí cez geto v Nových Zámkoch do Auschwitzu. Na židovskom cintoríne je 81 náhrobkov z rokov 1848–1942 a pamätník obetiam holokaustu.",
+   "en": "The local Jews were deported in 1944, probably like those of Galanta, via the Nové Zámky ghetto to Auschwitz. The Jewish cemetery has 81 gravestones from 1848–1942 and a Holocaust memorial."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.6314,
+   48.20541
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S040",
+   "S047"
+  ]
+ },
+ {
+  "id": "e-red-army-1945",
+  "period": "p15-vienna-award-ww2",
+  "date": {
+   "year": 1945,
+   "month": 3,
+   "day": 31
+  },
+  "title": {
+   "sk": "Front prechádza cez Váh",
+   "en": "The front crosses the Váh"
+  },
+  "text": {
+   "sk": "Vojská 2. ukrajinského frontu Červenej armády obsadili Šaľu aj Galantu 31. marca 1945.",
+   "en": "Troops of the Red Army's 2nd Ukrainian Front took both Šaľa and Galanta on 31 March 1945."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S004",
+   "S024"
+  ]
+ },
+ {
+  "id": "e-deportations-bohemia-1946",
+  "period": "p16-communism",
+  "date": {
+   "year": 1946,
+   "month": 11
+  },
+  "title": {
+   "sk": "Deportácie Maďarov do Čiech",
+   "en": "Deportation of Hungarians to Bohemia"
+  },
+  "text": {
+   "sk": "Na prelome rokov 1946/47 armáda obkľúčila obce a rodiny odviezla v nevykúrených dobytčích vagónoch na práce do Čiech: z okresu Galanta 3 550 osôb, z okresu Šaľa 2 774. Väčšina sa po roku 1948 vrátila.",
+   "en": "In the winter of 1946/47 the army surrounded villages and took families in unheated cattle wagons to work in Bohemia: 3,550 people from the Galanta district and 2,774 from the Šaľa district. Most returned after 1948."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S016",
+   "S014"
+  ]
+ },
+ {
+  "id": "e-sl-1946",
+  "period": "p16-communism",
+  "date": {
+   "year": 1946
+  },
+  "title": {
+   "sk": "Vyhnanie, reslovakizácia, výmena",
+   "en": "Expulsion, re-Slovakisation, exchange"
+  },
+  "text": {
+   "sk": "Na jar 1946 vyhnali asi 60 Nemcov. Zo 4 725 obyvateľov sa 2 586 „reslovakizovalo“. Na jeseň odvliekli niekoľko rodín na práce do Čiech a od roku 1947 bolo 144 maďarských rodín určených na presídlenie do Maďarska. Prišlo asi 140 slovenských rodín z Pitvarošu.",
+   "en": "In spring 1946 about 60 Germans were expelled. Of 4,725 inhabitants, 2,586 were 're-Slovakised'. In the autumn several families were taken to forced labour in Bohemia, and from 1947, 144 Hungarian families were listed for transfer to Hungary. About 140 Slovak families arrived from Pitvaros."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S043",
+   "S041"
+  ]
+ },
+ {
+  "id": "e-population-exchange-1947",
+  "period": "p16-communism",
+  "date": {
+   "year": 1947
+  },
+  "title": {
+   "sk": "Výmena obyvateľstva",
+   "en": "Population exchange"
+  },
+  "text": {
+   "sk": "Na základe dohody z 27. 2. 1946 odišlo do Maďarska z okresu Galanta 8 078 osôb a z okresu Šaľa 2 289. Do Matúškova prišli slovenskí presídlenci z Maďarska.",
+   "en": "Under the agreement of 27 Feb 1946, 8,078 people left the Galanta district and 2,289 the Šaľa district for Hungary. Slovak settlers from Hungary moved into Matúškovo."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S016",
+   "S006"
+  ]
+ },
+ {
+  "id": "e-matuskovo-name-1948",
+  "period": "p16-communism",
+  "date": {
+   "year": 1948
+  },
+  "title": {
+   "sk": "Z Takšoňa je Matúškovo",
+   "en": "Takšoň becomes Matúškovo"
+  },
+  "text": {
+   "sk": "Obec dostala nový slovenský názov. Komu je venovaný, zatiaľ nevieme.",
+   "en": "The village received a new Slovak name. Whom it honours is still unknown."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S006"
+  ]
+ },
+ {
+  "id": "e-sl-renamed",
+  "period": "p16-communism",
+  "date": {
+   "year": 1948
+  },
+  "title": {
+   "sk": "Z Diosku je Sládkovičovo",
+   "en": "Diosek becomes Sládkovičovo"
+  },
+  "text": {
+   "sk": "Mesto dostalo meno po básnikovi Andrejovi Sládkovičovi, hoci s ním nemalo nič spoločné. Starší obyvatelia premenovanie dodnes nazývajú „zlým vtipom“. Mestom je od roku 1983.",
+   "en": "The town was named after the poet Andrej Sládkovič, although he had no connection with it. Older residents still call the renaming a 'bad joke'. It has been a town since 1983."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S043",
+   "S040"
+  ]
+ },
+ {
+  "id": "e-duslo-1958",
+  "period": "p16-communism",
+  "date": {
+   "year": 1958,
+   "month": 9
+  },
+  "title": {
+   "sk": "Začína sa stavať Duslo",
+   "en": "Construction of Duslo begins"
+  },
+  "text": {
+   "sk": "Základný kameň dusikárne v Šali položili v septembri 1958. Chemický kombinát zmenil malé mestečko na mesto s takmer 25 000 obyvateľmi.",
+   "en": "The foundation stone of the nitrogen plant at Šaľa was laid in September 1958. The chemical works turned the small town into a city of almost 25,000."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S004",
+   "S018"
+  ]
+ },
+ {
+  "id": "e-mergers-1960",
+  "period": "p16-communism",
+  "date": {
+   "year": 1960,
+   "month": 1,
+   "day": 1
+  },
+  "title": {
+   "sk": "Veča sa stáva súčasťou Šale",
+   "en": "Veča joins Šaľa"
+  },
+  "text": {
+   "sk": "Veča na ľavom brehu Váhu sa zlúčila so Šaľou; v tom istom roku sa Hody, Nebojsa a Javorinka stali súčasťou Galanty.",
+   "en": "Veča on the left bank of the Váh merged with Šaľa; the same year Hody, Nebojsa and Javorinka became part of Galanta."
+  },
+  "place": "sala",
+  "coords": [
+   17.8739,
+   48.1528
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S001",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "e-kralova-dam-1985",
+  "period": "p16-communism",
+  "date": {
+   "year": 1985
+  },
+  "title": {
+   "sk": "Vodné dielo Kráľová",
+   "en": "Kráľová dam"
+  },
+  "text": {
+   "sk": "Medzi Sereďou a Šaľou vznikla nádrž s rozlohou 10,9 km², vodná elektráreň a plavebná komora.",
+   "en": "A 10.9 km² reservoir, a hydro plant and a lock were built between Sereď and Šaľa."
+  },
+  "place": "sala",
+  "coords": null,
+  "confidence": "likely",
+  "sources": [
+   "S020"
+  ]
+ },
+ {
+  "id": "e-slovakia-1993",
+  "period": "p17-today",
+  "date": {
+   "year": 1993,
+   "month": 1,
+   "day": 1
+  },
+  "title": {
+   "sk": "Vznik Slovenskej republiky",
+   "en": "Slovak Republic founded"
+  },
+  "text": {
+   "sk": "Matúškovo je od roku 1990 opäť samostatnou obcou a Šaľa sa v roku 1996 znovu stala okresným mestom.",
+   "en": "Matúškovo has been independent again since 1990, and Šaľa became a district seat again in 1996."
+  },
+  "place": "matuskovo",
+  "coords": [
+   17.7462,
+   48.1631
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S003",
+   "S004",
+   "S009"
+  ]
+ },
+ {
+  "id": "e-sl-memorial-1997",
+  "period": "p17-today",
+  "date": {
+   "year": 1997
+  },
+  "title": {
+   "sk": "Pamätník vyhnaných",
+   "en": "A memorial to the expelled"
+  },
+  "text": {
+   "sk": "Na cintoríne stojí pamätník Nemcom vyhnaným v roku 1946 a Maďarom vysídleným v roku 1947, s nápisom po slovensky, maďarsky a nemecky.",
+   "en": "In the cemetery stands a memorial to the Germans expelled in 1946 and the Hungarians resettled in 1947, inscribed in Slovak, Hungarian and German."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.63785,
+   48.20664
+  ],
+  "confidence": "likely",
+  "sources": [
+   "S043"
+  ]
+ },
+ {
+  "id": "e-sl-factory-closed",
+  "period": "p17-today",
+  "date": {
+   "year": 2000
+  },
+  "title": {
+   "sk": "Koniec cukrovaru",
+   "en": "The sugar factory closes"
+  },
+  "text": {
+   "sk": "Cukrovar po 133 rokoch ukončil výrobu v roku 2000; jeho budovy chátrajú. Pripomína ho Kuffnerov kaštieľ, mauzóleum a park.",
+   "en": "After 133 years the sugar factory closed in 2000; its buildings are decaying. The Kuffner manor, mausoleum and park remain."
+  },
+  "place": "sladkovicovo",
+  "coords": [
+   17.64405,
+   48.2053
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S039",
+   "S052",
+   "S048"
+  ]
+ },
+ {
+  "id": "e-samsung-galanta",
+  "period": "p17-today",
+  "date": {
+   "year": 2002
+  },
+  "title": {
+   "sk": "Samsung v Galante (2002 – 2026)",
+   "en": "Samsung in Galanta (2002 – 2026)"
+  },
+  "text": {
+   "sk": "Továreň na televízory vyrobila v roku 2021 až 6,5 milióna kusov. V máji 2026 výroba skončila a prácu stratilo asi 800 ľudí.",
+   "en": "The TV factory produced as many as 6.5 million sets in 2021. Production ended in May 2026, costing about 800 jobs."
+  },
+  "place": "galanta",
+  "coords": [
+   17.7264,
+   48.1889
+  ],
+  "confidence": "confirmed",
+  "sources": [
+   "S019"
+  ]
+ }
+]

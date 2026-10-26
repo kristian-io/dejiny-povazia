@@ -1,0 +1,258 @@
+{
+ "_note": "Census results by declared nationality / mother tongue (1880–1910 mother tongue; 1921–1930 'Czechoslovak' counted as Slovak). Sources: S004 (Šaľa), S005 (Galanta), S017 (Matúškovo). To verify against official census publications. Sládkovičovo: S039/S040/S045 (1910–1938 = Magyar- + Németdiószeg; 1991/2001 include Malá Mača).",
+ "sala": [
+  {
+   "year": 1880,
+   "total": 3049,
+   "hu": 707,
+   "sk": 1995
+  },
+  {
+   "year": 1910,
+   "total": 3812,
+   "hu": 3489,
+   "sk": 286
+  },
+  {
+   "year": 1921,
+   "total": 4046,
+   "hu": 1248,
+   "sk": 2472,
+   "jewish": 271
+  },
+  {
+   "year": 1930,
+   "total": 4573,
+   "hu": 1255,
+   "sk": 2771
+  },
+  {
+   "year": 1941,
+   "total": 4528,
+   "hu": 4216,
+   "sk": 250
+  },
+  {
+   "year": 1970,
+   "total": 12922,
+   "hu": 1943,
+   "sk": 10766
+  },
+  {
+   "year": 1991,
+   "total": 24776,
+   "hu": 5413,
+   "sk": 18974
+  },
+  {
+   "year": 2001,
+   "total": 24564,
+   "hu": 4392,
+   "sk": 19583
+  },
+  {
+   "year": 2011,
+   "total": 23554,
+   "hu": 3333,
+   "sk": 17147
+  },
+  {
+   "year": 2021,
+   "total": 21183,
+   "hu": 2772,
+   "sk": 16633
+  }
+ ],
+ "galanta": [
+  {
+   "year": 1880,
+   "total": 2176,
+   "hu": 1509,
+   "sk": 300
+  },
+  {
+   "year": 1890,
+   "total": 2465,
+   "hu": 1871,
+   "sk": 345
+  },
+  {
+   "year": 1900,
+   "total": 2982,
+   "hu": 2468,
+   "sk": 317
+  },
+  {
+   "year": 1910,
+   "total": 3274,
+   "hu": 2933,
+   "sk": 202
+  },
+  {
+   "year": 1921,
+   "total": 3666,
+   "hu": 2958,
+   "sk": 472
+  },
+  {
+   "year": 1930,
+   "total": 4375,
+   "hu": 1679,
+   "sk": 1471
+  },
+  {
+   "year": 1941,
+   "total": 5089,
+   "hu": 4842,
+   "sk": 145
+  },
+  {
+   "year": 1970,
+   "total": 8954,
+   "hu": 2435,
+   "sk": 6425
+  },
+  {
+   "year": 1980,
+   "total": 15477,
+   "hu": 6200,
+   "sk": 9128
+  },
+  {
+   "year": 1991,
+   "total": 16978,
+   "hu": 6890,
+   "sk": 9810
+  },
+  {
+   "year": 2001,
+   "total": 16365,
+   "hu": 6022,
+   "sk": 9877
+  },
+  {
+   "year": 2011,
+   "total": 15138,
+   "hu": 4623,
+   "sk": 8833
+  },
+  {
+   "year": 2021,
+   "total": 15052,
+   "hu": 4172,
+   "sk": 9494
+  }
+ ],
+ "matuskovo": [
+  {
+   "year": 1880,
+   "total": 1426,
+   "hu": 1255,
+   "sk": 114
+  },
+  {
+   "year": 1890,
+   "total": 1568,
+   "hu": 1511,
+   "sk": 44
+  },
+  {
+   "year": 1900,
+   "total": 1677,
+   "hu": 1620,
+   "sk": 54
+  },
+  {
+   "year": 1910,
+   "total": 1845,
+   "hu": 1810,
+   "sk": 34
+  },
+  {
+   "year": 1921,
+   "total": 1911,
+   "hu": 1872,
+   "sk": 26
+  },
+  {
+   "year": 1930,
+   "total": 2435,
+   "hu": 1850,
+   "sk": 527
+  },
+  {
+   "year": 1941,
+   "total": 2504,
+   "hu": 2190,
+   "sk": 314
+  },
+  {
+   "year": 1991,
+   "total": 1819,
+   "hu": 1200,
+   "sk": 612
+  },
+  {
+   "year": 2001,
+   "total": 1880,
+   "hu": 1205,
+   "sk": 669
+  },
+  {
+   "year": 2011,
+   "total": 2031,
+   "hu": 1178,
+   "sk": 764
+  },
+  {
+   "year": 2021,
+   "total": 2262,
+   "hu": 1176,
+   "sk": 1031
+  }
+ ],
+ "sladkovicovo": [
+  {
+   "year": 1910,
+   "total": 3745,
+   "hu": 2932,
+   "sk": 350
+  },
+  {
+   "year": 1930,
+   "total": 4474,
+   "hu": 2430,
+   "sk": 1255
+  },
+  {
+   "year": 1938,
+   "total": 4808,
+   "hu": 4055,
+   "sk": 448
+  },
+  {
+   "year": 1991,
+   "total": 5874,
+   "hu": 2715,
+   "sk": 3114
+  },
+  {
+   "year": 2001,
+   "total": 6078,
+   "hu": 2340,
+   "sk": 3614
+  },
+  {
+   "year": 2011,
+   "total": 5479,
+   "hu": 1737,
+   "sk": 3524
+  },
+  {
+   "year": 2021,
+   "total": 5415,
+   "hu": 1376,
+   "sk": 3838
+  }
+ ]
+}
