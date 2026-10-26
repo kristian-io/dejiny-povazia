@@ -993,6 +993,7 @@ function highlight(place, on) {
 }
 
 // --- Landing page --------------------------------------------------------------------
+const REPO = "https://github.com/kristian-io/dejiny-povazia";
 const INTRO = {
   sk: { kicker: "Interaktívna mapa dejín", title: "Šaľa · Galanta · Matúškovo · Sládkovičovo",
     lede: "Dejiny Dolného Považia <strong>od neandertálcov po dnešok</strong>. Prejdite 17 období na časovej osi: ku každému patrí dobová mapa, príbeh toho, kto tu vládol a čo sa dialo, a obrázky.",
@@ -1003,6 +1004,7 @@ const INTRO = {
       ["Obrázky", "Dobové fotografie a dnešné snímky s uvedením autora a licencie. Kde fotografia nemôže existovať, sú AI ilustrácie, vždy označené odznakom AI."],
       ["Jazyk a odkazy", "Slovensky a anglicky. Pojmy v texte vedú na Wikipédiu s krátkym náhľadom, na počítači po prejdení myšou, na mobile po ťuknutí."]],
     made: 'Vyrobil s ❤️ <a href="https://kristian-io.github.io/cv/" target="_blank" rel="noopener">Kristian</a> + <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>',
+    source: "Otvorený kód na GitHube", credits: "Zdroje obrázkov a licencie",
     peek: ["1880 · 3. vojenské mapovanie", "~300 · AI rekonštrukcia", "1938 · Fortepan", "Pázmányho kaštieľ v Šali"] },
   en: { kicker: "An interactive history map", title: "Šaľa · Galanta · Matúškovo · Sládkovičovo",
     lede: "The history of the lower Váh <strong>from the Neanderthals to today</strong>. Move through 17 periods on the timeline: each comes with a map of its time, the story of who ruled here and what happened, and pictures.",
@@ -1013,6 +1015,7 @@ const INTRO = {
       ["Pictures", "Period photographs and present-day photos, credited with author and licence. Where no photo can exist there are AI illustrations, always marked with an AI badge."],
       ["Languages & links", "Slovak and English. Terms in the text link to Wikipedia with a short preview, on hover on a computer and on tap on a phone."]],
     made: 'Made with ❤️ by <a href="https://kristian-io.github.io/cv/" target="_blank" rel="noopener">Kristian</a> + <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>',
+    source: "Open source on GitHub", credits: "Credits & licences",
     peek: ["1880 · 3rd military survey", "~300 AD · AI reconstruction", "1938 · Fortepan", "The Pázmány castle, Šaľa"] }
 };
 function renderIntro() {
@@ -1027,7 +1030,7 @@ function renderIntro() {
     <ul class="stats">${counts.map((n, i) => `<li><b>${n}</b><span>${esc(s.stats[i])}</span></li>`).join("")}</ul>
     <details class="about"${wasOpen ? " open" : ""}><summary>${esc(s.about)}</summary>
       <div class="about-grid">${s.blocks.map(([h, p]) => `<div><h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join("")}</div></details>
-    <div class="made">${s.made}${FEEDBACK ? ` · <button type="button" class="fb-inline" id="fb-inline">${esc(FB[lang].link)}</button>` : ""}</div>`;
+    <div class="made">${s.made} · <a href="${REPO}" target="_blank" rel="noopener">${esc(s.source)}</a> · <a href="${REPO}/blob/main/CREDITS.md" target="_blank" rel="noopener">${esc(s.credits)}</a>${FEEDBACK ? ` · <button type="button" class="fb-inline" id="fb-inline">${esc(FB[lang].link)}</button>` : ""}</div>`;
   s.peek.forEach((c, i) => { document.getElementById(`peek-${i + 1}`).textContent = c; });
   document.getElementById("about-link").textContent = s.aboutLink;
   document.getElementById("explore").onclick = explore;
